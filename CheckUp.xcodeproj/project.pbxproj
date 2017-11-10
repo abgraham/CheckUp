@@ -18,6 +18,8 @@
 		DEF85E2E1FB51FD700EA2FB2 /* CheckUpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E2D1FB51FD700EA2FB2 /* CheckUpUITests.m */; };
 		DEF85E431FB521E700EA2FB2 /* QuizzesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E411FB521E600EA2FB2 /* QuizzesHomeViewController.m */; };
 		DEF85E481FB521FC00EA2FB2 /* ProfileHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E461FB521FC00EA2FB2 /* ProfileHomeViewController.m */; };
+		DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF85E4F1FB5331500EA2FB2 /* HeaderView.xib */; };
+		DEF85E531FB534D000EA2FB2 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E521FB534D000EA2FB2 /* HeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		DEF85E411FB521E600EA2FB2 /* QuizzesHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizzesHomeViewController.m; sourceTree = "<group>"; };
 		DEF85E451FB521FC00EA2FB2 /* ProfileHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileHomeViewController.h; sourceTree = "<group>"; };
 		DEF85E461FB521FC00EA2FB2 /* ProfileHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileHomeViewController.m; sourceTree = "<group>"; };
+		DEF85E4F1FB5331500EA2FB2 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		DEF85E511FB534D000EA2FB2 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		DEF85E521FB534D000EA2FB2 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,14 +117,8 @@
 			children = (
 				DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */,
 				DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */,
-				DEF85E0B1FB51FD700EA2FB2 /* MessagesHomeViewController.h */,
-				DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */,
-				DEF85E0E1FB51FD700EA2FB2 /* LessonsHomeViewController.h */,
-				DEF85E0F1FB51FD700EA2FB2 /* LessonsHomeViewController.m */,
-				DEF85E401FB521E600EA2FB2 /* QuizzesHomeViewController.h */,
-				DEF85E411FB521E600EA2FB2 /* QuizzesHomeViewController.m */,
-				DEF85E451FB521FC00EA2FB2 /* ProfileHomeViewController.h */,
-				DEF85E461FB521FC00EA2FB2 /* ProfileHomeViewController.m */,
+				DEF85E4B1FB5328B00EA2FB2 /* Views */,
+				DEF85E4A1FB5327F00EA2FB2 /* ViewControllers */,
 				DEF85E111FB51FD700EA2FB2 /* Main.storyboard */,
 				DEF85E141FB51FD700EA2FB2 /* Assets.xcassets */,
 				DEF85E161FB51FD700EA2FB2 /* LaunchScreen.storyboard */,
@@ -153,6 +152,31 @@
 				DEF85E2F1FB51FD700EA2FB2 /* Info.plist */,
 			);
 			path = CheckUpUITests;
+			sourceTree = "<group>";
+		};
+		DEF85E4A1FB5327F00EA2FB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEF85E0B1FB51FD700EA2FB2 /* MessagesHomeViewController.h */,
+				DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */,
+				DEF85E0E1FB51FD700EA2FB2 /* LessonsHomeViewController.h */,
+				DEF85E0F1FB51FD700EA2FB2 /* LessonsHomeViewController.m */,
+				DEF85E401FB521E600EA2FB2 /* QuizzesHomeViewController.h */,
+				DEF85E411FB521E600EA2FB2 /* QuizzesHomeViewController.m */,
+				DEF85E451FB521FC00EA2FB2 /* ProfileHomeViewController.h */,
+				DEF85E461FB521FC00EA2FB2 /* ProfileHomeViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DEF85E4B1FB5328B00EA2FB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEF85E4F1FB5331500EA2FB2 /* HeaderView.xib */,
+				DEF85E511FB534D000EA2FB2 /* HeaderView.h */,
+				DEF85E521FB534D000EA2FB2 /* HeaderView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +285,7 @@
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
+				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF85E531FB534D000EA2FB2 /* HeaderView.m in Sources */,
 				DEF85E101FB51FD700EA2FB2 /* LessonsHomeViewController.m in Sources */,
 				DEF85E481FB521FC00EA2FB2 /* ProfileHomeViewController.m in Sources */,
 				DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */,

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Messages-->
@@ -17,26 +18,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="194.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKK-gl-P9c">
+                                <rect key="frame" x="30" y="430" width="540" height="30"/>
+                                <state key="normal" title="Lessons">
+                                    <color key="titleShadowColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIL-5g-xLx">
+                                <rect key="frame" x="30" y="470" width="540" height="30.5"/>
+                                <state key="normal" title="Quizzes"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHk-zd-14u">
+                                <rect key="frame" x="30" y="510" width="540" height="30.5"/>
+                                <state key="normal" title="Redeem"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbc-VD-Pph" customClass="HeaderView">
+                                <rect key="frame" x="30" y="10" width="540" height="420"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PKK-gl-P9c" secondAttribute="trailing" constant="10" id="0nB-Jr-6co"/>
+                            <constraint firstItem="Jbc-VD-Pph" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" constant="10" id="10Z-23-OFA"/>
+                            <constraint firstItem="PKK-gl-P9c" firstAttribute="height" secondItem="PIL-5g-xLx" secondAttribute="height" id="1d3-XE-ARI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jbc-VD-Pph" secondAttribute="trailing" constant="10" id="3u6-Sp-cPV"/>
+                            <constraint firstItem="Jbc-VD-Pph" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="Ac5-qU-ydX"/>
+                            <constraint firstItem="PKK-gl-P9c" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="DzZ-3h-FwC"/>
+                            <constraint firstItem="PIL-5g-xLx" firstAttribute="height" secondItem="jHk-zd-14u" secondAttribute="height" id="Erc-3M-l9A"/>
+                            <constraint firstItem="PIL-5g-xLx" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="I79-dL-kge"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jHk-zd-14u" secondAttribute="trailing" constant="10" id="Np3-4T-uCt"/>
+                            <constraint firstItem="jHk-zd-14u" firstAttribute="top" secondItem="PIL-5g-xLx" secondAttribute="bottom" constant="10" id="P70-5f-AV5"/>
+                            <constraint firstItem="PIL-5g-xLx" firstAttribute="top" secondItem="PKK-gl-P9c" secondAttribute="bottom" constant="10" id="YPU-iS-tw0"/>
+                            <constraint firstItem="Jbc-VD-Pph" firstAttribute="bottom" secondItem="PKK-gl-P9c" secondAttribute="top" id="coO-re-38f"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="jHk-zd-14u" secondAttribute="bottom" constant="10" id="h4W-Bv-oBv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PIL-5g-xLx" secondAttribute="trailing" constant="10" id="jot-cg-yYV"/>
+                            <constraint firstItem="jHk-zd-14u" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="lbR-TJ-aQs"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Messages" image="first" id="acW-dT-cKf"/>
