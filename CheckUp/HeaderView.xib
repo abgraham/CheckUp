@@ -16,19 +16,36 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CheckUp Header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqb-b0-aDt">
-                    <rect key="frame" x="10" y="10" width="580" height="580"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bl-uw-U2u">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CheckUp Header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqb-b0-aDt">
+                            <rect key="frame" x="20" y="290" width="580" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="2WS-By-zQe"/>
+                        <constraint firstItem="Nqb-b0-aDt" firstAttribute="leading" secondItem="8bl-uw-U2u" secondAttribute="leading" constant="20" id="OOc-No-LVW"/>
+                        <constraint firstItem="Nqb-b0-aDt" firstAttribute="centerY" secondItem="8bl-uw-U2u" secondAttribute="centerY" id="udQ-2p-fKI"/>
+                        <constraint firstAttribute="trailing" secondItem="Nqb-b0-aDt" secondAttribute="trailing" id="wkG-sR-nSE"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="2WS-By-zQe"/>
+                        </mask>
+                    </variation>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="Nqb-b0-aDt" secondAttribute="bottom" constant="10" id="1Yo-ge-7cs"/>
-                <constraint firstItem="Nqb-b0-aDt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="lps-b7-UB1"/>
-                <constraint firstAttribute="trailing" secondItem="Nqb-b0-aDt" secondAttribute="trailing" constant="10" id="qQ2-5Q-6wp"/>
-                <constraint firstItem="Nqb-b0-aDt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="zS8-qK-hhy"/>
+                <constraint firstItem="8bl-uw-U2u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B1B-3t-7pK"/>
+                <constraint firstAttribute="bottom" secondItem="8bl-uw-U2u" secondAttribute="bottom" id="OXi-oe-I3B"/>
+                <constraint firstAttribute="trailing" secondItem="8bl-uw-U2u" secondAttribute="trailing" id="t2g-UX-1Tb"/>
+                <constraint firstItem="8bl-uw-U2u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vbU-bT-rSU"/>
             </constraints>
             <point key="canvasLocation" x="543" y="41"/>
         </view>

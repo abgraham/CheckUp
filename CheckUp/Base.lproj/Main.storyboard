@@ -33,17 +33,17 @@
                                 <state key="normal" title="Redeem"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbc-VD-Pph" customClass="HeaderView">
-                                <rect key="frame" x="30" y="10" width="540" height="420"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="430"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="PKK-gl-P9c" secondAttribute="trailing" constant="10" id="0nB-Jr-6co"/>
-                            <constraint firstItem="Jbc-VD-Pph" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" constant="10" id="10Z-23-OFA"/>
+                            <constraint firstItem="Jbc-VD-Pph" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" id="10Z-23-OFA"/>
                             <constraint firstItem="PKK-gl-P9c" firstAttribute="height" secondItem="PIL-5g-xLx" secondAttribute="height" id="1d3-XE-ARI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jbc-VD-Pph" secondAttribute="trailing" constant="10" id="3u6-Sp-cPV"/>
-                            <constraint firstItem="Jbc-VD-Pph" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="Ac5-qU-ydX"/>
+                            <constraint firstAttribute="trailing" secondItem="Jbc-VD-Pph" secondAttribute="trailing" id="3u6-Sp-cPV"/>
+                            <constraint firstItem="Jbc-VD-Pph" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Ac5-qU-ydX"/>
                             <constraint firstItem="PKK-gl-P9c" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="DzZ-3h-FwC"/>
                             <constraint firstItem="PIL-5g-xLx" firstAttribute="height" secondItem="jHk-zd-14u" secondAttribute="height" id="Erc-3M-l9A"/>
                             <constraint firstItem="PIL-5g-xLx" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="10" id="I79-dL-kge"/>
