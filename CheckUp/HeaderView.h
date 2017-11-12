@@ -10,4 +10,6 @@
 
 @interface HeaderView : UIView
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @end

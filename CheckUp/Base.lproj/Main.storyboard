@@ -19,22 +19,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKK-gl-P9c">
-                                <rect key="frame" x="30" y="430" width="540" height="30"/>
+                                <rect key="frame" x="30" y="100" width="540" height="140"/>
                                 <state key="normal" title="Lessons">
                                     <color key="titleShadowColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="lessonsPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Wlr-sj-rpq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIL-5g-xLx">
-                                <rect key="frame" x="30" y="470" width="540" height="30.5"/>
+                                <rect key="frame" x="30" y="250" width="540" height="140.5"/>
                                 <state key="normal" title="Quizzes"/>
+                                <connections>
+                                    <action selector="quizzesPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="VFt-rL-Dz1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHk-zd-14u">
-                                <rect key="frame" x="30" y="510" width="540" height="30.5"/>
+                                <rect key="frame" x="30" y="400" width="540" height="140.5"/>
                                 <state key="normal" title="Redeem"/>
+                                <connections>
+                                    <action selector="redeemPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="dhk-Tv-y1k"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbc-VD-Pph" customClass="HeaderView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4ms-T6-0i5"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -57,6 +69,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Messages" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="headerView" destination="Jbc-VD-Pph" id="ebt-iM-37c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,7 +120,7 @@
         <!--Lessons-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="LessonsHomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="lessonsHome" id="8rJ-Kc-sve" customClass="LessonsHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>

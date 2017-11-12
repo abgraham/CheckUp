@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="zCH-dE-qk5"/>
                 <outlet property="headerLabel" destination="Nqb-b0-aDt" id="ZMb-VC-1Ro"/>
+                <outlet property="label" destination="Nqb-b0-aDt" id="4jO-MK-pJv"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -28,14 +29,14 @@
                     </subviews>
                     <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="100" id="2WS-By-zQe"/>
+                        <constraint firstAttribute="height" constant="150" id="4s2-9O-4MG"/>
                         <constraint firstItem="Nqb-b0-aDt" firstAttribute="leading" secondItem="8bl-uw-U2u" secondAttribute="leading" constant="20" id="OOc-No-LVW"/>
                         <constraint firstItem="Nqb-b0-aDt" firstAttribute="centerY" secondItem="8bl-uw-U2u" secondAttribute="centerY" id="udQ-2p-fKI"/>
                         <constraint firstAttribute="trailing" secondItem="Nqb-b0-aDt" secondAttribute="trailing" id="wkG-sR-nSE"/>
                     </constraints>
                     <variation key="default">
                         <mask key="constraints">
-                            <exclude reference="2WS-By-zQe"/>
+                            <exclude reference="4s2-9O-4MG"/>
                         </mask>
                     </variation>
                 </view>
@@ -44,9 +45,17 @@
             <constraints>
                 <constraint firstItem="8bl-uw-U2u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B1B-3t-7pK"/>
                 <constraint firstAttribute="bottom" secondItem="8bl-uw-U2u" secondAttribute="bottom" id="OXi-oe-I3B"/>
+                <constraint firstItem="8bl-uw-U2u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="axr-LU-xeW"/>
+                <constraint firstAttribute="bottom" secondItem="8bl-uw-U2u" secondAttribute="bottom" id="ryV-dr-BcY"/>
                 <constraint firstAttribute="trailing" secondItem="8bl-uw-U2u" secondAttribute="trailing" id="t2g-UX-1Tb"/>
                 <constraint firstItem="8bl-uw-U2u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vbU-bT-rSU"/>
             </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="B1B-3t-7pK"/>
+                    <exclude reference="OXi-oe-I3B"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="543" y="41"/>
         </view>
     </objects>
