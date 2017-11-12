@@ -88,7 +88,80 @@
                     <view key="view" contentMode="scaleToFill" id="SiZ-vX-a8a">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qlk-Ty-WUd">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDk-Ke-KFs" userLabel="Content view">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="1023"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Z7-Tg-NBH">
+                                                <rect key="frame" x="180" y="-25" width="240" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="Pal-Ii-s41"/>
+                                                    <constraint firstAttribute="width" constant="240" id="ezm-GG-aYm"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey, Annie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSG-Cb-S30">
+                                                <rect key="frame" x="259" y="123" width="81.5" height="800"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="800" id="pRo-1M-Lm6"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4w-6q-4Ca">
+                                                <rect key="frame" x="271.5" y="943" width="57" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="rbn-g6-IU0"/>
+                                                </constraints>
+                                                <state key="normal" title="Redeem"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="1Z7-Tg-NBH" firstAttribute="centerX" secondItem="PDk-Ke-KFs" secondAttribute="centerX" id="BQi-NA-qNs"/>
+                                            <constraint firstItem="1Z7-Tg-NBH" firstAttribute="leading" secondItem="PDk-Ke-KFs" secondAttribute="leading" constant="180" id="G1Q-bm-Dea"/>
+                                            <constraint firstItem="i4w-6q-4Ca" firstAttribute="centerX" secondItem="PDk-Ke-KFs" secondAttribute="centerX" id="KbT-8o-8lx"/>
+                                            <constraint firstAttribute="trailing" secondItem="1Z7-Tg-NBH" secondAttribute="trailing" constant="180" id="NSB-6y-6qr"/>
+                                            <constraint firstAttribute="bottom" secondItem="i4w-6q-4Ca" secondAttribute="bottom" constant="50" id="OA0-OT-WWl"/>
+                                            <constraint firstItem="1Z7-Tg-NBH" firstAttribute="top" secondItem="PDk-Ke-KFs" secondAttribute="top" constant="-25" id="V4d-J2-9SC"/>
+                                            <constraint firstItem="i4w-6q-4Ca" firstAttribute="top" secondItem="NSG-Cb-S30" secondAttribute="bottom" constant="20" id="iG4-Sx-Fsy"/>
+                                            <constraint firstItem="NSG-Cb-S30" firstAttribute="centerX" secondItem="PDk-Ke-KFs" secondAttribute="centerX" id="o3r-RO-N9h"/>
+                                            <constraint firstItem="NSG-Cb-S30" firstAttribute="top" secondItem="1Z7-Tg-NBH" secondAttribute="bottom" constant="20" id="uCq-fY-DdB"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PDk-Ke-KFs" firstAttribute="top" secondItem="qlk-Ty-WUd" secondAttribute="top" id="I3a-av-DT6"/>
+                                    <constraint firstItem="PDk-Ke-KFs" firstAttribute="centerY" secondItem="qlk-Ty-WUd" secondAttribute="centerY" id="gS0-Wo-ycQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="PDk-Ke-KFs" secondAttribute="bottom" id="qWC-3N-8sS"/>
+                                    <constraint firstItem="PDk-Ke-KFs" firstAttribute="centerX" secondItem="qlk-Ty-WUd" secondAttribute="centerX" id="qlc-pM-Mkp"/>
+                                    <constraint firstItem="PDk-Ke-KFs" firstAttribute="width" secondItem="qlk-Ty-WUd" secondAttribute="width" id="uDP-wm-rgH"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gS0-Wo-ycQ"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qlk-Ty-WUd" firstAttribute="top" secondItem="TFA-1q-7a5" secondAttribute="bottom" id="5UD-kq-zBY"/>
+                            <constraint firstItem="qlk-Ty-WUd" firstAttribute="width" secondItem="SiZ-vX-a8a" secondAttribute="width" id="MLj-1w-Ybu"/>
+                            <constraint firstItem="qlk-Ty-WUd" firstAttribute="leading" secondItem="SiZ-vX-a8a" secondAttribute="leading" id="Oe9-OR-9rv"/>
+                            <constraint firstItem="qlk-Ty-WUd" firstAttribute="height" secondItem="SiZ-vX-a8a" secondAttribute="height" id="bBa-Ox-HyE"/>
+                            <constraint firstAttribute="trailing" secondItem="qlk-Ty-WUd" secondAttribute="trailing" id="fOY-N6-n1v"/>
+                            <constraint firstItem="kiU-L0-ffN" firstAttribute="top" secondItem="qlk-Ty-WUd" secondAttribute="bottom" id="smn-7t-Ibu"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="bBa-Ox-HyE"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="SiD-Rm-rcP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
