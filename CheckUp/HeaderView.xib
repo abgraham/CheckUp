@@ -20,8 +20,12 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bl-uw-U2u">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CheckUp Header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqb-b0-aDt">
-                            <rect key="frame" x="20" y="290" width="580" height="20.5"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="leT-WF-YMg">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <color key="backgroundColor" red="0.9532274603843689" green="0.99615758657455444" blue="0.0077319643460214138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CheckUp Header" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqb-b0-aDt">
+                            <rect key="frame" x="40" y="290" width="520" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -29,16 +33,14 @@
                     </subviews>
                     <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="150" id="4s2-9O-4MG"/>
-                        <constraint firstItem="Nqb-b0-aDt" firstAttribute="leading" secondItem="8bl-uw-U2u" secondAttribute="leading" constant="20" id="OOc-No-LVW"/>
+                        <constraint firstAttribute="bottom" secondItem="leT-WF-YMg" secondAttribute="bottom" id="0h6-H2-HKX"/>
+                        <constraint firstItem="leT-WF-YMg" firstAttribute="top" secondItem="8bl-uw-U2u" secondAttribute="top" id="2Al-8Z-mDt"/>
+                        <constraint firstItem="Nqb-b0-aDt" firstAttribute="leading" secondItem="8bl-uw-U2u" secondAttribute="leading" constant="40" id="OOc-No-LVW"/>
+                        <constraint firstItem="leT-WF-YMg" firstAttribute="leading" secondItem="8bl-uw-U2u" secondAttribute="leading" id="hvJ-bz-ftW"/>
+                        <constraint firstAttribute="trailing" secondItem="leT-WF-YMg" secondAttribute="trailing" id="iQP-FZ-KbH"/>
                         <constraint firstItem="Nqb-b0-aDt" firstAttribute="centerY" secondItem="8bl-uw-U2u" secondAttribute="centerY" id="udQ-2p-fKI"/>
-                        <constraint firstAttribute="trailing" secondItem="Nqb-b0-aDt" secondAttribute="trailing" id="wkG-sR-nSE"/>
+                        <constraint firstAttribute="trailing" secondItem="Nqb-b0-aDt" secondAttribute="trailing" constant="40" id="wkG-sR-nSE"/>
                     </constraints>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="4s2-9O-4MG"/>
-                        </mask>
-                    </variation>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,6 +48,7 @@
                 <constraint firstItem="8bl-uw-U2u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B1B-3t-7pK"/>
                 <constraint firstAttribute="bottom" secondItem="8bl-uw-U2u" secondAttribute="bottom" id="OXi-oe-I3B"/>
                 <constraint firstItem="8bl-uw-U2u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="axr-LU-xeW"/>
+                <constraint firstItem="8bl-uw-U2u" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="lsS-Mw-N5r"/>
                 <constraint firstAttribute="bottom" secondItem="8bl-uw-U2u" secondAttribute="bottom" id="ryV-dr-BcY"/>
                 <constraint firstAttribute="trailing" secondItem="8bl-uw-U2u" secondAttribute="trailing" id="t2g-UX-1Tb"/>
                 <constraint firstItem="8bl-uw-U2u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vbU-bT-rSU"/>
@@ -59,4 +62,7 @@
             <point key="canvasLocation" x="543" y="41"/>
         </view>
     </objects>
+    <resources>
+        <image name="CheckUpHeader.jpeg" width="1496" height="478"/>
+    </resources>
 </document>

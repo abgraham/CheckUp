@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CheckUpHeader.jpeg; path = ../../CheckUpHeader.jpeg; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE356E9C1FBFA42D00932C5E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		DEF85DF91FB51FD600EA2FB2 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		DEF85E041FB51FD700EA2FB2 /* CheckUp */ = {
 			isa = PBXGroup;
 			children = (
+				DE356E9C1FBFA42D00932C5E /* Images */,
 				DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */,
 				DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */,
 				DEF85E4B1FB5328B00EA2FB2 /* Views */,
@@ -286,6 +297,7 @@
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
+				DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +552,7 @@
 				DEF85E341FB51FD700EA2FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEF85E351FB51FD700EA2FB2 /* Build configuration list for PBXNativeTarget "CheckUpTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +561,7 @@
 				DEF85E371FB51FD700EA2FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEF85E381FB51FD700EA2FB2 /* Build configuration list for PBXNativeTarget "CheckUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +570,7 @@
 				DEF85E3A1FB51FD700EA2FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

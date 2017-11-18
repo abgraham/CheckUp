@@ -12,6 +12,9 @@
 
 @interface MessagesHomeViewController ()
 @property (weak, nonatomic) IBOutlet HeaderView *headerView;
+@property (weak, nonatomic) IBOutlet UIButton *lessonsButton;
+@property (weak, nonatomic) IBOutlet UILabel *lessonsTitle;
+@property (weak, nonatomic) IBOutlet UILabel *lessonsSubtitle;
 
 @end
 
@@ -22,6 +25,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.headerView.label.text = @"Messages";
     NSLog(@"Messages home");
+    self.lessonsTitle.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
+    self.lessonsSubtitle.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];
 }
 
 - (void)didReceiveMemoryWarning {
