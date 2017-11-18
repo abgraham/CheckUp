@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *lessonsButton;
 @property (weak, nonatomic) IBOutlet UILabel *lessonsTitle;
 @property (weak, nonatomic) IBOutlet UILabel *lessonsSubtitle;
+@property (weak, nonatomic) IBOutlet UILabel *quizzesTitle;
+@property (weak, nonatomic) IBOutlet UILabel *quizzesSubtitle;
+@property (weak, nonatomic) IBOutlet UILabel *redeemTitle;
+@property (weak, nonatomic) IBOutlet UILabel *redeemSubtitle;
 
 @end
 
@@ -27,6 +31,10 @@
     NSLog(@"Messages home");
     self.lessonsTitle.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
     self.lessonsSubtitle.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];
+    self.quizzesTitle.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
+    self.quizzesSubtitle.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];
+    self.redeemTitle.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
+    self.redeemSubtitle.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];
 }
 
 - (void)didReceiveMemoryWarning {

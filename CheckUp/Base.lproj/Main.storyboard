@@ -102,8 +102,8 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats! You've unlocked the diabetes quiz." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTi-PV-p58" userLabel="Subtitle">
-                                        <rect key="frame" x="25" y="32" width="491" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats! You've unlocked the diabetes quiz." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTi-PV-p58" userLabel="Subtitle">
+                                        <rect key="frame" x="25" y="46" width="491" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -121,7 +121,6 @@
                                     <constraint firstItem="PIL-5g-xLx" firstAttribute="top" secondItem="3hp-Se-ve6" secondAttribute="top" id="7Ui-r4-dVN"/>
                                     <constraint firstAttribute="trailing" secondItem="NTi-PV-p58" secondAttribute="trailing" constant="70" id="91I-LZ-iZt"/>
                                     <constraint firstItem="wrI-Ft-Tm2" firstAttribute="leading" secondItem="3hp-Se-ve6" secondAttribute="leading" constant="25" id="AWj-JZ-jeu"/>
-                                    <constraint firstItem="wrI-Ft-Tm2" firstAttribute="bottom" secondItem="NTi-PV-p58" secondAttribute="top" constant="7" id="EC3-lG-jok"/>
                                     <constraint firstItem="9vL-Vs-8HC" firstAttribute="top" secondItem="3hp-Se-ve6" secondAttribute="top" id="K4X-yk-6ap"/>
                                     <constraint firstAttribute="trailing" secondItem="9vL-Vs-8HC" secondAttribute="trailing" id="LqH-al-gz6"/>
                                     <constraint firstAttribute="bottom" secondItem="9vL-Vs-8HC" secondAttribute="bottom" id="Nu0-Q3-tv5"/>
@@ -129,6 +128,7 @@
                                     <constraint firstItem="9vL-Vs-8HC" firstAttribute="leading" secondItem="3hp-Se-ve6" secondAttribute="leading" id="Q1C-Dg-Pjq"/>
                                     <constraint firstAttribute="trailing" secondItem="PIL-5g-xLx" secondAttribute="trailing" id="TeY-Sh-pnu"/>
                                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NTi-PV-p58" secondAttribute="bottom" constant="18" id="TpE-Jl-cjZ"/>
+                                    <constraint firstItem="NTi-PV-p58" firstAttribute="top" secondItem="wrI-Ft-Tm2" secondAttribute="bottom" constant="7" id="Uzt-jI-x7X"/>
                                     <constraint firstItem="NTi-PV-p58" firstAttribute="leading" secondItem="3hp-Se-ve6" secondAttribute="leading" constant="25" id="b6L-YC-qLv"/>
                                     <constraint firstItem="PIL-5g-xLx" firstAttribute="leading" secondItem="3hp-Se-ve6" secondAttribute="leading" id="iRO-jb-ktb"/>
                                 </constraints>
@@ -136,20 +136,43 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klc-UD-Jyl" userLabel="RedeemButtonView">
                                 <rect key="frame" x="7" y="408" width="586" height="135.5"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cXh-d9-JnD">
+                                        <rect key="frame" x="0.0" y="0.0" width="586" height="135.5"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHk-zd-14u">
                                         <rect key="frame" x="0.0" y="0.0" width="586" height="135.5"/>
-                                        <state key="normal" title="Redeem"/>
                                         <connections>
                                             <action selector="redeemPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="dhk-Tv-y1k"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Redeem Your Benefits" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txq-SL-QRs" userLabel="Title">
+                                        <rect key="frame" x="25" y="18" width="169" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easily take advantage of all CheckUp has to offer." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELD-b0-pMH" userLabel="Subtitle">
+                                        <rect key="frame" x="25" y="46" width="377.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99830824136734009" green="0.0098257726058363914" blue="0.9241907000541687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="jHk-zd-14u" firstAttribute="top" secondItem="klc-UD-Jyl" secondAttribute="top" id="7rT-ei-T5G"/>
+                                    <constraint firstAttribute="bottom" secondItem="cXh-d9-JnD" secondAttribute="bottom" id="FXL-28-ms5"/>
+                                    <constraint firstItem="ELD-b0-pMH" firstAttribute="leading" secondItem="klc-UD-Jyl" secondAttribute="leading" constant="25" id="G4w-sP-ZXb"/>
+                                    <constraint firstItem="Txq-SL-QRs" firstAttribute="leading" secondItem="klc-UD-Jyl" secondAttribute="leading" constant="25" id="MOV-3G-K60"/>
+                                    <constraint firstAttribute="trailing" secondItem="cXh-d9-JnD" secondAttribute="trailing" id="NRU-yS-G6m"/>
+                                    <constraint firstItem="Txq-SL-QRs" firstAttribute="top" secondItem="klc-UD-Jyl" secondAttribute="top" constant="18" id="Qzs-OX-9OZ"/>
                                     <constraint firstItem="jHk-zd-14u" firstAttribute="leading" secondItem="klc-UD-Jyl" secondAttribute="leading" id="RbS-Lg-tb8"/>
                                     <constraint firstAttribute="trailing" secondItem="jHk-zd-14u" secondAttribute="trailing" id="T9d-de-l2U"/>
+                                    <constraint firstItem="cXh-d9-JnD" firstAttribute="top" secondItem="klc-UD-Jyl" secondAttribute="top" id="WI2-8P-mrb"/>
+                                    <constraint firstItem="ELD-b0-pMH" firstAttribute="top" secondItem="Txq-SL-QRs" secondAttribute="bottom" constant="7" id="djL-El-u77"/>
                                     <constraint firstAttribute="bottom" secondItem="jHk-zd-14u" secondAttribute="bottom" id="fS8-CQ-aDz"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ELD-b0-pMH" secondAttribute="bottom" constant="18" id="iG2-Ji-Ej9"/>
+                                    <constraint firstItem="cXh-d9-JnD" firstAttribute="leading" secondItem="klc-UD-Jyl" secondAttribute="leading" id="u16-rj-Kec"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -184,6 +207,10 @@
                         <outlet property="lessonsButton" destination="PKK-gl-P9c" id="ZaI-Pc-jHQ"/>
                         <outlet property="lessonsSubtitle" destination="5hI-Hi-NLk" id="59g-bx-dtp"/>
                         <outlet property="lessonsTitle" destination="APk-XQ-oeh" id="NP0-Dx-7pr"/>
+                        <outlet property="quizzesSubtitle" destination="NTi-PV-p58" id="YQy-7p-zBB"/>
+                        <outlet property="quizzesTitle" destination="wrI-Ft-Tm2" id="Dg5-X2-ss9"/>
+                        <outlet property="redeemSubtitle" destination="ELD-b0-pMH" id="hxB-Sb-m6m"/>
+                        <outlet property="redeemTitle" destination="Txq-SL-QRs" id="63l-in-FHI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
