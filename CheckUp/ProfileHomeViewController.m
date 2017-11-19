@@ -7,6 +7,7 @@
 //
 
 #import "ProfileHomeViewController.h"
+#import "HeaderView.h"
 
 @interface ProfileHomeViewController ()
 
@@ -16,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *healthProviderLabel;
 @property (weak, nonatomic) IBOutlet UILabel *healthProviderContentLabel;
 @property (weak, nonatomic) IBOutlet UIButton *yourProgressButtonLabel;
+@property (weak, nonatomic) IBOutlet HeaderView *headerView;
 
 
 @end
@@ -25,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Profile home");
+    self.headerView.label.text = @"Profile";
     self.nameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:16.0];
     self.pointsLabel.font = [UIFont fontWithName:@"Avenir-Light" size:22.0];
     self.redeemButton.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];

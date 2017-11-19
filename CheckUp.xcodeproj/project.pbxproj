@@ -10,6 +10,7 @@
 		DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */; };
 		DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */; };
 		DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */; };
+		DE356EA51FC2019D00932C5E /* RedeemFirstStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EA41FC2019D00932C5E /* RedeemFirstStepViewController.m */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -46,6 +47,8 @@
 		DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CheckUpHeader.jpeg; path = ../../CheckUpHeader.jpeg; sourceTree = "<group>"; };
 		DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckUpProfileIcon.png; path = ../../CheckUpProfileIcon.png; sourceTree = "<group>"; };
 		DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckUpProfilePhoto.png; path = ../../CheckUpProfilePhoto.png; sourceTree = "<group>"; };
+		DE356EA31FC2019D00932C5E /* RedeemFirstStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemFirstStepViewController.h; sourceTree = "<group>"; };
+		DE356EA41FC2019D00932C5E /* RedeemFirstStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemFirstStepViewController.m; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				DEF85E411FB521E600EA2FB2 /* QuizzesHomeViewController.m */,
 				DEF85E451FB521FC00EA2FB2 /* ProfileHomeViewController.h */,
 				DEF85E461FB521FC00EA2FB2 /* ProfileHomeViewController.m */,
+				DE356EA31FC2019D00932C5E /* RedeemFirstStepViewController.h */,
+				DE356EA41FC2019D00932C5E /* RedeemFirstStepViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */,
 				DEF85E071FB51FD700EA2FB2 /* main.m in Sources */,
 				DEF85E431FB521E700EA2FB2 /* QuizzesHomeViewController.m in Sources */,
+				DE356EA51FC2019D00932C5E /* RedeemFirstStepViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -270,6 +270,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqT-CC-ewZ" userLabel="RedeemButton">
                                 <rect key="frame" x="271" y="263" width="57" height="30"/>
                                 <state key="normal" title="Redeem"/>
+                                <connections>
+                                    <segue destination="i4h-eK-gCC" kind="presentation" id="NnG-pP-Qph"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardinal Care" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gah-p1-3r6">
                                 <rect key="frame" x="45" y="344" width="103.5" height="21"/>
@@ -312,6 +315,7 @@
                     <tabBarItem key="tabBarItem" title="Profile" id="SiD-Rm-rcP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="headerView" destination="m6V-Mm-Y8h" id="cFi-In-5Ao"/>
                         <outlet property="healthProviderContentLabel" destination="Gah-p1-3r6" id="yQc-FV-w3h"/>
                         <outlet property="healthProviderLabel" destination="xxu-tF-TdW" id="DRP-DY-k0P"/>
                         <outlet property="nameLabel" destination="VCM-Nz-wrH" id="7Xu-Li-HMw"/>
@@ -343,6 +347,103 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ym6-8Z-v7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="560" y="1227"/>
+        </scene>
+        <!--Redeem First Step View Controller-->
+        <scene sceneID="5OX-38-iN7">
+            <objects>
+                <viewController id="i4h-eK-gCC" customClass="RedeemFirstStepViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KVj-Yf-qRd"/>
+                        <viewControllerLayoutGuide type="bottom" id="ipD-uL-czX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="68R-UJ-P05">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7LO-1j-UUN" customClass="HeaderView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+                                <color key="backgroundColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Zjc-vN-zpf"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpProfilePhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-tZ-diS">
+                                <rect key="frame" x="265" y="112" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="YB3-dh-iWf"/>
+                                    <constraint firstAttribute="width" constant="70" id="lqd-pP-6xj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="200" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="XAb-ys-Qua" userLabel="TextBoxImage">
+                                <rect key="frame" x="45" y="194" width="510" height="366"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ryanne Carter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ude-JL-4RV">
+                                <rect key="frame" x="245" y="206" width="109.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98818796873092651" green="0.98865658044815063" blue="0.9676932692527771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats! You just earned" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ho4-9f-N5E">
+                                <rect key="frame" x="201" y="251" width="198" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$176" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQ5-xB-GdO">
+                                <rect key="frame" x="281" y="332" width="38" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in benefits with your provider." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyz-rq-Dfa">
+                                <rect key="frame" x="187" y="380" width="225.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scj-M4-Zgh">
+                                <rect key="frame" x="224" y="428" width="152" height="30"/>
+                                <state key="normal" title="Get back to my profile">
+                                    <color key="titleColor" red="0.98818796873092651" green="0.98865658044815063" blue="0.9676932692527771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hyz-rq-Dfa" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="01g-gq-oLe"/>
+                            <constraint firstItem="jQ5-xB-GdO" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="0Bq-ZL-LJY"/>
+                            <constraint firstItem="ude-JL-4RV" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="6mZ-Rj-sxk"/>
+                            <constraint firstItem="XAb-ys-Qua" firstAttribute="top" secondItem="YLD-tZ-diS" secondAttribute="bottom" constant="12" id="CdK-sP-FxQ"/>
+                            <constraint firstItem="hyz-rq-Dfa" firstAttribute="top" secondItem="jQ5-xB-GdO" secondAttribute="bottom" constant="27" id="Hol-AS-yDk"/>
+                            <constraint firstItem="jQ5-xB-GdO" firstAttribute="top" secondItem="ho4-9f-N5E" secondAttribute="bottom" constant="60" id="Npt-jM-em9"/>
+                            <constraint firstItem="ude-JL-4RV" firstAttribute="top" secondItem="XAb-ys-Qua" secondAttribute="top" constant="12" id="RF5-nr-Lqe"/>
+                            <constraint firstItem="7LO-1j-UUN" firstAttribute="top" secondItem="68R-UJ-P05" secondAttribute="top" id="SCF-t9-iC6"/>
+                            <constraint firstItem="ho4-9f-N5E" firstAttribute="top" secondItem="ude-JL-4RV" secondAttribute="bottom" constant="24" id="SEo-aF-Q1d"/>
+                            <constraint firstAttribute="trailing" secondItem="XAb-ys-Qua" secondAttribute="trailing" constant="45" id="aLn-og-wLm"/>
+                            <constraint firstItem="ho4-9f-N5E" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="cuA-qx-F18"/>
+                            <constraint firstItem="scj-M4-Zgh" firstAttribute="top" secondItem="hyz-rq-Dfa" secondAttribute="bottom" constant="27" id="en8-Ph-C9t"/>
+                            <constraint firstAttribute="trailing" secondItem="7LO-1j-UUN" secondAttribute="trailing" id="euB-Ab-qr8"/>
+                            <constraint firstItem="7LO-1j-UUN" firstAttribute="leading" secondItem="68R-UJ-P05" secondAttribute="leading" id="lHO-ya-x7L"/>
+                            <constraint firstItem="scj-M4-Zgh" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="ll8-y7-fuP"/>
+                            <constraint firstItem="YLD-tZ-diS" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="ngH-wO-ag6"/>
+                            <constraint firstItem="XAb-ys-Qua" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="uJ6-UH-M5K"/>
+                            <constraint firstAttribute="bottom" secondItem="XAb-ys-Qua" secondAttribute="bottom" constant="40" id="vOn-gx-uaE"/>
+                            <constraint firstItem="YLD-tZ-diS" firstAttribute="top" secondItem="7LO-1j-UUN" secondAttribute="bottom" constant="12" id="x8h-fw-tmp"/>
+                            <constraint firstItem="XAb-ys-Qua" firstAttribute="leading" secondItem="68R-UJ-P05" secondAttribute="leading" constant="45" id="zFs-I6-ChB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="congratsLabel" destination="ho4-9f-N5E" id="sAz-bg-OgM"/>
+                        <outlet property="header" destination="7LO-1j-UUN" id="mmB-1C-V3k"/>
+                        <outlet property="inBenefitsLabel" destination="hyz-rq-Dfa" id="Z9u-2v-gWh"/>
+                        <outlet property="nameLabel" destination="ude-JL-4RV" id="xPK-hB-fo9"/>
+                        <outlet property="returnToProfileButton" destination="scj-M4-Zgh" id="Wh9-mT-DAs"/>
+                        <outlet property="valueLabel" destination="jQ5-xB-GdO" id="CL8-ni-n1G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="inn-cM-rgJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="1985"/>
         </scene>
         <!--Lessons-->
         <scene sceneID="wg7-f3-ORb">
