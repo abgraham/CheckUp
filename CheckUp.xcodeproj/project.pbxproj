@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */; };
+		DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */; };
+		DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CheckUpHeader.jpeg; path = ../../CheckUpHeader.jpeg; sourceTree = "<group>"; };
+		DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckUpProfileIcon.png; path = ../../CheckUpProfileIcon.png; sourceTree = "<group>"; };
+		DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckUpProfilePhoto.png; path = ../../CheckUpProfilePhoto.png; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */,
+				DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */,
+				DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -293,7 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */,
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
+				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,

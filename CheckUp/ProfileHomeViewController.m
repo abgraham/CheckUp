@@ -10,6 +10,14 @@
 
 @interface ProfileHomeViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *pointsLabel;
+@property (weak, nonatomic) IBOutlet UIButton *redeemButton;
+@property (weak, nonatomic) IBOutlet UILabel *healthProviderLabel;
+@property (weak, nonatomic) IBOutlet UILabel *healthProviderContentLabel;
+@property (weak, nonatomic) IBOutlet UIButton *yourProgressButtonLabel;
+
+
 @end
 
 @implementation ProfileHomeViewController
@@ -17,6 +25,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Profile home");
+    self.nameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:16.0];
+    self.pointsLabel.font = [UIFont fontWithName:@"Avenir-Light" size:22.0];
+    self.redeemButton.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
+    self.healthProviderLabel.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];
+    self.healthProviderContentLabel.font = [UIFont fontWithName:@"Avenir-Light" size:22.0];
+    self.yourProgressButtonLabel.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
     // Do any additional setup after loading the view from its nib.
 }
 

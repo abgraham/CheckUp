@@ -228,10 +228,97 @@
                     <view key="view" contentMode="scaleToFill" id="bap-Mt-QgK">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m6V-Mm-Y8h" customClass="HeaderView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpProfileIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="kBH-iJ-rNk">
+                                        <rect key="frame" x="279" y="29" width="42" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="AiM-cE-8BP"/>
+                                            <constraint firstAttribute="width" constant="42" id="Ph7-cn-4lI"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="AMs-nu-IAO"/>
+                                    <constraint firstItem="kBH-iJ-rNk" firstAttribute="centerX" secondItem="m6V-Mm-Y8h" secondAttribute="centerX" id="PvW-5m-D2J"/>
+                                    <constraint firstItem="kBH-iJ-rNk" firstAttribute="centerY" secondItem="m6V-Mm-Y8h" secondAttribute="centerY" id="ou1-z8-lW9"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpProfilePhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="FQo-vn-uFC" userLabel="ProfileImageView">
+                                <rect key="frame" x="265" y="111" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="648-GC-NMc"/>
+                                    <constraint firstAttribute="width" constant="70" id="nsb-9A-uEU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ryanne Carter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCM-Nz-wrH" userLabel="NameLabel">
+                                <rect key="frame" x="245" y="192" width="109.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="538 Points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6C-yK-uzV" userLabel="PointsLabel">
+                                <rect key="frame" x="258" y="227" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqT-CC-ewZ" userLabel="RedeemButton">
+                                <rect key="frame" x="271" y="263" width="57" height="30"/>
+                                <state key="normal" title="Redeem"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardinal Care" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gah-p1-3r6">
+                                <rect key="frame" x="45" y="344" width="103.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Provider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxu-tF-TdW">
+                                <rect key="frame" x="25" y="308" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Vt-Km-3At">
+                                <rect key="frame" x="25" y="385" width="96" height="30"/>
+                                <state key="normal" title="Your Progress"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xxu-tF-TdW" firstAttribute="leading" secondItem="bap-Mt-QgK" secondAttribute="leading" constant="25" id="3nW-7Z-WlB"/>
+                            <constraint firstItem="VCM-Nz-wrH" firstAttribute="top" secondItem="FQo-vn-uFC" secondAttribute="bottom" constant="11" id="56g-Da-CmV"/>
+                            <constraint firstItem="6Vt-Km-3At" firstAttribute="leading" secondItem="bap-Mt-QgK" secondAttribute="leading" constant="25" id="6eq-qu-I77"/>
+                            <constraint firstItem="d6C-yK-uzV" firstAttribute="centerX" secondItem="bap-Mt-QgK" secondAttribute="centerX" id="DMq-rX-DF2"/>
+                            <constraint firstItem="6Vt-Km-3At" firstAttribute="top" secondItem="Gah-p1-3r6" secondAttribute="bottom" constant="20" id="IUC-uu-K0M"/>
+                            <constraint firstItem="m6V-Mm-Y8h" firstAttribute="leading" secondItem="bap-Mt-QgK" secondAttribute="leading" id="OaK-pV-RGN"/>
+                            <constraint firstItem="VCM-Nz-wrH" firstAttribute="centerX" secondItem="bap-Mt-QgK" secondAttribute="centerX" id="UHv-dT-6Wj"/>
+                            <constraint firstItem="rqT-CC-ewZ" firstAttribute="centerX" secondItem="bap-Mt-QgK" secondAttribute="centerX" id="X7d-aV-1HB"/>
+                            <constraint firstItem="d6C-yK-uzV" firstAttribute="top" secondItem="VCM-Nz-wrH" secondAttribute="bottom" constant="14" id="XMZ-ig-CrJ"/>
+                            <constraint firstItem="xxu-tF-TdW" firstAttribute="top" secondItem="rqT-CC-ewZ" secondAttribute="bottom" constant="15" id="cdg-vr-ujV"/>
+                            <constraint firstAttribute="trailing" secondItem="m6V-Mm-Y8h" secondAttribute="trailing" id="duQ-0D-jcz"/>
+                            <constraint firstItem="rqT-CC-ewZ" firstAttribute="top" secondItem="d6C-yK-uzV" secondAttribute="bottom" constant="15" id="ict-Zn-oCf"/>
+                            <constraint firstItem="Gah-p1-3r6" firstAttribute="leading" secondItem="bap-Mt-QgK" secondAttribute="leading" constant="45" id="w7Q-RZ-gPN"/>
+                            <constraint firstItem="Gah-p1-3r6" firstAttribute="top" secondItem="xxu-tF-TdW" secondAttribute="bottom" constant="15" id="wUJ-k6-i3r"/>
+                            <constraint firstItem="FQo-vn-uFC" firstAttribute="centerX" secondItem="bap-Mt-QgK" secondAttribute="centerX" id="xBz-Ig-iOT"/>
+                            <constraint firstItem="m6V-Mm-Y8h" firstAttribute="top" secondItem="bap-Mt-QgK" secondAttribute="top" id="xko-NU-YFt"/>
+                            <constraint firstItem="FQo-vn-uFC" firstAttribute="top" secondItem="m6V-Mm-Y8h" secondAttribute="bottom" constant="11" id="ygn-2S-Foa"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="SiD-Rm-rcP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="healthProviderContentLabel" destination="Gah-p1-3r6" id="yQc-FV-w3h"/>
+                        <outlet property="healthProviderLabel" destination="xxu-tF-TdW" id="DRP-DY-k0P"/>
+                        <outlet property="nameLabel" destination="VCM-Nz-wrH" id="7Xu-Li-HMw"/>
+                        <outlet property="pointsLabel" destination="d6C-yK-uzV" id="mw1-Ta-deP"/>
+                        <outlet property="redeemButton" destination="rqT-CC-ewZ" id="2ZQ-sQ-a2f"/>
+                        <outlet property="yourProgressButtonLabel" destination="6Vt-Km-3At" id="ple-s3-IoN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1t-Gn-s9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -321,6 +408,8 @@
     </scenes>
     <resources>
         <image name="CheckUpHeader.jpeg" width="1496" height="478"/>
+        <image name="CheckUpProfileIcon.png" width="78" height="74"/>
+        <image name="CheckUpProfilePhoto.png" width="240" height="248"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
