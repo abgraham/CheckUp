@@ -217,7 +217,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Profile-->
+        <!--Profile Home View Controller-->
         <scene sceneID="Oui-P7-jKR">
             <objects>
                 <viewController id="YQo-SP-tO3" customClass="ProfileHomeViewController" sceneMemberID="viewController">
@@ -271,7 +271,7 @@
                                 <rect key="frame" x="271" y="263" width="57" height="30"/>
                                 <state key="normal" title="Redeem"/>
                                 <connections>
-                                    <segue destination="i4h-eK-gCC" kind="presentation" id="NnG-pP-Qph"/>
+                                    <segue destination="i4h-eK-gCC" kind="push" id="NKO-jf-Lhf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardinal Care" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gah-p1-3r6">
@@ -312,7 +312,7 @@
                             <constraint firstItem="FQo-vn-uFC" firstAttribute="top" secondItem="m6V-Mm-Y8h" secondAttribute="bottom" constant="11" id="ygn-2S-Foa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="SiD-Rm-rcP"/>
+                    <navigationItem key="navigationItem" id="g8g-pk-jMi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="headerView" destination="m6V-Mm-Y8h" id="cFi-In-5Ao"/>
@@ -326,7 +326,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1t-Gn-s9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-116" y="1423"/>
+            <point key="canvasLocation" x="684" y="1423"/>
         </scene>
         <!--Quizzes-->
         <scene sceneID="tL7-W6-rZ2">
@@ -346,7 +346,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ym6-8Z-v7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560" y="1227"/>
+            <point key="canvasLocation" x="1372" y="1227"/>
         </scene>
         <!--Redeem First Step View Controller-->
         <scene sceneID="5OX-38-iN7">
@@ -375,7 +375,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="200" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="XAb-ys-Qua" userLabel="TextBoxImage">
-                                <rect key="frame" x="45" y="194" width="510" height="366"/>
+                                <rect key="frame" x="45" y="194" width="510" height="326"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ryanne Carter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ude-JL-4RV">
                                 <rect key="frame" x="245" y="206" width="109.5" height="21"/>
@@ -406,6 +406,9 @@
                                 <state key="normal" title="Get back to my profile">
                                     <color key="titleColor" red="0.98818796873092651" green="0.98865658044815063" blue="0.9676932692527771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="getBackButtonPressed:" destination="i4h-eK-gCC" eventType="touchUpInside" id="b5Y-2J-5Nv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -420,6 +423,7 @@
                             <constraint firstItem="7LO-1j-UUN" firstAttribute="top" secondItem="68R-UJ-P05" secondAttribute="top" id="SCF-t9-iC6"/>
                             <constraint firstItem="ho4-9f-N5E" firstAttribute="top" secondItem="ude-JL-4RV" secondAttribute="bottom" constant="24" id="SEo-aF-Q1d"/>
                             <constraint firstAttribute="trailing" secondItem="XAb-ys-Qua" secondAttribute="trailing" constant="45" id="aLn-og-wLm"/>
+                            <constraint firstAttribute="bottom" secondItem="XAb-ys-Qua" secondAttribute="bottom" constant="80" id="cqM-cn-xqA"/>
                             <constraint firstItem="ho4-9f-N5E" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="cuA-qx-F18"/>
                             <constraint firstItem="scj-M4-Zgh" firstAttribute="top" secondItem="hyz-rq-Dfa" secondAttribute="bottom" constant="27" id="en8-Ph-C9t"/>
                             <constraint firstAttribute="trailing" secondItem="7LO-1j-UUN" secondAttribute="trailing" id="euB-Ab-qr8"/>
@@ -427,11 +431,11 @@
                             <constraint firstItem="scj-M4-Zgh" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="ll8-y7-fuP"/>
                             <constraint firstItem="YLD-tZ-diS" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="ngH-wO-ag6"/>
                             <constraint firstItem="XAb-ys-Qua" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="uJ6-UH-M5K"/>
-                            <constraint firstAttribute="bottom" secondItem="XAb-ys-Qua" secondAttribute="bottom" constant="40" id="vOn-gx-uaE"/>
                             <constraint firstItem="YLD-tZ-diS" firstAttribute="top" secondItem="7LO-1j-UUN" secondAttribute="bottom" constant="12" id="x8h-fw-tmp"/>
                             <constraint firstItem="XAb-ys-Qua" firstAttribute="leading" secondItem="68R-UJ-P05" secondAttribute="leading" constant="45" id="zFs-I6-ChB"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="EVm-yw-vkq"/>
                     <connections>
                         <outlet property="congratsLabel" destination="ho4-9f-N5E" id="sAz-bg-OgM"/>
                         <outlet property="header" destination="7LO-1j-UUN" id="mmB-1C-V3k"/>
@@ -443,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="inn-cM-rgJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="566" y="1985"/>
+            <point key="canvasLocation" x="1378" y="1985"/>
         </scene>
         <!--Lessons-->
         <scene sceneID="wg7-f3-ORb">
@@ -499,12 +503,31 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="Eiu-7R-Fuc" kind="relationship" relationship="viewControllers" id="f0u-Zt-0Ce"/>
-                        <segue destination="YQo-SP-tO3" kind="relationship" relationship="viewControllers" id="7aN-mm-L0B"/>
+                        <segue destination="FBV-tz-x3T" kind="relationship" relationship="viewControllers" id="7aN-mm-L0B"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-200" y="292"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="gnn-nP-12h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="FBV-tz-x3T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" id="SiD-Rm-rcP"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zuV-vH-o3C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YQo-SP-tO3" kind="relationship" relationship="rootViewController" id="NRM-wa-EuM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S6t-jL-iSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-116" y="1423"/>
         </scene>
     </scenes>
     <resources>
