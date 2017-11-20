@@ -205,9 +205,9 @@
 				DEF85E4F1FB5331500EA2FB2 /* HeaderView.xib */,
 				DEF85E511FB534D000EA2FB2 /* HeaderView.h */,
 				DEF85E521FB534D000EA2FB2 /* HeaderView.m */,
+				DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */,
 				DE356EA61FC2707700932C5E /* LessonCategoryView.h */,
 				DE356EA71FC2707700932C5E /* LessonCategoryView.m */,
-				DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";

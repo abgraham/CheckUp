@@ -9,6 +9,7 @@
 #import "HeaderView.h"
 
 @interface HeaderView ()
+
 @property (strong, nonatomic) IBOutlet HeaderView *contentView;
 @property (weak, nonatomic) IBOutlet UILabel *headerLabel;
 
@@ -16,30 +17,6 @@
 
 @implementation HeaderView
 
-
-//-(instancetype)initWithCoder:(NSCoder *)aDecoder {
-//    self = [super initWithCoder:<#aDecoder#>];
-//
-//    if (self)
-//    {
-//        [self customInit];
-//    }
-//
-//    return self;
-//}
-//
-//- (id)initWithFrame:(CGRect)frame
-//{
-//    [super initWithFrame:<#frame#>];
-//    //self = [super initWithFrame:<#frame#>];
-//
-//    if (self)
-//    {
-//        [self customInit];
-//    }
-//
-//    return self;
-//}
 
 -  (id)initWithFrame:(CGRect)aRect
 {

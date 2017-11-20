@@ -12,7 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet LessonCategoryView *contentView;
 
-
 @end
 
 @implementation LessonCategoryView
@@ -50,7 +49,7 @@
 
 - (void)customInit
 {
-    [[NSBundle mainBundle] loadNibNamed:@"HeaderView" owner:self  options:nil];
+    [[[NSBundle mainBundle] loadNibNamed:@"LessonCategoryView" owner:self  options:nil] objectAtIndex:0];
 
     [self addSubview:self.contentView];
 
