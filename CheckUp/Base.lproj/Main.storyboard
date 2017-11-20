@@ -468,8 +468,8 @@
                                     <constraint firstAttribute="height" constant="120" id="3Ud-s2-ZAg"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the topic you'd like to learn about and watch the berry grow." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58O-Nn-1Ut">
-                                <rect key="frame" x="40" y="130" width="520.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the category you'd like to learn about and watch the berries grow." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58O-Nn-1Ut">
+                                <rect key="frame" x="20" y="130" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -478,17 +478,17 @@
                                 <rect key="frame" x="0.0" y="166" width="600" height="96.5"/>
                                 <color key="backgroundColor" red="0.9532274603843689" green="0.99615758657455444" blue="0.0077319643460214138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVR-sb-t4t" userLabel="Category2">
-                                <rect key="frame" x="0.0" y="262.5" width="600" height="96"/>
-                                <color key="backgroundColor" red="0.1149012539" green="0.73239203470000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-KT-buQ" userLabel="Category3" customClass="LessonCategoryView">
+                                <rect key="frame" x="0.0" y="358" width="600" height="96.5"/>
+                                <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pYm-RX-xra" userLabel="Category4">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pYm-RX-xra" userLabel="Category4" customClass="LessonCategoryView">
                                 <rect key="frame" x="0.0" y="455" width="600" height="96"/>
                                 <color key="backgroundColor" red="0.78693121671676636" green="0.62380188703536987" blue="0.92162960767745972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-KT-buQ" userLabel="Category3">
-                                <rect key="frame" x="0.0" y="358.5" width="600" height="96.5"/>
-                                <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVR-sb-t4t" userLabel="Category2" customClass="LessonCategoryView">
+                                <rect key="frame" x="0.0" y="262" width="600" height="96"/>
+                                <color key="backgroundColor" red="0.1149012539" green="0.73239203470000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -504,6 +504,7 @@
                             <constraint firstItem="pYm-RX-xra" firstAttribute="top" secondItem="4fm-KT-buQ" secondAttribute="bottom" id="M3u-QR-O5q"/>
                             <constraint firstItem="AVR-sb-t4t" firstAttribute="height" secondItem="A23-60-SPo" secondAttribute="height" id="Pgb-lF-GEZ"/>
                             <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="pYm-RX-xra" secondAttribute="bottom" id="Xun-z2-9d9"/>
+                            <constraint firstItem="58O-Nn-1Ut" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="20" id="Y0a-l8-eOB"/>
                             <constraint firstAttribute="trailing" secondItem="xf3-m6-IU2" secondAttribute="trailing" id="coe-ux-d2N"/>
                             <constraint firstItem="4fm-KT-buQ" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="fti-sS-nnD"/>
                             <constraint firstItem="4fm-KT-buQ" firstAttribute="height" secondItem="AVR-sb-t4t" secondAttribute="height" id="hET-EL-1Lk"/>
@@ -514,7 +515,13 @@
                             <constraint firstItem="A23-60-SPo" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="oml-aY-ETw"/>
                             <constraint firstItem="xf3-m6-IU2" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="tNZ-ue-1Ql"/>
                             <constraint firstItem="4fm-KT-buQ" firstAttribute="top" secondItem="AVR-sb-t4t" secondAttribute="bottom" id="wDu-rE-CMy"/>
+                            <constraint firstAttribute="trailing" secondItem="58O-Nn-1Ut" secondAttribute="trailing" constant="20" id="wQ3-Gk-DCS"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="BES-BR-JqK"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lessons" image="second" id="cPa-gy-q4n"/>
                     <connections>

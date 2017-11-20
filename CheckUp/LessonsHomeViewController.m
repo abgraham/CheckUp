@@ -25,6 +25,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Lessons home");
+    self.category1.categoryNameLabel.text = @"Diabetes";
+    self.category2.categoryNameLabel.text = @"Hypertension";
+    self.category1.categoryNameLabel.text = @"Cancer";
+    self.category2.categoryNameLabel.text = @"Lupus";
+
 }
 
 - (void)didReceiveMemoryWarning {
