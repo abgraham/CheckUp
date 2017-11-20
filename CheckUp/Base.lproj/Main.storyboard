@@ -328,44 +328,6 @@
             </objects>
             <point key="canvasLocation" x="684" y="1423"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="Vh5-tA-6tk">
-            <objects>
-                <viewController id="AT3-my-Qyg" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sma-Be-aIi"/>
-                        <viewControllerLayoutGuide type="bottom" id="6Ty-5l-Y3s"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2yl-Pr-e3q">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="877-ld-qDF" customClass="LabeledJarView">
-                                <rect key="frame" x="47" y="79" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.78693121671676636" green="0.62380188703536987" blue="0.92162960767745972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adJ-6p-ceX">
-                                <rect key="frame" x="321" y="79" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.99830824136734009" green="0.0098257726058363914" blue="0.9241907000541687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D6X-jg-BeU">
-                                <rect key="frame" x="47" y="270" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JbJ-dZ-jnW">
-                                <rect key="frame" x="321" y="270" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.1149012539" green="0.73239203470000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="EtA-EY-FQ1"/>
-                    <navigationItem key="navigationItem" id="k5p-7k-IIg"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G8F-Fn-6WV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2460" y="372"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="LDm-Vf-0MH">
             <objects>
@@ -538,7 +500,7 @@
                                 <rect key="frame" x="0.0" y="264" width="600" height="72"/>
                                 <connections>
                                     <action selector="diabetesPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="cTM-Gv-vQd"/>
-                                    <segue destination="AT3-my-Qyg" kind="show" id="bYN-qL-TWN"/>
+                                    <segue destination="5dQ-aW-wUL" kind="show" id="cP6-LN-EMn"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVR-sb-t4t" userLabel="Category2" customClass="LessonCategoryView">
@@ -605,6 +567,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="360"/>
+        </scene>
+        <!--Select Lesson View Controller-->
+        <scene sceneID="Xcz-Qq-JsW">
+            <objects>
+                <viewController id="5dQ-aW-wUL" customClass="SelectLessonViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z8a-CH-y7w"/>
+                        <viewControllerLayoutGuide type="bottom" id="gwa-GH-coj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="10U-1m-sY4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9r-6Z-mqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2296" y="363"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">

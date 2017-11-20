@@ -12,7 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UIView *contentView;
 
-
 @end
 
 @implementation LabeledJarView
@@ -47,6 +46,8 @@
     [self addSubview:self.contentView];
 
     self.contentView.frame = self.bounds;
+
+    self.label.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
 }
 
 @end

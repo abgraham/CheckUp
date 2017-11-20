@@ -1,22 +1,21 @@
 //
-//  LessonPageViewController.m
+//  SelectLessonViewController.m
 //  CheckUp
 //
 //  Created by Annie Graham on 11/19/17.
 //  Copyright © 2017 Annie Graham. All rights reserved.
 //
 
-#import "LessonPageViewController.h"
+#import "SelectLessonViewController.h"
 
-@interface LessonPageViewController ()
-
-
+@interface SelectLessonViewController ()
 
 @end
 
-@implementation LessonPageViewController
+@implementation SelectLessonViewController
 
 - (void)viewDidLoad {
+    NSLog(@"Select Lesson View");
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

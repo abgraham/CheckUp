@@ -1,5 +1,5 @@
 //
-//  LabeledJarView.h
+//  SelectLessonViewController.h
 //  CheckUp
 //
 //  Created by Annie Graham on 11/19/17.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LabeledJarView : UIView
-
-@property (weak, nonatomic) IBOutlet UILabel *label;
-
+@interface SelectLessonViewController : UIViewController
 
 @end

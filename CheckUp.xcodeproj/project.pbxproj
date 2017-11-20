@@ -22,6 +22,8 @@
 		DE356EB91FC282B500932C5E /* Jar4.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EB51FC282B500932C5E /* Jar4.png */; };
 		DE356EBC1FC282EF00932C5E /* LabeledJarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EBB1FC282EF00932C5E /* LabeledJarView.m */; };
 		DE356EBE1FC2830000932C5E /* LabeledJarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EBD1FC2830000932C5E /* LabeledJarView.xib */; };
+		DE356EC21FC290B800932C5E /* SelectLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EC01FC290B800932C5E /* SelectLessonViewController.m */; };
+		DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EC11FC290B800932C5E /* SelectLessonViewController.xib */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -74,6 +76,9 @@
 		DE356EBA1FC282EF00932C5E /* LabeledJarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledJarView.h; sourceTree = "<group>"; };
 		DE356EBB1FC282EF00932C5E /* LabeledJarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledJarView.m; sourceTree = "<group>"; };
 		DE356EBD1FC2830000932C5E /* LabeledJarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabeledJarView.xib; sourceTree = "<group>"; };
+		DE356EBF1FC290B800932C5E /* SelectLessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLessonViewController.h; sourceTree = "<group>"; };
+		DE356EC01FC290B800932C5E /* SelectLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLessonViewController.m; sourceTree = "<group>"; };
+		DE356EC11FC290B800932C5E /* SelectLessonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLessonViewController.xib; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -220,6 +225,9 @@
 				DEF85E461FB521FC00EA2FB2 /* ProfileHomeViewController.m */,
 				DE356EA31FC2019D00932C5E /* RedeemFirstStepViewController.h */,
 				DE356EA41FC2019D00932C5E /* RedeemFirstStepViewController.m */,
+				DE356EBF1FC290B800932C5E /* SelectLessonViewController.h */,
+				DE356EC01FC290B800932C5E /* SelectLessonViewController.m */,
+				DE356EC11FC290B800932C5E /* SelectLessonViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -345,6 +353,7 @@
 			files = (
 				DE356EB91FC282B500932C5E /* Jar4.png in Resources */,
 				DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */,
+				DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */,
 				DE356EB81FC282B500932C5E /* Jar3.png in Resources */,
 				DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */,
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
@@ -384,6 +393,7 @@
 			files = (
 				DEF85E531FB534D000EA2FB2 /* HeaderView.m in Sources */,
 				DE356EB01FC2824A00932C5E /* LessonPageViewController.m in Sources */,
+				DE356EC21FC290B800932C5E /* SelectLessonViewController.m in Sources */,
 				DE356EBC1FC282EF00932C5E /* LabeledJarView.m in Sources */,
 				DEF85E101FB51FD700EA2FB2 /* LessonsHomeViewController.m in Sources */,
 				DEF85E481FB521FC00EA2FB2 /* ProfileHomeViewController.m in Sources */,
