@@ -7,8 +7,15 @@
 //
 
 #import "LessonsHomeViewController.h"
+#import "LessonCategoryView.h"
 
 @interface LessonsHomeViewController ()
+
+@property (weak, nonatomic) IBOutlet LessonCategoryView *category1;
+@property (weak, nonatomic) IBOutlet LessonCategoryView *category2;
+@property (weak, nonatomic) IBOutlet LessonCategoryView *category3;
+@property (weak, nonatomic) IBOutlet LessonCategoryView *category4;
+
 
 @end
 

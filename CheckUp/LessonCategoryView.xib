@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LessonCategoryView">
+            <connections>
+                <outlet property="berryIcon" destination="KzS-uy-ymf" id="ecu-t0-Z6l"/>
+                <outlet property="categoryNameLabel" destination="FJF-q5-f21" id="pvc-Mf-4cH"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="4WR-Mu-Txo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LessonCategoryView">
+            <rect key="frame" x="0.0" y="0.0" width="620" height="245"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D8r-Yw-DSA">
+                    <rect key="frame" x="0.0" y="0.0" width="620" height="245"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheckUpBerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="KzS-uy-ymf">
+                            <rect key="frame" x="439" y="54" width="130" height="126"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Category Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJF-q5-f21">
+                            <rect key="frame" x="91" y="82" width="227" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="D8r-Yw-DSA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7pY-bd-b3r"/>
+                <constraint firstAttribute="bottom" secondItem="D8r-Yw-DSA" secondAttribute="bottom" id="Txa-ej-MMM"/>
+                <constraint firstItem="D8r-Yw-DSA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iaa-Iz-G9O"/>
+                <constraint firstAttribute="trailing" secondItem="D8r-Yw-DSA" secondAttribute="trailing" id="jRm-nn-jxl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="267" y="112.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CheckUpBerry.png" width="174" height="174"/>
+    </resources>
+</document>

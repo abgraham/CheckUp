@@ -11,6 +11,9 @@
 		DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */; };
 		DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */; };
 		DE356EA51FC2019D00932C5E /* RedeemFirstStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EA41FC2019D00932C5E /* RedeemFirstStepViewController.m */; };
+		DE356EA81FC2707700932C5E /* LessonCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EA71FC2707700932C5E /* LessonCategoryView.m */; };
+		DE356EAA1FC2708D00932C5E /* LessonCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */; };
+		DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EAB1FC2733200932C5E /* CheckUpBerry.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -49,6 +52,10 @@
 		DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckUpProfilePhoto.png; path = ../../CheckUpProfilePhoto.png; sourceTree = "<group>"; };
 		DE356EA31FC2019D00932C5E /* RedeemFirstStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemFirstStepViewController.h; sourceTree = "<group>"; };
 		DE356EA41FC2019D00932C5E /* RedeemFirstStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemFirstStepViewController.m; sourceTree = "<group>"; };
+		DE356EA61FC2707700932C5E /* LessonCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonCategoryView.h; sourceTree = "<group>"; };
+		DE356EA71FC2707700932C5E /* LessonCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonCategoryView.m; sourceTree = "<group>"; };
+		DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonCategoryView.xib; sourceTree = "<group>"; };
+		DE356EAB1FC2733200932C5E /* CheckUpBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckUpBerry.png; path = ../../CheckUpBerry.png; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +114,7 @@
 				DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */,
 				DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */,
 				DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */,
+				DE356EAB1FC2733200932C5E /* CheckUpBerry.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -197,6 +205,9 @@
 				DEF85E4F1FB5331500EA2FB2 /* HeaderView.xib */,
 				DEF85E511FB534D000EA2FB2 /* HeaderView.h */,
 				DEF85E521FB534D000EA2FB2 /* HeaderView.m */,
+				DE356EA61FC2707700932C5E /* LessonCategoryView.h */,
+				DE356EA71FC2707700932C5E /* LessonCategoryView.m */,
+				DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -305,9 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */,
+				DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */,
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
+				DE356EAA1FC2708D00932C5E /* LessonCategoryView.xib in Resources */,
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
 				DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */,
@@ -340,6 +353,7 @@
 				DEF85E481FB521FC00EA2FB2 /* ProfileHomeViewController.m in Sources */,
 				DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */,
 				DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */,
+				DE356EA81FC2707700932C5E /* LessonCategoryView.m in Sources */,
 				DEF85E071FB51FD700EA2FB2 /* main.m in Sources */,
 				DEF85E431FB521E700EA2FB2 /* QuizzesHomeViewController.m in Sources */,
 				DE356EA51FC2019D00932C5E /* RedeemFirstStepViewController.m in Sources */,
