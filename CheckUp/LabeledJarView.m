@@ -47,7 +47,7 @@
 
     self.contentView.frame = self.bounds;
 
-    self.label.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
+    self.label.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];
 }
 
 @end

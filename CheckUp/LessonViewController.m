@@ -1,21 +1,20 @@
 //
-//  SelectLessonViewController.m
+//  LessonViewController.m
 //  CheckUp
 //
-//  Created by Annie Graham on 11/19/17.
+//  Created by Annie Graham on 11/20/17.
 //  Copyright © 2017 Annie Graham. All rights reserved.
 //
 
-#import "SelectLessonViewController.h"
+#import "LessonViewController.h"
 
-@interface SelectLessonViewController ()
+@interface LessonViewController ()
 
 @end
 
-@implementation SelectLessonViewController
+@implementation LessonViewController
 
 - (void)viewDidLoad {
-    NSLog(@"Select Lesson View");
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
@@ -23,11 +22,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)berry1Pressed:(id)sender {
-    SelectLessonViewController *lessonVC = [[SelectLessonViewController alloc] initWithNibName: @"LessonViewController" bundle: nil];
-    [self.navigationController showViewController:lessonVC sender:self];
 }
 
 /*

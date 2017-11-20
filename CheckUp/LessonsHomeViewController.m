@@ -9,6 +9,8 @@
 #import "LessonsHomeViewController.h"
 #import "LessonCategoryView.h"
 #import "HeaderView.h"
+#import "SelectLessonViewController.h"
+#import "MessagesHomeViewController.h"
 
 @interface LessonsHomeViewController ()
 @property (weak, nonatomic) IBOutlet HeaderView *headerView;
@@ -25,6 +27,12 @@
 @implementation LessonsHomeViewController
 - (IBAction)diabetesPressed:(id)sender {
     NSLog(@"Diabetes Pressed");
+    //UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    //SelectLessonViewController *selectLessonVC = [self.storyboard instantiateViewControllerWithIdentifier:@"SelectLessonsViewController"];
+    //SelectLessonViewController *selectLessonVC = [storyboard instantiateViewControllerWithIdentifier:@"SelectLessonViewController"];
+    //MessagesHomeViewController *selectLessonVC = [storyboard instantiateViewControllerWithIdentifier:@"MessagesHomeViewController"];
+    SelectLessonViewController *selectLessonVC = [[SelectLessonViewController alloc] initWithNibName: @"SelectLessonViewController" bundle: nil];
+    [self.navigationController showViewController:selectLessonVC sender:self];
 }
 
 - (void)viewDidLoad {

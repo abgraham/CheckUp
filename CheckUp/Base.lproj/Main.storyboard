@@ -500,7 +500,6 @@
                                 <rect key="frame" x="0.0" y="264" width="600" height="72"/>
                                 <connections>
                                     <action selector="diabetesPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="cTM-Gv-vQd"/>
-                                    <segue destination="5dQ-aW-wUL" kind="show" id="cP6-LN-EMn"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVR-sb-t4t" userLabel="Category2" customClass="LessonCategoryView">
@@ -567,24 +566,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="360"/>
-        </scene>
-        <!--Select Lesson View Controller-->
-        <scene sceneID="Xcz-Qq-JsW">
-            <objects>
-                <viewController id="5dQ-aW-wUL" customClass="SelectLessonViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Z8a-CH-y7w"/>
-                        <viewControllerLayoutGuide type="bottom" id="gwa-GH-coj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="10U-1m-sY4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z9r-6Z-mqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2296" y="363"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
