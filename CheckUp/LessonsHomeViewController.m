@@ -23,6 +23,9 @@
 @end
 
 @implementation LessonsHomeViewController
+- (IBAction)diabetesPressed:(id)sender {
+    NSLog(@"Diabetes Pressed");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -30,8 +33,8 @@
     NSLog(@"Lessons home");
     self.category1.categoryNameLabel.text = @"Diabetes";
     self.category2.categoryNameLabel.text = @"Hypertension";
-    self.category1.categoryNameLabel.text = @"Cancer";
-    self.category2.categoryNameLabel.text = @"Lupus";
+    self.category3.categoryNameLabel.text = @"Cancer";
+    self.category4.categoryNameLabel.text = @"Lupus";
     self.instructionsLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
     self.headerView.label.font = [UIFont fontWithName:@"Avenir-Light" size:22.0];
     self.category1.categoryNameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];

@@ -14,6 +14,14 @@
 		DE356EA81FC2707700932C5E /* LessonCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EA71FC2707700932C5E /* LessonCategoryView.m */; };
 		DE356EAA1FC2708D00932C5E /* LessonCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */; };
 		DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EAB1FC2733200932C5E /* CheckUpBerry.png */; };
+		DE356EB01FC2824A00932C5E /* LessonPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EAE1FC2824A00932C5E /* LessonPageViewController.m */; };
+		DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EAF1FC2824A00932C5E /* LessonPageViewController.xib */; };
+		DE356EB61FC282B500932C5E /* Jar1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EB21FC282B500932C5E /* Jar1.png */; };
+		DE356EB71FC282B500932C5E /* Jar2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EB31FC282B500932C5E /* Jar2.png */; };
+		DE356EB81FC282B500932C5E /* Jar3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EB41FC282B500932C5E /* Jar3.png */; };
+		DE356EB91FC282B500932C5E /* Jar4.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EB51FC282B500932C5E /* Jar4.png */; };
+		DE356EBC1FC282EF00932C5E /* LabeledJarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EBB1FC282EF00932C5E /* LabeledJarView.m */; };
+		DE356EBE1FC2830000932C5E /* LabeledJarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EBD1FC2830000932C5E /* LabeledJarView.xib */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -56,6 +64,16 @@
 		DE356EA71FC2707700932C5E /* LessonCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonCategoryView.m; sourceTree = "<group>"; };
 		DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonCategoryView.xib; sourceTree = "<group>"; };
 		DE356EAB1FC2733200932C5E /* CheckUpBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckUpBerry.png; path = ../../CheckUpBerry.png; sourceTree = "<group>"; };
+		DE356EAD1FC2824A00932C5E /* LessonPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonPageViewController.h; sourceTree = "<group>"; };
+		DE356EAE1FC2824A00932C5E /* LessonPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonPageViewController.m; sourceTree = "<group>"; };
+		DE356EAF1FC2824A00932C5E /* LessonPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonPageViewController.xib; sourceTree = "<group>"; };
+		DE356EB21FC282B500932C5E /* Jar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Jar1.png; path = ../../Jar1.png; sourceTree = "<group>"; };
+		DE356EB31FC282B500932C5E /* Jar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Jar2.png; path = ../../Jar2.png; sourceTree = "<group>"; };
+		DE356EB41FC282B500932C5E /* Jar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Jar3.png; path = ../../Jar3.png; sourceTree = "<group>"; };
+		DE356EB51FC282B500932C5E /* Jar4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Jar4.png; path = ../../Jar4.png; sourceTree = "<group>"; };
+		DE356EBA1FC282EF00932C5E /* LabeledJarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledJarView.h; sourceTree = "<group>"; };
+		DE356EBB1FC282EF00932C5E /* LabeledJarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledJarView.m; sourceTree = "<group>"; };
+		DE356EBD1FC2830000932C5E /* LabeledJarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabeledJarView.xib; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +133,10 @@
 				DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */,
 				DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */,
 				DE356EAB1FC2733200932C5E /* CheckUpBerry.png */,
+				DE356EB21FC282B500932C5E /* Jar1.png */,
+				DE356EB31FC282B500932C5E /* Jar2.png */,
+				DE356EB41FC282B500932C5E /* Jar3.png */,
+				DE356EB51FC282B500932C5E /* Jar4.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -185,6 +207,9 @@
 		DEF85E4A1FB5327F00EA2FB2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DE356EAD1FC2824A00932C5E /* LessonPageViewController.h */,
+				DE356EAE1FC2824A00932C5E /* LessonPageViewController.m */,
+				DE356EAF1FC2824A00932C5E /* LessonPageViewController.xib */,
 				DEF85E0B1FB51FD700EA2FB2 /* MessagesHomeViewController.h */,
 				DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */,
 				DEF85E0E1FB51FD700EA2FB2 /* LessonsHomeViewController.h */,
@@ -208,6 +233,9 @@
 				DE356EA91FC2708D00932C5E /* LessonCategoryView.xib */,
 				DE356EA61FC2707700932C5E /* LessonCategoryView.h */,
 				DE356EA71FC2707700932C5E /* LessonCategoryView.m */,
+				DE356EBA1FC282EF00932C5E /* LabeledJarView.h */,
+				DE356EBB1FC282EF00932C5E /* LabeledJarView.m */,
+				DE356EBD1FC2830000932C5E /* LabeledJarView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -315,15 +343,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE356EB91FC282B500932C5E /* Jar4.png in Resources */,
 				DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */,
+				DE356EB81FC282B500932C5E /* Jar3.png in Resources */,
 				DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */,
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
+				DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */,
+				DE356EB71FC282B500932C5E /* Jar2.png in Resources */,
+				DE356EBE1FC2830000932C5E /* LabeledJarView.xib in Resources */,
 				DE356EAA1FC2708D00932C5E /* LessonCategoryView.xib in Resources */,
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
 				DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */,
+				DE356EB61FC282B500932C5E /* Jar1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +383,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF85E531FB534D000EA2FB2 /* HeaderView.m in Sources */,
+				DE356EB01FC2824A00932C5E /* LessonPageViewController.m in Sources */,
+				DE356EBC1FC282EF00932C5E /* LabeledJarView.m in Sources */,
 				DEF85E101FB51FD700EA2FB2 /* LessonsHomeViewController.m in Sources */,
 				DEF85E481FB521FC00EA2FB2 /* ProfileHomeViewController.m in Sources */,
 				DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */,
