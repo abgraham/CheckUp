@@ -8,8 +8,11 @@
 
 #import "LessonsHomeViewController.h"
 #import "LessonCategoryView.h"
+#import "HeaderView.h"
 
 @interface LessonsHomeViewController ()
+@property (weak, nonatomic) IBOutlet HeaderView *headerView;
+@property (weak, nonatomic) IBOutlet UILabel *instructionsLabel;
 
 @property (weak, nonatomic) IBOutlet LessonCategoryView *category1;
 @property (weak, nonatomic) IBOutlet LessonCategoryView *category2;
@@ -29,6 +32,13 @@
     self.category2.categoryNameLabel.text = @"Hypertension";
     self.category1.categoryNameLabel.text = @"Cancer";
     self.category2.categoryNameLabel.text = @"Lupus";
+    self.instructionsLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
+    self.headerView.label.font = [UIFont fontWithName:@"Avenir-Light" size:22.0];
+    self.category1.categoryNameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
+    self.category2.categoryNameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
+    self.category3.categoryNameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
+    self.category4.categoryNameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
+    self.category4.dividerView.backgroundColor = [UIColor whiteColor];
 
 }
 

@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *berryIcon;
 @property (weak, nonatomic) IBOutlet UILabel *categoryNameLabel;
+@property (weak, nonatomic) IBOutlet UIView *dividerView;
 
 @end
