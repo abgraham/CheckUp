@@ -41,6 +41,13 @@
 		DE356EEA1FC4A07D00932C5E /* CompleteBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EE81FC4A07D00932C5E /* CompleteBerry.png */; };
 		DE356EED1FC4A11200932C5E /* LongIncompleteBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EEB1FC4A11200932C5E /* LongIncompleteBerry.png */; };
 		DE356EEE1FC4A11200932C5E /* LongCompleteBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EEC1FC4A11200932C5E /* LongCompleteBerry.png */; };
+		DE356EF21FC4A2D300932C5E /* LessonMessageBG.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EEF1FC4A2D300932C5E /* LessonMessageBG.png */; };
+		DE356EF31FC4A2D300932C5E /* ProfileMessageBG.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF01FC4A2D300932C5E /* ProfileMessageBG.png */; };
+		DE356EF41FC4A2D300932C5E /* QuizMessageBG.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF11FC4A2D300932C5E /* QuizMessageBG.png */; };
+		DE356EF91FC4A2DC00932C5E /* ProfileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF51FC4A2DC00932C5E /* ProfileIcon.png */; };
+		DE356EFA1FC4A2DC00932C5E /* NotificationsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF61FC4A2DC00932C5E /* NotificationsIcon.png */; };
+		DE356EFB1FC4A2DC00932C5E /* LearnIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF71FC4A2DC00932C5E /* LearnIcon.png */; };
+		DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF81FC4A2DC00932C5E /* QuizIcon.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -117,6 +124,13 @@
 		DE356EE81FC4A07D00932C5E /* CompleteBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CompleteBerry.png; path = ../../CompleteBerry.png; sourceTree = "<group>"; };
 		DE356EEB1FC4A11200932C5E /* LongIncompleteBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LongIncompleteBerry.png; path = ../../LongIncompleteBerry.png; sourceTree = "<group>"; };
 		DE356EEC1FC4A11200932C5E /* LongCompleteBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LongCompleteBerry.png; path = ../../LongCompleteBerry.png; sourceTree = "<group>"; };
+		DE356EEF1FC4A2D300932C5E /* LessonMessageBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LessonMessageBG.png; path = "../../../Downloads/drive-download-20171121T180432Z-001/LessonMessageBG.png"; sourceTree = "<group>"; };
+		DE356EF01FC4A2D300932C5E /* ProfileMessageBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProfileMessageBG.png; path = "../../../Downloads/drive-download-20171121T180432Z-001/ProfileMessageBG.png"; sourceTree = "<group>"; };
+		DE356EF11FC4A2D300932C5E /* QuizMessageBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuizMessageBG.png; path = "../../../Downloads/drive-download-20171121T180432Z-001/QuizMessageBG.png"; sourceTree = "<group>"; };
+		DE356EF51FC4A2DC00932C5E /* ProfileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProfileIcon.png; path = "../../../Downloads/drive-download-20171121T180432Z-001/ProfileIcon.png"; sourceTree = "<group>"; };
+		DE356EF61FC4A2DC00932C5E /* NotificationsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NotificationsIcon.png; path = "../../../Downloads/drive-download-20171121T180432Z-001/NotificationsIcon.png"; sourceTree = "<group>"; };
+		DE356EF71FC4A2DC00932C5E /* LearnIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LearnIcon.png; path = "../../../Downloads/drive-download-20171121T180432Z-001/LearnIcon.png"; sourceTree = "<group>"; };
+		DE356EF81FC4A2DC00932C5E /* QuizIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuizIcon.png; path = "../../../Downloads/drive-download-20171121T180432Z-001/QuizIcon.png"; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +204,13 @@
 				DE356EE81FC4A07D00932C5E /* CompleteBerry.png */,
 				DE356EEB1FC4A11200932C5E /* LongIncompleteBerry.png */,
 				DE356EEC1FC4A11200932C5E /* LongCompleteBerry.png */,
+				DE356EEF1FC4A2D300932C5E /* LessonMessageBG.png */,
+				DE356EF01FC4A2D300932C5E /* ProfileMessageBG.png */,
+				DE356EF11FC4A2D300932C5E /* QuizMessageBG.png */,
+				DE356EF51FC4A2DC00932C5E /* ProfileIcon.png */,
+				DE356EF61FC4A2DC00932C5E /* NotificationsIcon.png */,
+				DE356EF71FC4A2DC00932C5E /* LearnIcon.png */,
+				DE356EF81FC4A2DC00932C5E /* QuizIcon.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -414,8 +435,10 @@
 				DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */,
 				DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */,
 				DE356EE31FC49EE100932C5E /* QuizJarD.png in Resources */,
+				DE356EF91FC4A2DC00932C5E /* ProfileIcon.png in Resources */,
 				DE356EE91FC4A07D00932C5E /* IncompleteBerry.png in Resources */,
 				DE356EB81FC282B500932C5E /* Jar3.png in Resources */,
+				DE356EF21FC4A2D300932C5E /* LessonMessageBG.png in Resources */,
 				DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */,
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
@@ -425,8 +448,10 @@
 				DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */,
 				DE356EEA1FC4A07D00932C5E /* CompleteBerry.png in Resources */,
 				DE356ECA1FC3D42E00932C5E /* LessonStoryboard.storyboard in Resources */,
+				DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */,
 				DE356EB71FC282B500932C5E /* Jar2.png in Resources */,
 				DE356EBE1FC2830000932C5E /* LabeledJarView.xib in Resources */,
+				DE356EFB1FC4A2DC00932C5E /* LearnIcon.png in Resources */,
 				DE356ED21FC3F49900932C5E /* SmallButton.png in Resources */,
 				DE356EAA1FC2708D00932C5E /* LessonCategoryView.xib in Resources */,
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
@@ -434,7 +459,10 @@
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
 				DE356EEE1FC4A11200932C5E /* LongCompleteBerry.png in Resources */,
 				DE356EED1FC4A11200932C5E /* LongIncompleteBerry.png in Resources */,
+				DE356EF31FC4A2D300932C5E /* ProfileMessageBG.png in Resources */,
+				DE356EFA1FC4A2DC00932C5E /* NotificationsIcon.png in Resources */,
 				DE356ED41FC47AA900932C5E /* SampleLesson.png in Resources */,
+				DE356EF41FC4A2D300932C5E /* QuizMessageBG.png in Resources */,
 				DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */,
 				DE356EB61FC282B500932C5E /* Jar1.png in Resources */,
 				DE356EDE1FC4924100932C5E /* QuizPageViewController.xib in Resources */,

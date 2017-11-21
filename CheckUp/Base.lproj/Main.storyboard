@@ -19,7 +19,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbc-VD-Pph" customClass="HeaderView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.80102425813674927" green="0.92979329824447632" blue="0.6675298810005188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="ZDq-2t-jrU"/>
                                 </constraints>
@@ -27,7 +27,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AdS-bj-Vmi" userLabel="LessonsButtonView">
                                 <rect key="frame" x="7" y="123" width="586" height="135.5"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="XRM-Dm-Oqo">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LessonMessageBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="XRM-Dm-Oqo">
                                         <rect key="frame" x="0.0" y="0.0" width="586" height="135.5"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finish your Lesson!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APk-XQ-oeh" userLabel="Title">
@@ -48,7 +48,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="586" height="135.5"/>
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="lessonsPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Wlr-sj-rpq"/>
@@ -69,7 +69,7 @@
                                         </variation>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.50633776187896729" green="0.086954124271869659" blue="0.67261004447937012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="APk-XQ-oeh" firstAttribute="top" secondItem="AdS-bj-Vmi" secondAttribute="top" constant="25" id="0d0-oR-ZkM"/>
                                     <constraint firstItem="5hI-Hi-NLk" firstAttribute="top" secondItem="APk-XQ-oeh" secondAttribute="bottom" constant="7" id="1p8-wE-5Zj"/>
@@ -93,7 +93,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hp-Se-ve6" userLabel="QuizzesButtonView">
                                 <rect key="frame" x="7" y="265" width="586" height="136"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="9vL-Vs-8HC">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuizMessageBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="9vL-Vs-8HC">
                                         <rect key="frame" x="0.0" y="0.0" width="586" height="136"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've Got A Quiz Waiting" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrI-Ft-Tm2" userLabel="Title">
@@ -115,7 +115,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.079628296196460724" green="0.75470000505447388" blue="0.41925477981567383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="PIL-5g-xLx" secondAttribute="bottom" id="2E8-lJ-jTk"/>
                                     <constraint firstItem="PIL-5g-xLx" firstAttribute="top" secondItem="3hp-Se-ve6" secondAttribute="top" id="7Ui-r4-dVN"/>
@@ -136,7 +136,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klc-UD-Jyl" userLabel="RedeemButtonView">
                                 <rect key="frame" x="7" y="408" width="586" height="135.5"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cXh-d9-JnD">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProfileMessageBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="cXh-d9-JnD">
                                         <rect key="frame" x="0.0" y="0.0" width="586" height="135.5"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHk-zd-14u">
@@ -158,7 +158,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.99830824136734009" green="0.0098257726058363914" blue="0.9241907000541687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="jHk-zd-14u" firstAttribute="top" secondItem="klc-UD-Jyl" secondAttribute="top" id="7rT-ei-T5G"/>
                                     <constraint firstAttribute="bottom" secondItem="cXh-d9-JnD" secondAttribute="bottom" id="FXL-28-ms5"/>
@@ -201,7 +201,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Messages" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Messages" image="NotificationsIcon.png" selectedImage="NotificationsIcon.png" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="headerView" destination="Jbc-VD-Pph" id="ebt-iM-37c"/>
                         <outlet property="lessonsButton" destination="PKK-gl-P9c" id="ZaI-Pc-jHQ"/>
@@ -349,7 +349,7 @@
         <!--Quizzes Home View Controller-->
         <scene sceneID="tL7-W6-rZ2">
             <objects>
-                <viewController storyboardIdentifier="quizHome" id="Eiu-7R-Fuc" customClass="QuizzesHomeViewController" sceneMemberID="viewController">
+                <viewController id="Eiu-7R-Fuc" customClass="QuizzesHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DNX-v1-0H8"/>
                         <viewControllerLayoutGuide type="bottom" id="uKB-Gn-asb"/>
@@ -592,7 +592,7 @@
         <scene sceneID="gnn-nP-12h">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="FBV-tz-x3T" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="SiD-Rm-rcP"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="ProfileIcon.png" selectedImage="ProfileIcon.png" id="SiD-Rm-rcP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zuV-vH-o3C">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -611,7 +611,7 @@
         <scene sceneID="GVJ-Zn-W7B">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="CAb-av-weD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Lessons" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Lessons" image="LearnIcon.png" selectedImage="LearnIcon.png" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1CJ-GX-K2F">
@@ -631,7 +631,7 @@
         <scene sceneID="EA4-I3-mBR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="YmV-ba-0XH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Quizzes" id="HDV-Ol-mtU" userLabel="Quizzes"/>
+                    <tabBarItem key="tabBarItem" title="Quizzes" image="QuizIcon.png" selectedImage="QuizIcon.png" id="HDV-Ol-mtU" userLabel="Quizzes"/>
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rmq-qr-SQO">
@@ -652,7 +652,12 @@
         <image name="CheckUpHeader.jpeg" width="1496" height="478"/>
         <image name="CheckUpProfileIcon.png" width="78" height="74"/>
         <image name="CheckUpProfilePhoto.png" width="240" height="248"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="LearnIcon.png" width="36" height="39"/>
+        <image name="LessonMessageBG.png" width="336" height="142"/>
+        <image name="NotificationsIcon.png" width="36" height="39"/>
+        <image name="ProfileIcon.png" width="36" height="39"/>
+        <image name="ProfileMessageBG.png" width="336" height="142"/>
+        <image name="QuizIcon.png" width="36" height="39"/>
+        <image name="QuizMessageBG.png" width="336" height="142"/>
     </resources>
 </document>
