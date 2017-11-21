@@ -55,24 +55,36 @@
                     <state key="normal" title="answerB">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="answerBPressed:" destination="-1" eventType="touchUpInside" id="EbG-E0-suO"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m45-EB-hFW">
                     <rect key="frame" x="240" y="436" width="60" height="30"/>
                     <state key="normal" title="answerC">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="answerCPressed:" destination="-1" eventType="touchUpInside" id="qvb-hz-go3"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPt-5H-58s">
                     <rect key="frame" x="240" y="474" width="60" height="30"/>
                     <state key="normal" title="answerD">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="answerDPressed:" destination="-1" eventType="touchUpInside" id="z9s-pX-Wid"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smi-Z7-hhn">
                     <rect key="frame" x="240" y="360" width="59" height="30"/>
                     <state key="normal" title="answerA">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="answerAPressed:" destination="-1" eventType="touchUpInside" id="qQQ-ua-PKa"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

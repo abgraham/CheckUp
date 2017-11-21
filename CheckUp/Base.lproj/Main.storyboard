@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Messages-->
@@ -289,6 +290,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Vt-Km-3At">
                                 <rect key="frame" x="25" y="385" width="96" height="30"/>
                                 <state key="normal" title="Your Progress"/>
+                                <connections>
+                                    <segue destination="h8w-td-UPg" kind="show" id="05i-pE-hKX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -327,6 +331,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1t-Gn-s9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="684" y="1423"/>
+        </scene>
+        <!--Progress View Controller-->
+        <scene sceneID="Nqi-Xg-uDt">
+            <objects>
+                <viewController id="h8w-td-UPg" customClass="ProgressViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zdL-sb-fVO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yj8-Rw-2X9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KDX-4H-AbH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKn-iS-dxP" customClass="HeaderView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="147"/>
+                                <color key="backgroundColor" red="0.80102425813674927" green="0.92979329824447632" blue="0.6675298810005188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="unD-aP-fO8"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6Y-xA-pkL">
+                                <rect key="frame" x="45" y="45" width="34" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YQo-SP-tO3" kind="show" id="8Ty-nI-ABj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProgressPlaceholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="8l7-rt-nd3">
+                                <rect key="frame" x="150" y="162" width="300" height="348"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="EMx-aK-6CE"/>
+                                    <constraint firstAttribute="height" constant="348" id="uxv-Ga-x8I"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YKn-iS-dxP" firstAttribute="leading" secondItem="KDX-4H-AbH" secondAttribute="leading" id="U6i-DH-56a"/>
+                            <constraint firstItem="b6Y-xA-pkL" firstAttribute="leading" secondItem="KDX-4H-AbH" secondAttribute="leadingMargin" constant="25" id="b3B-Wo-NGJ"/>
+                            <constraint firstItem="YKn-iS-dxP" firstAttribute="top" secondItem="KDX-4H-AbH" secondAttribute="top" id="e4o-dp-YUa"/>
+                            <constraint firstItem="8l7-rt-nd3" firstAttribute="centerX" secondItem="KDX-4H-AbH" secondAttribute="centerX" id="iSQ-l8-XwX"/>
+                            <constraint firstAttribute="trailing" secondItem="YKn-iS-dxP" secondAttribute="trailing" id="lfS-t7-zWc"/>
+                            <constraint firstItem="b6Y-xA-pkL" firstAttribute="top" secondItem="zdL-sb-fVO" secondAttribute="bottom" constant="25" id="sse-vT-nWG"/>
+                            <constraint firstItem="8l7-rt-nd3" firstAttribute="top" secondItem="YKn-iS-dxP" secondAttribute="bottom" constant="15" id="yi9-UH-osb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="b6Y-xA-pkL" id="JGa-Ru-TFM"/>
+                        <outlet property="header" destination="YKn-iS-dxP" id="unK-HF-pJZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QKR-XD-5Wo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="612" y="2263"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LDm-Vf-0MH">
@@ -657,7 +717,11 @@
         <image name="NotificationsIcon.png" width="36" height="39"/>
         <image name="ProfileIcon.png" width="36" height="39"/>
         <image name="ProfileMessageBG.png" width="336" height="142"/>
+        <image name="ProgressPlaceholder.png" width="696" height="920"/>
         <image name="QuizIcon.png" width="36" height="39"/>
         <image name="QuizMessageBG.png" width="336" height="142"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="8Ty-nI-ABj"/>
+    </inferredMetricsTieBreakers>
 </document>
