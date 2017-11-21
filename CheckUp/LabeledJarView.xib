@@ -14,27 +14,27 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Content View">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <rect key="frame" x="0.0" y="0.0" width="590" height="256"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i6W-uK-Jc2">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <rect key="frame" x="0.0" y="0.0" width="590" height="256"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jar1.png" translatesAutoresizingMaskIntoConstraints="NO" id="uyK-U6-FF1">
-                            <rect key="frame" x="242" y="15" width="115" height="115"/>
+                            <rect key="frame" x="237" y="15" width="115" height="160"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="115" id="bPg-rk-zYi"/>
+                                <constraint firstAttribute="height" constant="160" id="bPg-rk-zYi"/>
                                 <constraint firstAttribute="width" constant="115" id="bRk-1V-s0n"/>
                             </constraints>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SmallButton.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Xv-gk-GBH" userLabel="labelImage">
-                            <rect key="frame" x="235" y="145" width="130" height="41"/>
+                            <rect key="frame" x="230" y="190" width="130" height="41"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="41" id="8fc-Kl-656"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sneaky Sugar Module" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtE-tt-ojd">
-                            <rect key="frame" x="235" y="145" width="130" height="41"/>
+                            <rect key="frame" x="230" y="190" width="130" height="41"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="130" id="rOD-4l-OP0"/>
                             </constraints>
@@ -48,12 +48,18 @@
                         <constraint firstItem="9Xv-gk-GBH" firstAttribute="width" secondItem="YtE-tt-ojd" secondAttribute="width" id="4iA-QH-34F"/>
                         <constraint firstItem="YtE-tt-ojd" firstAttribute="centerX" secondItem="i6W-uK-Jc2" secondAttribute="centerX" id="89x-ec-7cD"/>
                         <constraint firstItem="YtE-tt-ojd" firstAttribute="centerY" secondItem="9Xv-gk-GBH" secondAttribute="centerY" id="Nwf-pT-TKV"/>
+                        <constraint firstAttribute="bottom" secondItem="YtE-tt-ojd" secondAttribute="bottom" constant="25" id="PVv-P3-DfG"/>
                         <constraint firstItem="uyK-U6-FF1" firstAttribute="centerX" secondItem="i6W-uK-Jc2" secondAttribute="centerX" id="XxA-pY-TBq"/>
                         <constraint firstItem="9Xv-gk-GBH" firstAttribute="bottom" secondItem="YtE-tt-ojd" secondAttribute="bottom" id="cpH-Zg-Wr3"/>
                         <constraint firstItem="9Xv-gk-GBH" firstAttribute="top" secondItem="uyK-U6-FF1" secondAttribute="bottom" constant="15" id="eWy-Jn-6bU"/>
                         <constraint firstItem="uyK-U6-FF1" firstAttribute="top" secondItem="i6W-uK-Jc2" secondAttribute="top" constant="15" id="v1P-nq-Xld"/>
                         <constraint firstItem="9Xv-gk-GBH" firstAttribute="centerX" secondItem="i6W-uK-Jc2" secondAttribute="centerX" id="vtT-P6-iDi"/>
                     </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="PVv-P3-DfG"/>
+                        </mask>
+                    </variation>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -63,6 +69,8 @@
                 <constraint firstAttribute="bottom" secondItem="i6W-uK-Jc2" secondAttribute="bottom" id="KEr-F2-bcd"/>
                 <constraint firstItem="i6W-uK-Jc2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qPl-bw-gik"/>
             </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="418" y="123"/>
         </view>
     </objects>
     <resources>
