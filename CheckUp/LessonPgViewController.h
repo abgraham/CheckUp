@@ -1,5 +1,5 @@
 //
-//  LessonViewController.h
+//  LessonPgViewController.h
 //  CheckUp
 //
 //  Created by Annie Graham on 11/20/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LessonViewController : UIViewController
+@interface LessonPgViewController : UIViewController
 
-@property NSString *categoryName;
+@property NSString *pageCode;
 
 @end

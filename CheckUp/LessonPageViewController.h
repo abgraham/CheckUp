@@ -10,4 +10,6 @@
 
 @interface LessonPageViewController : UIViewController
 
+@property NSString *pageCode;
+
 @end

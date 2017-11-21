@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LessonPageViewController">
             <connections>
+                <outlet property="questionLabel" destination="IRH-8G-UrB" id="yYk-K9-Ks9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,34 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're on a lesson page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWM-kN-bBI">
+                    <rect key="frame" x="209.5" y="289.5" width="181" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to be healthy?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRH-8G-UrB">
+                    <rect key="frame" x="196.5" y="344.5" width="207.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-Vg-awU">
+                    <rect key="frame" x="304" y="484" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="nextPageButton:" destination="-1" eventType="touchUpInside" id="KvO-kB-Pak"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tWM-kN-bBI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8as-37-hQU"/>
+                <constraint firstItem="IRH-8G-UrB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AnH-nq-5kw"/>
+                <constraint firstItem="IRH-8G-UrB" firstAttribute="top" secondItem="tWM-kN-bBI" secondAttribute="bottom" constant="34" id="VSr-VV-U9y"/>
+                <constraint firstItem="tWM-kN-bBI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="uLR-uL-cu0"/>
+            </constraints>
         </view>
     </objects>
 </document>

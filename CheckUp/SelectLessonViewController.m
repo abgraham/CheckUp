@@ -26,8 +26,13 @@
 }
 
 - (IBAction)berry1Pressed:(id)sender {
-    SelectLessonViewController *lessonVC = [[SelectLessonViewController alloc] initWithNibName: @"LessonViewController" bundle: nil];
-    [self.navigationController showViewController:lessonVC sender:self];
+    //SelectLessonViewController *lessonVC = [[SelectLessonViewController alloc] initWithNibName: @"LessonViewController" bundle: nil];
+    //[self.navigationController showViewController:lessonVC sender:self];
+
+
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LessonStoryboard" bundle:nil];
+    UIViewController *myVC = [storyboard instantiateViewControllerWithIdentifier:@"FirstVC"];
+    [self.navigationController showViewController:myVC sender:self];
 }
 
 /*

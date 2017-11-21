@@ -1,30 +1,29 @@
 //
-//  LessonPageViewController.m
+//  LessonPgViewController.m
 //  CheckUp
 //
-//  Created by Annie Graham on 11/19/17.
+//  Created by Annie Graham on 11/20/17.
 //  Copyright © 2017 Annie Graham. All rights reserved.
 //
 
+#import "LessonPgViewController.h"
 #import "LessonPageViewController.h"
 
-@interface LessonPageViewController ()
-
+@interface LessonPgViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
-
 
 @end
 
-@implementation LessonPageViewController
+@implementation LessonPgViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
     if (!self.pageCode){
         self.pageCode = @"1";
     }
     if ([self.pageCode isEqualToString:@"1"]){
-    _questionLabel.text = @"Yes I want to be healthy!";
+        _questionLabel.text = @"Yes I want to be healthy!";
     } else if ([self.pageCode isEqualToString:@"2"]) {
         _questionLabel.text = @"No thanks.";
     }
@@ -34,16 +33,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 - (IBAction)nextPageButton:(id)sender {
-    if ([self.pageCode isEqualToString:@"1"]){
-        self.pageCode = @"2";
-    } else {
-    LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
-    lessonPageVC.pageCode = self.pageCode;
-    [self.navigationController showViewController:lessonPageVC sender:self];
-    }
+    //if ([self.pageCode isEqualToString:@"1"]){
+        //self.pageCode = @"2";
+    //} else {
 
+        LessonPageViewController *lessonPgVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        lessonPgVC.pageCode = self.pageCode;
+        [self.navigationController showViewController:lessonPgVC sender:self];
+    //}
 }
 
 /*

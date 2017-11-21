@@ -26,6 +26,9 @@
 		DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EC11FC290B800932C5E /* SelectLessonViewController.xib */; };
 		DE356EC71FC361A300932C5E /* LessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EC51FC361A300932C5E /* LessonViewController.m */; };
 		DE356EC81FC361A300932C5E /* LessonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EC61FC361A300932C5E /* LessonViewController.xib */; };
+		DE356ECA1FC3D42E00932C5E /* LessonStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE356EC91FC3D42E00932C5E /* LessonStoryboard.storyboard */; };
+		DE356ECD1FC3DA6300932C5E /* LessonController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356ECC1FC3DA6300932C5E /* LessonController.m */; };
+		DE356ED01FC3E3F700932C5E /* LessonPgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356ECF1FC3E3F700932C5E /* LessonPgViewController.m */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -84,6 +87,11 @@
 		DE356EC41FC361A300932C5E /* LessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonViewController.h; sourceTree = "<group>"; };
 		DE356EC51FC361A300932C5E /* LessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonViewController.m; sourceTree = "<group>"; };
 		DE356EC61FC361A300932C5E /* LessonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonViewController.xib; sourceTree = "<group>"; };
+		DE356EC91FC3D42E00932C5E /* LessonStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LessonStoryboard.storyboard; sourceTree = "<group>"; };
+		DE356ECB1FC3DA6300932C5E /* LessonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonController.h; sourceTree = "<group>"; };
+		DE356ECC1FC3DA6300932C5E /* LessonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonController.m; sourceTree = "<group>"; };
+		DE356ECE1FC3E3F700932C5E /* LessonPgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonPgViewController.h; sourceTree = "<group>"; };
+		DE356ECF1FC3E3F700932C5E /* LessonPgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonPgViewController.m; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +188,9 @@
 				DEF85E4B1FB5328B00EA2FB2 /* Views */,
 				DEF85E4A1FB5327F00EA2FB2 /* ViewControllers */,
 				DEF85E111FB51FD700EA2FB2 /* Main.storyboard */,
+				DE356EC91FC3D42E00932C5E /* LessonStoryboard.storyboard */,
+				DE356ECB1FC3DA6300932C5E /* LessonController.h */,
+				DE356ECC1FC3DA6300932C5E /* LessonController.m */,
 				DEF85E141FB51FD700EA2FB2 /* Assets.xcassets */,
 				DEF85E161FB51FD700EA2FB2 /* LaunchScreen.storyboard */,
 				DEF85E191FB51FD700EA2FB2 /* Info.plist */,
@@ -220,6 +231,8 @@
 				DE356EAD1FC2824A00932C5E /* LessonPageViewController.h */,
 				DE356EAE1FC2824A00932C5E /* LessonPageViewController.m */,
 				DE356EAF1FC2824A00932C5E /* LessonPageViewController.xib */,
+				DE356ECE1FC3E3F700932C5E /* LessonPgViewController.h */,
+				DE356ECF1FC3E3F700932C5E /* LessonPgViewController.m */,
 				DEF85E0B1FB51FD700EA2FB2 /* MessagesHomeViewController.h */,
 				DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */,
 				DEF85E0E1FB51FD700EA2FB2 /* LessonsHomeViewController.h */,
@@ -368,6 +381,7 @@
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
 				DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */,
+				DE356ECA1FC3D42E00932C5E /* LessonStoryboard.storyboard in Resources */,
 				DE356EB71FC282B500932C5E /* Jar2.png in Resources */,
 				DE356EBE1FC2830000932C5E /* LabeledJarView.xib in Resources */,
 				DE356EAA1FC2708D00932C5E /* LessonCategoryView.xib in Resources */,
@@ -411,8 +425,10 @@
 				DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */,
 				DE356EA81FC2707700932C5E /* LessonCategoryView.m in Sources */,
 				DEF85E071FB51FD700EA2FB2 /* main.m in Sources */,
+				DE356ECD1FC3DA6300932C5E /* LessonController.m in Sources */,
 				DEF85E431FB521E700EA2FB2 /* QuizzesHomeViewController.m in Sources */,
 				DE356EA51FC2019D00932C5E /* RedeemFirstStepViewController.m in Sources */,
+				DE356ED01FC3E3F700932C5E /* LessonPgViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
