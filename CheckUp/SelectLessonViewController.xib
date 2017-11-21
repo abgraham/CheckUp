@@ -27,18 +27,18 @@
                     </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G0k-Ge-D1S" userLabel="Berry3" customClass="LabeledJarView">
-                    <rect key="frame" x="25" y="321.5" width="255" height="253"/>
+                    <rect key="frame" x="25" y="321.5" width="262.5" height="253"/>
                     <color key="backgroundColor" red="0.61785578727722168" green="0.92581003904342651" blue="0.71136420965194702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWN-R5-qRK" userLabel="Lesson3Button">
-                    <rect key="frame" x="25" y="322.5" width="255" height="252"/>
+                    <rect key="frame" x="25" y="322.5" width="262.5" height="252"/>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQj-cY-871" userLabel="Berry4" customClass="LabeledJarView">
-                    <rect key="frame" x="305" y="326.5" width="255" height="253"/>
+                    <rect key="frame" x="312.5" y="326.5" width="262.5" height="253"/>
                     <color key="backgroundColor" red="0.81636077165603638" green="0.92549735307693481" blue="0.95097368955612183" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfP-Tm-w8x" userLabel="Lesson4Button">
-                    <rect key="frame" x="305" y="328.5" width="255" height="251"/>
+                    <rect key="frame" x="312.5" y="328.5" width="262.5" height="251"/>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zqh-cd-aua" userLabel="Berry2" customClass="LabeledJarView">
                     <rect key="frame" x="312" y="73" width="262.5" height="253.5"/>
@@ -55,9 +55,6 @@
                     <state key="normal" title="Back" backgroundImage="SmallButton.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <connections>
-                        <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="PzX-y4-3DL"/>
-                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -78,6 +75,7 @@
                 <constraint firstItem="G0k-Ge-D1S" firstAttribute="top" secondItem="1sO-wh-LV5" secondAttribute="bottom" id="HQf-Ts-7Oc"/>
                 <constraint firstAttribute="bottom" secondItem="BQj-cY-871" secondAttribute="bottom" constant="10" id="HVG-bo-o3r"/>
                 <constraint firstItem="yfP-Tm-w8x" firstAttribute="top" secondItem="wvh-7J-j18" secondAttribute="bottom" id="L4P-da-nKM"/>
+                <constraint firstItem="G0k-Ge-D1S" firstAttribute="width" secondItem="1sO-wh-LV5" secondAttribute="width" id="Lq4-dC-zLh"/>
                 <constraint firstAttribute="bottom" secondItem="G0k-Ge-D1S" secondAttribute="bottom" constant="25" id="N26-uq-pdV"/>
                 <constraint firstItem="wvh-7J-j18" firstAttribute="top" secondItem="Zqh-cd-aua" secondAttribute="top" id="O5N-Tf-bwc"/>
                 <constraint firstItem="H8N-Ub-gFR" firstAttribute="leading" secondItem="OQO-px-CLz" secondAttribute="leading" id="RQq-Po-XSS"/>
@@ -97,7 +95,6 @@
                 <constraint firstItem="eWN-R5-qRK" firstAttribute="centerX" secondItem="G0k-Ge-D1S" secondAttribute="centerX" id="va7-aF-BGK"/>
                 <constraint firstItem="BQj-cY-871" firstAttribute="leading" secondItem="G0k-Ge-D1S" secondAttribute="trailing" constant="25" id="xa2-cf-thQ"/>
                 <constraint firstItem="1sO-wh-LV5" firstAttribute="width" secondItem="Zqh-cd-aua" secondAttribute="width" id="xyB-h7-Mko"/>
-                <constraint firstAttribute="trailing" secondItem="BQj-cY-871" secondAttribute="trailing" constant="40" id="zYn-Bq-NdD"/>
             </constraints>
             <variation key="default">
                 <mask key="constraints">
