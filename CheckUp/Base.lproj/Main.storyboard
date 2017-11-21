@@ -346,10 +346,10 @@
             </objects>
             <point key="canvasLocation" x="3784" y="360"/>
         </scene>
-        <!--Quizzes-->
+        <!--Quizzes Home View Controller-->
         <scene sceneID="tL7-W6-rZ2">
             <objects>
-                <viewController id="Eiu-7R-Fuc" customClass="QuizzesHomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="quizHome" id="Eiu-7R-Fuc" customClass="QuizzesHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DNX-v1-0H8"/>
                         <viewControllerLayoutGuide type="bottom" id="uKB-Gn-asb"/>
@@ -359,12 +359,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quizzes" id="HDV-Ol-mtU" userLabel="Quizzes"/>
+                    <navigationItem key="navigationItem" id="gyq-U8-I3l"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ym6-8Z-v7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1372" y="1227"/>
+            <point key="canvasLocation" x="2184" y="1227"/>
         </scene>
         <!--Redeem First Step View Controller-->
         <scene sceneID="5OX-38-iN7">
@@ -580,7 +580,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="CAb-av-weD" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="Eiu-7R-Fuc" kind="relationship" relationship="viewControllers" id="f0u-Zt-0Ce"/>
+                        <segue destination="YmV-ba-0XH" kind="relationship" relationship="viewControllers" id="f0u-Zt-0Ce"/>
                         <segue destination="FBV-tz-x3T" kind="relationship" relationship="viewControllers" id="7aN-mm-L0B"/>
                     </connections>
                 </tabBarController>
@@ -626,6 +626,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eUr-5F-Kcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Quizzes-->
+        <scene sceneID="EA4-I3-mBR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="YmV-ba-0XH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Quizzes" id="HDV-Ol-mtU" userLabel="Quizzes"/>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rmq-qr-SQO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Eiu-7R-Fuc" kind="relationship" relationship="rootViewController" id="eJk-Vr-Ogi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5kQ-9s-aud" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1372" y="1227"/>
         </scene>
     </scenes>
     <resources>

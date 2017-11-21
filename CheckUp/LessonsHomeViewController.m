@@ -32,6 +32,7 @@
     //SelectLessonViewController *selectLessonVC = [storyboard instantiateViewControllerWithIdentifier:@"SelectLessonViewController"];
     //MessagesHomeViewController *selectLessonVC = [storyboard instantiateViewControllerWithIdentifier:@"MessagesHomeViewController"];
     SelectLessonViewController *selectLessonVC = [[SelectLessonViewController alloc] initWithNibName: @"SelectLessonViewController" bundle: nil];
+    selectLessonVC.lessonsOrQuizzes = @"Lessons";
     [self.navigationController showViewController:selectLessonVC sender:self];
 }
 

@@ -8,6 +8,7 @@
 
 #import "SelectLessonViewController.h"
 #import "LessonPageViewController.h"
+#import "QuizPageViewController.h"
 
 @interface SelectLessonViewController ()
 
@@ -35,8 +36,16 @@
 //    UIViewController *myVC = [storyboard instantiateViewControllerWithIdentifier:@"FirstVC"];
 //    [self.navigationController showViewController:myVC sender:self];
 
-    LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
-    [self.navigationController showViewController:lessonPageVC sender:self];
+    if ([self.lessonsOrQuizzes
+        isEqualToString:@"Lessons"]){
+        // Go to lessons pages
+        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        [self.navigationController showViewController:lessonPageVC sender:self];
+    } else {
+        // Go to quiz pages
+        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+        [self.navigationController showViewController:quizPageVC sender:self];
+    }
 }
 
 /*

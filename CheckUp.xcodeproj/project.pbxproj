@@ -31,6 +31,8 @@
 		DE356ED01FC3E3F700932C5E /* LessonPgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356ECF1FC3E3F700932C5E /* LessonPgViewController.m */; };
 		DE356ED21FC3F49900932C5E /* SmallButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356ED11FC3F49900932C5E /* SmallButton.png */; };
 		DE356ED41FC47AA900932C5E /* SampleLesson.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356ED31FC47AA900932C5E /* SampleLesson.png */; };
+		DE356EDD1FC4924100932C5E /* QuizPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EDB1FC4924100932C5E /* QuizPageViewController.m */; };
+		DE356EDE1FC4924100932C5E /* QuizPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EDC1FC4924100932C5E /* QuizPageViewController.xib */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -96,6 +98,9 @@
 		DE356ECF1FC3E3F700932C5E /* LessonPgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonPgViewController.m; sourceTree = "<group>"; };
 		DE356ED11FC3F49900932C5E /* SmallButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SmallButton.png; path = ../../../Downloads/SmallButton.png; sourceTree = "<group>"; };
 		DE356ED31FC47AA900932C5E /* SampleLesson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SampleLesson.png; path = ../../SampleLesson.png; sourceTree = "<group>"; };
+		DE356EDA1FC4924100932C5E /* QuizPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizPageViewController.h; sourceTree = "<group>"; };
+		DE356EDB1FC4924100932C5E /* QuizPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizPageViewController.m; sourceTree = "<group>"; };
+		DE356EDC1FC4924100932C5E /* QuizPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizPageViewController.xib; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -255,6 +260,9 @@
 				DE356EC41FC361A300932C5E /* LessonViewController.h */,
 				DE356EC51FC361A300932C5E /* LessonViewController.m */,
 				DE356EC61FC361A300932C5E /* LessonViewController.xib */,
+				DE356EDA1FC4924100932C5E /* QuizPageViewController.h */,
+				DE356EDB1FC4924100932C5E /* QuizPageViewController.m */,
+				DE356EDC1FC4924100932C5E /* QuizPageViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -398,6 +406,7 @@
 				DE356ED41FC47AA900932C5E /* SampleLesson.png in Resources */,
 				DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */,
 				DE356EB61FC282B500932C5E /* Jar1.png in Resources */,
+				DE356EDE1FC4924100932C5E /* QuizPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +439,7 @@
 				DE356EC71FC361A300932C5E /* LessonViewController.m in Sources */,
 				DEF85E481FB521FC00EA2FB2 /* ProfileHomeViewController.m in Sources */,
 				DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */,
+				DE356EDD1FC4924100932C5E /* QuizPageViewController.m in Sources */,
 				DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */,
 				DE356EA81FC2707700932C5E /* LessonCategoryView.m in Sources */,
 				DEF85E071FB51FD700EA2FB2 /* main.m in Sources */,

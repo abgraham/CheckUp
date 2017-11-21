@@ -10,4 +10,7 @@
 
 @interface SelectLessonViewController : UIViewController
 
+// Indicates whether the VC should show lessons or quizzes
+@property NSString *lessonsOrQuizzes;
+
 @end

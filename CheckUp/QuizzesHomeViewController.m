@@ -7,6 +7,7 @@
 //
 
 #import "QuizzesHomeViewController.h"
+#import "SelectLessonViewController.h"
 
 @interface QuizzesHomeViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Quizzes home");
-    // Do any additional setup after loading the view from its nib.
+    SelectLessonViewController *selectLessonVC = [[SelectLessonViewController alloc] initWithNibName: @"SelectLessonViewController" bundle: nil];
+    selectLessonVC.lessonsOrQuizzes = @"Quizzes";
+    [self.navigationController showViewController:selectLessonVC sender:self];
 }
 
 - (void)didReceiveMemoryWarning {
