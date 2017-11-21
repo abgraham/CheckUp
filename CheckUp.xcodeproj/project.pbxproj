@@ -33,6 +33,14 @@
 		DE356ED41FC47AA900932C5E /* SampleLesson.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356ED31FC47AA900932C5E /* SampleLesson.png */; };
 		DE356EDD1FC4924100932C5E /* QuizPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EDB1FC4924100932C5E /* QuizPageViewController.m */; };
 		DE356EDE1FC4924100932C5E /* QuizPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EDC1FC4924100932C5E /* QuizPageViewController.xib */; };
+		DE356EE31FC49EE100932C5E /* QuizJarD.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EDF1FC49EE100932C5E /* QuizJarD.png */; };
+		DE356EE41FC49EE100932C5E /* QuizJarC.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EE01FC49EE100932C5E /* QuizJarC.png */; };
+		DE356EE51FC49EE100932C5E /* QuizJarB.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EE11FC49EE100932C5E /* QuizJarB.png */; };
+		DE356EE61FC49EE100932C5E /* QuizJarA.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EE21FC49EE100932C5E /* QuizJarA.png */; };
+		DE356EE91FC4A07D00932C5E /* IncompleteBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EE71FC4A07D00932C5E /* IncompleteBerry.png */; };
+		DE356EEA1FC4A07D00932C5E /* CompleteBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EE81FC4A07D00932C5E /* CompleteBerry.png */; };
+		DE356EED1FC4A11200932C5E /* LongIncompleteBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EEB1FC4A11200932C5E /* LongIncompleteBerry.png */; };
+		DE356EEE1FC4A11200932C5E /* LongCompleteBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EEC1FC4A11200932C5E /* LongCompleteBerry.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -101,6 +109,14 @@
 		DE356EDA1FC4924100932C5E /* QuizPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizPageViewController.h; sourceTree = "<group>"; };
 		DE356EDB1FC4924100932C5E /* QuizPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizPageViewController.m; sourceTree = "<group>"; };
 		DE356EDC1FC4924100932C5E /* QuizPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizPageViewController.xib; sourceTree = "<group>"; };
+		DE356EDF1FC49EE100932C5E /* QuizJarD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuizJarD.png; path = ../../QuizJarD.png; sourceTree = "<group>"; };
+		DE356EE01FC49EE100932C5E /* QuizJarC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuizJarC.png; path = ../../QuizJarC.png; sourceTree = "<group>"; };
+		DE356EE11FC49EE100932C5E /* QuizJarB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuizJarB.png; path = ../../QuizJarB.png; sourceTree = "<group>"; };
+		DE356EE21FC49EE100932C5E /* QuizJarA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuizJarA.png; path = ../../QuizJarA.png; sourceTree = "<group>"; };
+		DE356EE71FC4A07D00932C5E /* IncompleteBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IncompleteBerry.png; path = ../../IncompleteBerry.png; sourceTree = "<group>"; };
+		DE356EE81FC4A07D00932C5E /* CompleteBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CompleteBerry.png; path = ../../CompleteBerry.png; sourceTree = "<group>"; };
+		DE356EEB1FC4A11200932C5E /* LongIncompleteBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LongIncompleteBerry.png; path = ../../LongIncompleteBerry.png; sourceTree = "<group>"; };
+		DE356EEC1FC4A11200932C5E /* LongCompleteBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LongCompleteBerry.png; path = ../../LongCompleteBerry.png; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +182,14 @@
 				DE356EB51FC282B500932C5E /* Jar4.png */,
 				DE356ED11FC3F49900932C5E /* SmallButton.png */,
 				DE356ED31FC47AA900932C5E /* SampleLesson.png */,
+				DE356EDF1FC49EE100932C5E /* QuizJarD.png */,
+				DE356EE01FC49EE100932C5E /* QuizJarC.png */,
+				DE356EE11FC49EE100932C5E /* QuizJarB.png */,
+				DE356EE21FC49EE100932C5E /* QuizJarA.png */,
+				DE356EE71FC4A07D00932C5E /* IncompleteBerry.png */,
+				DE356EE81FC4A07D00932C5E /* CompleteBerry.png */,
+				DE356EEB1FC4A11200932C5E /* LongIncompleteBerry.png */,
+				DE356EEC1FC4A11200932C5E /* LongCompleteBerry.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -389,12 +413,17 @@
 				DE356EB91FC282B500932C5E /* Jar4.png in Resources */,
 				DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */,
 				DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */,
+				DE356EE31FC49EE100932C5E /* QuizJarD.png in Resources */,
+				DE356EE91FC4A07D00932C5E /* IncompleteBerry.png in Resources */,
 				DE356EB81FC282B500932C5E /* Jar3.png in Resources */,
 				DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */,
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
+				DE356EE61FC49EE100932C5E /* QuizJarA.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
+				DE356EE41FC49EE100932C5E /* QuizJarC.png in Resources */,
 				DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */,
+				DE356EEA1FC4A07D00932C5E /* CompleteBerry.png in Resources */,
 				DE356ECA1FC3D42E00932C5E /* LessonStoryboard.storyboard in Resources */,
 				DE356EB71FC282B500932C5E /* Jar2.png in Resources */,
 				DE356EBE1FC2830000932C5E /* LabeledJarView.xib in Resources */,
@@ -403,10 +432,13 @@
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
 				DE356EC81FC361A300932C5E /* LessonViewController.xib in Resources */,
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
+				DE356EEE1FC4A11200932C5E /* LongCompleteBerry.png in Resources */,
+				DE356EED1FC4A11200932C5E /* LongIncompleteBerry.png in Resources */,
 				DE356ED41FC47AA900932C5E /* SampleLesson.png in Resources */,
 				DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */,
 				DE356EB61FC282B500932C5E /* Jar1.png in Resources */,
 				DE356EDE1FC4924100932C5E /* QuizPageViewController.xib in Resources */,
+				DE356EE51FC49EE100932C5E /* QuizJarB.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

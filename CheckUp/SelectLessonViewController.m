@@ -10,9 +10,15 @@
 #import "LessonPageViewController.h"
 #import "QuizPageViewController.h"
 #import "LessonsHomeViewController.h"
+#import "LabeledJarView.h"
 
 @interface SelectLessonViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet LabeledJarView *objectA;
+@property (weak, nonatomic) IBOutlet LabeledJarView *objectB;
+@property (weak, nonatomic) IBOutlet LabeledJarView *objectC;
+@property (weak, nonatomic) IBOutlet LabeledJarView *objectD;
+
 
 @end
 
@@ -23,7 +29,26 @@
     [super viewDidLoad];
     _backButton.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];
     if ([self.lessonsOrQuizzes isEqualToString:@"Quizzes"]){
+        // Set up the view for quizzes
         _backButton.hidden = YES;
+        _objectA.label.text = @"Diabetes";
+        [_objectA.image setImage:[UIImage imageNamed:@"QuizJarA.png"]];
+        _objectB.label.text = @"Hypertension";
+        [_objectB.image setImage:[UIImage imageNamed:@"QuizJarB.png"]];
+        _objectC.label.text = @"Cancer";
+        [_objectC.image setImage:[UIImage imageNamed:@"QuizJarC.png"]];
+        _objectD.label.text = @"Lupus";
+        [_objectD.image setImage:[UIImage imageNamed:@"QuizJarD.png"]];
+    } else {
+        // Set up the view for lessons
+        _objectA.label.text = @"Sneaky Sugars";
+        [_objectA.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
+        _objectB.label.text = @"Grocery Tour";
+        [_objectB.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
+        _objectC.label.text = @"Healthy Grains";
+        [_objectC.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
+        _objectD.label.text = @"Veggie Fun";
+        [_objectD.image setImage:[UIImage imageNamed:@"LongIncompleteBerry.png"]];
     }
     // Do any additional setup after loading the view from its nib.
 }
@@ -44,15 +69,24 @@
 
     if ([self.lessonsOrQuizzes
         isEqualToString:@"Lessons"]){
-        // Go to lessons pages
-        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
-        [self.navigationController showViewController:lessonPageVC sender:self];
+        // Do nothing--this module is
+        // complete.
     } else {
         // Go to quiz pages
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         [self.navigationController showViewController:quizPageVC sender:self];
     }
 }
+
+- (IBAction)berry4Pressed:(id)sender {
+    if ([self.lessonsOrQuizzes
+         isEqualToString:@"Lessons"]){
+        // Go to lessons pages
+        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        [self.navigationController showViewController:lessonPageVC sender:self];
+    }
+}
+
 
 - (IBAction)backButtonPressed:(id)sender {
     if ([self.lessonsOrQuizzes isEqualToString:@"Lessons"]){
