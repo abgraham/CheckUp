@@ -7,11 +7,14 @@
 //
 
 #import "LessonPageViewController.h"
+#import "HeaderView.h"
 
 @interface LessonPageViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
+@property (weak, nonatomic) IBOutlet HeaderView *header;
 
+@property (weak, nonatomic) IBOutlet UIButton *nextPageButton;
 
 @end
 
@@ -20,6 +23,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.header.label.text = @"Lesson";
+    self.questionLabel.font =  [UIFont fontWithName:@"Avenir-Light" size:14.0];
+    self.nextPageButton.titleLabel.font =  [UIFont fontWithName:@"Avenir-Light" size:14.0];
     if (!self.pageCode){
         self.pageCode = @"1";
     }

@@ -50,8 +50,10 @@
         <!--Navigation Controller-->
         <scene sceneID="13C-Vn-jLS">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uLT-cq-yug" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="uLT-cq-yug" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="O8E-37-Tm9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
