@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LabeledJarView">
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="q1f-BS-ox6"/>
+                <outlet property="image" destination="uyK-U6-FF1" id="Qom-gL-Z3f"/>
                 <outlet property="label" destination="YtE-tt-ojd" id="QuG-M1-PRA"/>
             </connections>
         </placeholder>
@@ -20,28 +21,38 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jar1.png" translatesAutoresizingMaskIntoConstraints="NO" id="uyK-U6-FF1">
-                            <rect key="frame" x="242.5" y="15" width="115" height="115"/>
+                            <rect key="frame" x="242" y="15" width="115" height="115"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="115" id="bPg-rk-zYi"/>
                                 <constraint firstAttribute="width" constant="115" id="bRk-1V-s0n"/>
                             </constraints>
                         </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SmallButton.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Xv-gk-GBH" userLabel="labelImage">
+                            <rect key="frame" x="235" y="145" width="130" height="41"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="41" id="8fc-Kl-656"/>
+                            </constraints>
+                        </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sneaky Sugar Module" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtE-tt-ojd">
-                            <rect key="frame" x="235" y="156" width="130" height="21"/>
+                            <rect key="frame" x="235" y="145" width="130" height="41"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="130" id="rOD-4l-OP0"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
+                        <constraint firstItem="9Xv-gk-GBH" firstAttribute="width" secondItem="YtE-tt-ojd" secondAttribute="width" id="4iA-QH-34F"/>
                         <constraint firstItem="YtE-tt-ojd" firstAttribute="centerX" secondItem="i6W-uK-Jc2" secondAttribute="centerX" id="89x-ec-7cD"/>
+                        <constraint firstItem="YtE-tt-ojd" firstAttribute="centerY" secondItem="9Xv-gk-GBH" secondAttribute="centerY" id="Nwf-pT-TKV"/>
                         <constraint firstItem="uyK-U6-FF1" firstAttribute="centerX" secondItem="i6W-uK-Jc2" secondAttribute="centerX" id="XxA-pY-TBq"/>
+                        <constraint firstItem="9Xv-gk-GBH" firstAttribute="bottom" secondItem="YtE-tt-ojd" secondAttribute="bottom" id="cpH-Zg-Wr3"/>
+                        <constraint firstItem="9Xv-gk-GBH" firstAttribute="top" secondItem="uyK-U6-FF1" secondAttribute="bottom" constant="15" id="eWy-Jn-6bU"/>
                         <constraint firstItem="uyK-U6-FF1" firstAttribute="top" secondItem="i6W-uK-Jc2" secondAttribute="top" constant="15" id="v1P-nq-Xld"/>
-                        <constraint firstItem="YtE-tt-ojd" firstAttribute="top" secondItem="uyK-U6-FF1" secondAttribute="bottom" constant="26" id="yRv-Jh-zeu"/>
+                        <constraint firstItem="9Xv-gk-GBH" firstAttribute="centerX" secondItem="i6W-uK-Jc2" secondAttribute="centerX" id="vtT-P6-iDi"/>
                     </constraints>
                 </view>
             </subviews>
@@ -56,5 +67,6 @@
     </objects>
     <resources>
         <image name="Jar1.png" width="258" height="362"/>
+        <image name="SmallButton.png" width="122" height="36"/>
     </resources>
 </document>

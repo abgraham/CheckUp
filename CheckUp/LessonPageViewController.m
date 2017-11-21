@@ -6,6 +6,7 @@
 //  Copyright © 2017 Annie Graham. All rights reserved.
 //
 
+#import "LessonsHomeViewController.h"
 #import "LessonPageViewController.h"
 #import "HeaderView.h"
 
@@ -26,13 +27,25 @@
     self.header.label.text = @"Lesson";
     self.questionLabel.font =  [UIFont fontWithName:@"Avenir-Light" size:14.0];
     self.nextPageButton.titleLabel.font =  [UIFont fontWithName:@"Avenir-Light" size:14.0];
+    // For the first page there wont be a page code.
+    // This may eventually have to check something in coredata to
+    // be able to tell which quiz the user is on.
     if (!self.pageCode){
         self.pageCode = @"1";
     }
     if ([self.pageCode isEqualToString:@"1"]){
-    _questionLabel.text = @"Yes I want to be healthy!";
+    _questionLabel.text = @"Text 1!";
     } else if ([self.pageCode isEqualToString:@"2"]) {
-        _questionLabel.text = @"No thanks.";
+        _questionLabel.text = @"Text 2";
+    } else if ([self.pageCode isEqualToString:@"3"]){
+        _questionLabel.text = @"Text 3";
+    } else if ([self.pageCode isEqualToString:@"4"]) {
+        _questionLabel.text = @"Text 4";
+    } else if ([self.pageCode isEqualToString:@"5"]) {
+        _questionLabel.text = @"Text 5";
+    }else if ([self.pageCode isEqualToString:@"6"]) {
+        _questionLabel.text = @"Text 6 (Last page)";
+        self.nextPageButton.titleLabel.text = @"Done";
     }
 }
 
@@ -43,13 +56,31 @@
 
 - (IBAction)nextPageButton:(id)sender {
     if ([self.pageCode isEqualToString:@"1"]){
-        self.pageCode = @"2";
-    } else {
+        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        lessonPageVC.pageCode = @"2";
+        [self.navigationController showViewController:lessonPageVC sender:self];
+    } else if ([self.pageCode isEqualToString:@"2"]){
+        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        lessonPageVC.pageCode = @"3";
+        [self.navigationController showViewController:lessonPageVC sender:self];
+    } else if ([self.pageCode isEqualToString:@"3"]){
+        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        lessonPageVC.pageCode = @"4";
+        [self.navigationController showViewController:lessonPageVC sender:self];
+    } else if ([self.pageCode isEqualToString:@"4"]){
     LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
-    lessonPageVC.pageCode = self.pageCode;
+    lessonPageVC.pageCode = @"5";
     [self.navigationController showViewController:lessonPageVC sender:self];
+    } else if ([self.pageCode isEqualToString:@"5"]){
+        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        lessonPageVC.pageCode = @"6";
+        [self.navigationController showViewController:lessonPageVC sender:self];
+    } else if ([self.pageCode isEqualToString:@"6"]){
+        // Get back to lessons home
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+        LessonsHomeViewController *lessonHomeVC = [storyboard instantiateViewControllerWithIdentifier:@"lessonsHome"];
+        [self.navigationController showViewController:lessonHomeVC sender:self];
     }
-
 }
 
 /*

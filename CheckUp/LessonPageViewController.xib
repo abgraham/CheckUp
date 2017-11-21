@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-Vg-awU">
-                    <rect key="frame" x="239" y="464" width="122" height="36"/>
+                    <rect key="frame" x="239" y="494" width="122" height="36"/>
                     <state key="normal" title="Got it" backgroundImage="SmallButton.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -34,35 +34,36 @@
                         <constraint firstAttribute="height" constant="100" id="FiZ-j6-OMt"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to be healthy?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRH-8G-UrB">
-                    <rect key="frame" x="197" y="403" width="207.5" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to be healthy? Try to eat less sugar and more fruits and vegetables, to get the vitamins and nutrients you need." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRH-8G-UrB">
+                    <rect key="frame" x="-171" y="400" width="943.5" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpBerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="zjz-9q-Eiv">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SampleLesson.png" translatesAutoresizingMaskIntoConstraints="NO" id="zjz-9q-Eiv">
                     <rect key="frame" x="0.0" y="100" width="600" height="255"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="255" id="NO6-6n-guX"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o8z-gJ-tiS">
-                    <rect key="frame" x="0.0" y="355" width="600" height="40"/>
+                    <rect key="frame" x="0.0" y="355" width="600" height="20"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="tE5-3E-iDF"/>
+                        <constraint firstAttribute="height" constant="20" id="tE5-3E-iDF"/>
                     </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="XLV-Vg-awU" firstAttribute="top" secondItem="IRH-8G-UrB" secondAttribute="bottom" constant="40" id="4Zb-7u-KMu"/>
+                <constraint firstItem="XLV-Vg-awU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IRH-8G-UrB" secondAttribute="bottom" constant="40" id="4Zb-7u-KMu"/>
                 <constraint firstItem="o8z-gJ-tiS" firstAttribute="top" secondItem="zjz-9q-Eiv" secondAttribute="bottom" id="8qM-3Q-ByN"/>
                 <constraint firstAttribute="trailing" secondItem="zjz-9q-Eiv" secondAttribute="trailing" id="AHY-8g-HV4"/>
                 <constraint firstItem="sIg-ia-G7G" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HP3-t2-t6A"/>
-                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="XLV-Vg-awU" secondAttribute="bottom" constant="75" id="IZr-xN-H39"/>
+                <constraint firstAttribute="bottom" secondItem="XLV-Vg-awU" secondAttribute="bottom" constant="70" id="IZr-xN-H39"/>
                 <constraint firstItem="XLV-Vg-awU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NZ1-jW-a5m"/>
                 <constraint firstItem="zjz-9q-Eiv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ReY-rg-USp"/>
-                <constraint firstItem="IRH-8G-UrB" firstAttribute="top" secondItem="o8z-gJ-tiS" secondAttribute="bottom" constant="8" id="d4V-Ig-oaz"/>
+                <constraint firstItem="IRH-8G-UrB" firstAttribute="top" secondItem="o8z-gJ-tiS" secondAttribute="bottom" constant="25" id="d4V-Ig-oaz"/>
                 <constraint firstItem="o8z-gJ-tiS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="g5U-iz-e6b"/>
                 <constraint firstItem="sIg-ia-G7G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iDQ-UJ-Ub7"/>
                 <constraint firstAttribute="trailing" secondItem="o8z-gJ-tiS" secondAttribute="trailing" id="jKQ-Ne-fp4"/>
@@ -73,7 +74,7 @@
         </view>
     </objects>
     <resources>
-        <image name="CheckUpBerry.png" width="174" height="174"/>
+        <image name="SampleLesson.png" width="748" height="620"/>
         <image name="SmallButton.png" width="122" height="36"/>
     </resources>
 </document>
