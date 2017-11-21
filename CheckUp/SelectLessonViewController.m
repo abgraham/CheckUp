@@ -7,6 +7,7 @@
 //
 
 #import "SelectLessonViewController.h"
+#import "LessonPageViewController.h"
 
 @interface SelectLessonViewController ()
 
@@ -30,9 +31,12 @@
     //[self.navigationController showViewController:lessonVC sender:self];
 
 
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LessonStoryboard" bundle:nil];
-    UIViewController *myVC = [storyboard instantiateViewControllerWithIdentifier:@"FirstVC"];
-    [self.navigationController showViewController:myVC sender:self];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LessonStoryboard" bundle:nil];
+//    UIViewController *myVC = [storyboard instantiateViewControllerWithIdentifier:@"FirstVC"];
+//    [self.navigationController showViewController:myVC sender:self];
+
+    LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+    [self.navigationController showViewController:lessonPageVC sender:self];
 }
 
 /*
