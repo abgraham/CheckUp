@@ -349,7 +349,7 @@
         <!--Quizzes Home View Controller-->
         <scene sceneID="tL7-W6-rZ2">
             <objects>
-                <viewController id="Eiu-7R-Fuc" customClass="QuizzesHomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="quizHome" id="Eiu-7R-Fuc" customClass="QuizzesHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DNX-v1-0H8"/>
                         <viewControllerLayoutGuide type="bottom" id="uKB-Gn-asb"/>

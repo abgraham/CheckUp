@@ -8,6 +8,7 @@
 
 #import "QuizPageViewController.h"
 #import "QuizzesHomeViewController.h"
+#import "SelectLessonViewController.h"
 
 @interface QuizPageViewController ()
 
@@ -47,9 +48,9 @@
         quizPageVC.pageCode = @"2";
         [self.navigationController showViewController:quizPageVC sender:self];
     } else if ([self.pageCode isEqualToString:@"2"]) {
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
-        QuizzesHomeViewController *quizHomeVC = [storyboard instantiateViewControllerWithIdentifier:@"quizHome"];
-        [self.navigationController showViewController:quizHomeVC sender:self];
+        SelectLessonViewController *selectLessonVC = [[SelectLessonViewController alloc] initWithNibName: @"SelectLessonViewController" bundle: nil];
+        selectLessonVC.lessonsOrQuizzes = @"Quizzes";
+        [self.navigationController showViewController:selectLessonVC sender:self];
     }
 }
 
