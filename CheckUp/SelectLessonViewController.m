@@ -41,13 +41,13 @@
         [_objectD.image setImage:[UIImage imageNamed:@"QuizJarD.png"]];
     } else {
         // Set up the view for lessons
-        _objectA.label.text = @"Sneaky Sugars";
+        _objectA.label.text = @"Veggie Fun";
         [_objectA.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
         _objectB.label.text = @"Grocery Tour";
         [_objectB.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
-        _objectC.label.text = @"Healthy Grains";
+        _objectC.label.text = @"Healthy Diet";
         [_objectC.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
-        _objectD.label.text = @"Veggie Fun";
+        _objectD.label.text = @"Sneaky Sugars";
         [_objectD.image setImage:[UIImage imageNamed:@"LongIncompleteBerry.png"]];
     }
     // Do any additional setup after loading the view from its nib.
@@ -74,6 +74,20 @@
     } else {
         // Go to quiz pages
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+        quizPageVC.pageCode = @"1";
+        [self.navigationController showViewController:quizPageVC sender:self];
+    }
+}
+
+- (IBAction)berry2Pressed:(id)sender {
+    if ([self.lessonsOrQuizzes
+         isEqualToString:@"Lessons"]){
+        // Do nothing--this module is
+        // complete.
+    } else {
+        // Go to quiz pages
+        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+        quizPageVC.pageCode = @"4";
         [self.navigationController showViewController:quizPageVC sender:self];
     }
 }
@@ -83,9 +97,21 @@
          isEqualToString:@"Lessons"]){
         // Go to lessons pages
         LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        lessonPageVC.pageCode = @"1";
         [self.navigationController showViewController:lessonPageVC sender:self];
     }
 }
+
+- (IBAction)lessonBerry3Pressed:(id)sender {
+    if ([self.lessonsOrQuizzes
+         isEqualToString:@"Lessons"]){
+        // Go to lessons pages
+        LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
+        lessonPageVC.pageCode = @"7";
+        [self.navigationController showViewController:lessonPageVC sender:self];
+    }
+}
+
 
 
 - (IBAction)backButtonPressed:(id)sender {

@@ -50,6 +50,18 @@
 		DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF81FC4A2DC00932C5E /* QuizIcon.png */; };
 		DE356EFE1FC4AFD100932C5E /* ProgressPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */; };
 		DE356F011FC4B05800932C5E /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356F001FC4B05800932C5E /* ProgressViewController.m */; };
+		DE90C1541FCB1814007AD3D9 /* dietlesson5.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C1481FCB1814007AD3D9 /* dietlesson5.pictClipping */; };
+		DE90C1551FCB1814007AD3D9 /* dietlesson4.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C1491FCB1814007AD3D9 /* dietlesson4.pictClipping */; };
+		DE90C1561FCB1814007AD3D9 /* dietlesson3.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C14A1FCB1814007AD3D9 /* dietlesson3.pictClipping */; };
+		DE90C1571FCB1814007AD3D9 /* dietlesson2.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C14B1FCB1814007AD3D9 /* dietlesson2.pictClipping */; };
+		DE90C1581FCB1814007AD3D9 /* dietlesson1.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C14C1FCB1814007AD3D9 /* dietlesson1.pictClipping */; };
+		DE90C1591FCB1814007AD3D9 /* suglesson7.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C14D1FCB1814007AD3D9 /* suglesson7.pictClipping */; };
+		DE90C15A1FCB1814007AD3D9 /* suglesson6.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C14E1FCB1814007AD3D9 /* suglesson6.pictClipping */; };
+		DE90C15B1FCB1814007AD3D9 /* suglesson5.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C14F1FCB1814007AD3D9 /* suglesson5.pictClipping */; };
+		DE90C15C1FCB1814007AD3D9 /* suglesson4.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C1501FCB1814007AD3D9 /* suglesson4.pictClipping */; };
+		DE90C15D1FCB1814007AD3D9 /* suglesson3.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C1511FCB1814007AD3D9 /* suglesson3.pictClipping */; };
+		DE90C15E1FCB1814007AD3D9 /* suglesson2.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C1521FCB1814007AD3D9 /* suglesson2.pictClipping */; };
+		DE90C15F1FCB1814007AD3D9 /* suglesson1.pictClipping in Resources */ = {isa = PBXBuildFile; fileRef = DE90C1531FCB1814007AD3D9 /* suglesson1.pictClipping */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -136,6 +148,18 @@
 		DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProgressPlaceholder.png; path = ../../ProgressPlaceholder.png; sourceTree = "<group>"; };
 		DE356EFF1FC4B05800932C5E /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
 		DE356F001FC4B05800932C5E /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		DE90C1481FCB1814007AD3D9 /* dietlesson5.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dietlesson5.pictClipping; path = ../../../Documents/sneakysugarphotos/dietlesson5.pictClipping; sourceTree = "<group>"; };
+		DE90C1491FCB1814007AD3D9 /* dietlesson4.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dietlesson4.pictClipping; path = ../../../Documents/sneakysugarphotos/dietlesson4.pictClipping; sourceTree = "<group>"; };
+		DE90C14A1FCB1814007AD3D9 /* dietlesson3.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dietlesson3.pictClipping; path = ../../../Documents/sneakysugarphotos/dietlesson3.pictClipping; sourceTree = "<group>"; };
+		DE90C14B1FCB1814007AD3D9 /* dietlesson2.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dietlesson2.pictClipping; path = ../../../Documents/sneakysugarphotos/dietlesson2.pictClipping; sourceTree = "<group>"; };
+		DE90C14C1FCB1814007AD3D9 /* dietlesson1.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dietlesson1.pictClipping; path = ../../../Documents/sneakysugarphotos/dietlesson1.pictClipping; sourceTree = "<group>"; };
+		DE90C14D1FCB1814007AD3D9 /* suglesson7.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = suglesson7.pictClipping; path = ../../../Documents/sneakysugarphotos/suglesson7.pictClipping; sourceTree = "<group>"; };
+		DE90C14E1FCB1814007AD3D9 /* suglesson6.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = suglesson6.pictClipping; path = ../../../Documents/sneakysugarphotos/suglesson6.pictClipping; sourceTree = "<group>"; };
+		DE90C14F1FCB1814007AD3D9 /* suglesson5.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = suglesson5.pictClipping; path = ../../../Documents/sneakysugarphotos/suglesson5.pictClipping; sourceTree = "<group>"; };
+		DE90C1501FCB1814007AD3D9 /* suglesson4.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = suglesson4.pictClipping; path = ../../../Documents/sneakysugarphotos/suglesson4.pictClipping; sourceTree = "<group>"; };
+		DE90C1511FCB1814007AD3D9 /* suglesson3.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = suglesson3.pictClipping; path = ../../../Documents/sneakysugarphotos/suglesson3.pictClipping; sourceTree = "<group>"; };
+		DE90C1521FCB1814007AD3D9 /* suglesson2.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = suglesson2.pictClipping; path = ../../../Documents/sneakysugarphotos/suglesson2.pictClipping; sourceTree = "<group>"; };
+		DE90C1531FCB1814007AD3D9 /* suglesson1.pictClipping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = suglesson1.pictClipping; path = ../../../Documents/sneakysugarphotos/suglesson1.pictClipping; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -191,6 +215,7 @@
 		DE356E9C1FBFA42D00932C5E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DE90C1471FCB17F9007AD3D9 /* LessonPhotos */,
 				DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */,
 				DE356E9F1FC1F84E00932C5E /* CheckUpProfileIcon.png */,
 				DE356EA11FC1F92D00932C5E /* CheckUpProfilePhoto.png */,
@@ -219,6 +244,25 @@
 				DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		DE90C1471FCB17F9007AD3D9 /* LessonPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				DE90C1481FCB1814007AD3D9 /* dietlesson5.pictClipping */,
+				DE90C1491FCB1814007AD3D9 /* dietlesson4.pictClipping */,
+				DE90C14A1FCB1814007AD3D9 /* dietlesson3.pictClipping */,
+				DE90C14B1FCB1814007AD3D9 /* dietlesson2.pictClipping */,
+				DE90C14C1FCB1814007AD3D9 /* dietlesson1.pictClipping */,
+				DE90C14D1FCB1814007AD3D9 /* suglesson7.pictClipping */,
+				DE90C14E1FCB1814007AD3D9 /* suglesson6.pictClipping */,
+				DE90C14F1FCB1814007AD3D9 /* suglesson5.pictClipping */,
+				DE90C1501FCB1814007AD3D9 /* suglesson4.pictClipping */,
+				DE90C1511FCB1814007AD3D9 /* suglesson3.pictClipping */,
+				DE90C1521FCB1814007AD3D9 /* suglesson2.pictClipping */,
+				DE90C1531FCB1814007AD3D9 /* suglesson1.pictClipping */,
+			);
+			name = LessonPhotos;
 			sourceTree = "<group>";
 		};
 		DEF85DF91FB51FD600EA2FB2 = {
@@ -439,6 +483,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE90C15E1FCB1814007AD3D9 /* suglesson2.pictClipping in Resources */,
+				DE90C15C1FCB1814007AD3D9 /* suglesson4.pictClipping in Resources */,
 				DE356EB91FC282B500932C5E /* Jar4.png in Resources */,
 				DE356EA01FC1F84E00932C5E /* CheckUpProfileIcon.png in Resources */,
 				DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */,
@@ -448,8 +494,10 @@
 				DE356EB81FC282B500932C5E /* Jar3.png in Resources */,
 				DE356EF21FC4A2D300932C5E /* LessonMessageBG.png in Resources */,
 				DE356EFE1FC4AFD100932C5E /* ProgressPlaceholder.png in Resources */,
+				DE90C1561FCB1814007AD3D9 /* dietlesson3.pictClipping in Resources */,
 				DE356EAC1FC2733200932C5E /* CheckUpBerry.png in Resources */,
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
+				DE90C15A1FCB1814007AD3D9 /* suglesson6.pictClipping in Resources */,
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
 				DE356EE61FC49EE100932C5E /* QuizJarA.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
@@ -460,15 +508,23 @@
 				DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */,
 				DE356EB71FC282B500932C5E /* Jar2.png in Resources */,
 				DE356EBE1FC2830000932C5E /* LabeledJarView.xib in Resources */,
+				DE90C1541FCB1814007AD3D9 /* dietlesson5.pictClipping in Resources */,
+				DE90C1591FCB1814007AD3D9 /* suglesson7.pictClipping in Resources */,
 				DE356EFB1FC4A2DC00932C5E /* LearnIcon.png in Resources */,
 				DE356ED21FC3F49900932C5E /* SmallButton.png in Resources */,
+				DE90C15B1FCB1814007AD3D9 /* suglesson5.pictClipping in Resources */,
+				DE90C1571FCB1814007AD3D9 /* dietlesson2.pictClipping in Resources */,
 				DE356EAA1FC2708D00932C5E /* LessonCategoryView.xib in Resources */,
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
 				DE356EC81FC361A300932C5E /* LessonViewController.xib in Resources */,
+				DE90C15D1FCB1814007AD3D9 /* suglesson3.pictClipping in Resources */,
+				DE90C1581FCB1814007AD3D9 /* dietlesson1.pictClipping in Resources */,
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
 				DE356EEE1FC4A11200932C5E /* LongCompleteBerry.png in Resources */,
 				DE356EED1FC4A11200932C5E /* LongIncompleteBerry.png in Resources */,
+				DE90C1551FCB1814007AD3D9 /* dietlesson4.pictClipping in Resources */,
 				DE356EF31FC4A2D300932C5E /* ProfileMessageBG.png in Resources */,
+				DE90C15F1FCB1814007AD3D9 /* suglesson1.pictClipping in Resources */,
 				DE356EFA1FC4A2DC00932C5E /* NotificationsIcon.png in Resources */,
 				DE356ED41FC47AA900932C5E /* SampleLesson.png in Resources */,
 				DE356EF41FC4A2D300932C5E /* QuizMessageBG.png in Resources */,

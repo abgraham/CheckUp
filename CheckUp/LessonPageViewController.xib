@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LessonPageViewController">
             <connections>
                 <outlet property="header" destination="sIg-ia-G7G" id="2pG-4z-W0x"/>
+                <outlet property="image" destination="zjz-9q-Eiv" id="qcC-1y-8ND"/>
                 <outlet property="nextPageButton" destination="XLV-Vg-awU" id="W0u-XF-LAL"/>
                 <outlet property="questionLabel" destination="IRH-8G-UrB" id="yYk-K9-Ks9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -35,7 +36,7 @@
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to be healthy? Try to eat less sugar and more fruits and vegetables, to get the vitamins and nutrients you need." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRH-8G-UrB">
-                    <rect key="frame" x="-171" y="400" width="943.5" height="20.5"/>
+                    <rect key="frame" x="10" y="400" width="580" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -58,6 +59,7 @@
             <constraints>
                 <constraint firstItem="XLV-Vg-awU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IRH-8G-UrB" secondAttribute="bottom" constant="40" id="4Zb-7u-KMu"/>
                 <constraint firstItem="o8z-gJ-tiS" firstAttribute="top" secondItem="zjz-9q-Eiv" secondAttribute="bottom" id="8qM-3Q-ByN"/>
+                <constraint firstItem="IRH-8G-UrB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="A6s-Zx-cTU"/>
                 <constraint firstAttribute="trailing" secondItem="zjz-9q-Eiv" secondAttribute="trailing" id="AHY-8g-HV4"/>
                 <constraint firstItem="sIg-ia-G7G" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HP3-t2-t6A"/>
                 <constraint firstAttribute="bottom" secondItem="XLV-Vg-awU" secondAttribute="bottom" constant="70" id="IZr-xN-H39"/>
@@ -65,12 +67,18 @@
                 <constraint firstItem="zjz-9q-Eiv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ReY-rg-USp"/>
                 <constraint firstItem="IRH-8G-UrB" firstAttribute="top" secondItem="o8z-gJ-tiS" secondAttribute="bottom" constant="25" id="d4V-Ig-oaz"/>
                 <constraint firstItem="o8z-gJ-tiS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="g5U-iz-e6b"/>
+                <constraint firstAttribute="trailing" secondItem="IRH-8G-UrB" secondAttribute="trailing" constant="10" id="h80-5l-q2k"/>
                 <constraint firstItem="sIg-ia-G7G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iDQ-UJ-Ub7"/>
                 <constraint firstAttribute="trailing" secondItem="o8z-gJ-tiS" secondAttribute="trailing" id="jKQ-Ne-fp4"/>
                 <constraint firstItem="IRH-8G-UrB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pmF-mU-9Gh"/>
                 <constraint firstAttribute="trailing" secondItem="sIg-ia-G7G" secondAttribute="trailing" id="sJP-tE-7It"/>
                 <constraint firstItem="zjz-9q-Eiv" firstAttribute="top" secondItem="sIg-ia-G7G" secondAttribute="bottom" id="xYD-qX-866"/>
             </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="pmF-mU-9Gh"/>
+                </mask>
+            </variation>
         </view>
     </objects>
     <resources>
