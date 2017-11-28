@@ -14,7 +14,7 @@
 @property BOOL hasTakenSugarQuiz;
 @property BOOL hasTakenHealthyDietLesson;
 @property BOOL hasTakenSugarLesson;
-
+@property NSInteger quizScore; 
 
 @property (strong, nonatomic) UIWindow *window;
 

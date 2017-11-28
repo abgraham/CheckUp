@@ -35,7 +35,7 @@
                         <constraint firstAttribute="height" constant="292" id="o8u-WI-yJ6"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. What is healthier for you?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAZ-mA-sbi">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. What is healthier for you?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAZ-mA-sbi">
                     <rect key="frame" x="195" y="332" width="210.5" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -50,7 +50,7 @@
                         <action selector="nextButtonPressed:" destination="-1" eventType="touchUpInside" id="aCg-Q3-NVX"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLW-aI-BN5">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eLW-aI-BN5">
                     <rect key="frame" x="240" y="398" width="59" height="30"/>
                     <state key="normal" title="answerB">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,7 +59,7 @@
                         <action selector="answerBPressed:" destination="-1" eventType="touchUpInside" id="EbG-E0-suO"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m45-EB-hFW">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="m45-EB-hFW">
                     <rect key="frame" x="240" y="436" width="60" height="30"/>
                     <state key="normal" title="answerC">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -68,7 +68,7 @@
                         <action selector="answerCPressed:" destination="-1" eventType="touchUpInside" id="qvb-hz-go3"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPt-5H-58s">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="IPt-5H-58s">
                     <rect key="frame" x="240" y="474" width="60" height="30"/>
                     <state key="normal" title="answerD">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -77,7 +77,7 @@
                         <action selector="answerDPressed:" destination="-1" eventType="touchUpInside" id="z9s-pX-Wid"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smi-Z7-hhn">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="smi-Z7-hhn">
                     <rect key="frame" x="240" y="360" width="59" height="30"/>
                     <state key="normal" title="answerA">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -104,6 +104,8 @@
                 <constraint firstAttribute="trailing" secondItem="bXi-FK-aIZ" secondAttribute="trailing" id="e69-xS-q65"/>
                 <constraint firstItem="eLW-aI-BN5" firstAttribute="top" secondItem="smi-Z7-hhn" secondAttribute="bottom" constant="8" id="eUE-f2-lLl"/>
                 <constraint firstItem="eLW-aI-BN5" firstAttribute="leading" secondItem="smi-Z7-hhn" secondAttribute="leading" id="g19-xH-WSv"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fAZ-mA-sbi" secondAttribute="trailing" constant="15" id="gM7-h6-hoM"/>
+                <constraint firstItem="fAZ-mA-sbi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="hGC-iX-YDd"/>
                 <constraint firstItem="0dV-EO-dvb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oed-fS-KGQ"/>
                 <constraint firstItem="IPt-5H-58s" firstAttribute="top" secondItem="m45-EB-hFW" secondAttribute="bottom" constant="8" id="qSe-Fg-JTc"/>
                 <constraint firstItem="smi-Z7-hhn" firstAttribute="leading" secondItem="fAZ-mA-sbi" secondAttribute="leading" constant="45" id="qXI-SB-dgA"/>

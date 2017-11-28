@@ -9,6 +9,7 @@
 #import "QuizPageViewController.h"
 #import "QuizzesHomeViewController.h"
 #import "SelectLessonViewController.h"
+#import "AppDelegate.h"
 
 @interface QuizPageViewController ()
 
@@ -42,6 +43,9 @@
 - (void)setUpContent {
     if ([self.pageCode isEqualToString:@"1"]){
         // SNEAKY SUGARS QUIZ
+        // initialize quizScore to zero.
+        AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+        appDelegate.quizScore = 0;
         _questionLabel.text = @"Which type of condiment does not have added sugar?";
         [_answerA setTitle:@"Low fat apple cider vinaigrette" forState:UIControlStateNormal];
         [_answerB setTitle:@"Oil + vinegar, mustard" forState:UIControlStateNormal];
@@ -69,10 +73,10 @@
         [_answerD setTitle:@"Granola" forState:UIControlStateNormal];
     } if ([self.pageCode isEqualToString:@"5"]){
         _questionLabel.text = @"Why are refined grains and added sugar unhealthy?";
-        [_answerA setTitle:@"They can lead to myelin building in the brain’s neural pathways which slow down signals in your brain" forState:UIControlStateNormal];
+        [_answerA setTitle:@"They can slow down brain signals" forState:UIControlStateNormal];
         [_answerB setTitle:@"They can contribute to weight gain" forState:UIControlStateNormal];
         [_answerC setTitle:@"They can clog your arteries" forState:UIControlStateNormal];
-        [_answerD setTitle:@"Foods that contain refined grains and added sugar also tend to be high in fat content" forState:UIControlStateNormal];
+        [_answerD setTitle:@"" forState:UIControlStateNormal];
     } else if ([self.pageCode isEqualToString:@"6"]) {
         _questionLabel.text = @"At least how much of your daily grains should be whole grains?";
         [_answerA setTitle:@"12.5%" forState:UIControlStateNormal];
@@ -81,10 +85,10 @@
         [_answerD setTitle:@"75%" forState:UIControlStateNormal];
     } else if ([self.pageCode isEqualToString:@"7"]) {
         _questionLabel.text = @"Why is it important to avoid large portion sizes?";
-        [_answerA setTitle:@"They expand your stomach and make digestion difficult" forState:UIControlStateNormal];
-        [_answerB setTitle:@"They contain lots of calories and carbohydrates" forState:UIControlStateNormal];
-        [_answerC setTitle:@"They draw blood from your brain to your stomach" forState:UIControlStateNormal];
-        [_answerD setTitle:@"They may contain high amounts of fat and sodium" forState:UIControlStateNormal];
+        [_answerA setTitle:@"They expand your stomach" forState:UIControlStateNormal];
+        [_answerB setTitle:@"They contain lots of calories" forState:UIControlStateNormal];
+        [_answerC setTitle:@"They draw blood from your brain" forState:UIControlStateNormal];
+        [_answerD setTitle:@"They create digestive issues" forState:UIControlStateNormal];
         [_nextButton setTitle:@"Done" forState:UIControlStateNormal];
     }
 
@@ -96,7 +100,12 @@
 }
 
 - (IBAction)nextButtonPressed:(id)sender {
+    AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+    appDelegate.quizScore = 0;
     if ([self.pageCode isEqualToString:@"1"]){
+        if ([_answerB.titleLabel.textColor isEqual:[UIColor greenColor]]){
+            appDelegate.quizScore += 1;
+        }
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         quizPageVC.pageCode = @"2";
         [self.navigationController showViewController:quizPageVC sender:self];
