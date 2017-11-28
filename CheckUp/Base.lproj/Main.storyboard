@@ -262,8 +262,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="538 Points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6C-yK-uzV" userLabel="PointsLabel">
-                                <rect key="frame" x="258" y="227" width="83" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You earned 538 Points from Diabetes Quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6C-yK-uzV" userLabel="PointsLabel">
+                                <rect key="frame" x="137" y="227" width="325" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -300,7 +300,9 @@
                             <constraint firstItem="xxu-tF-TdW" firstAttribute="leading" secondItem="bap-Mt-QgK" secondAttribute="leading" constant="25" id="3nW-7Z-WlB"/>
                             <constraint firstItem="VCM-Nz-wrH" firstAttribute="top" secondItem="FQo-vn-uFC" secondAttribute="bottom" constant="11" id="56g-Da-CmV"/>
                             <constraint firstItem="6Vt-Km-3At" firstAttribute="leading" secondItem="bap-Mt-QgK" secondAttribute="leading" constant="25" id="6eq-qu-I77"/>
+                            <constraint firstItem="d6C-yK-uzV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bap-Mt-QgK" secondAttribute="leadingMargin" constant="20" id="94m-sd-6hc"/>
                             <constraint firstItem="d6C-yK-uzV" firstAttribute="centerX" secondItem="bap-Mt-QgK" secondAttribute="centerX" id="DMq-rX-DF2"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="d6C-yK-uzV" secondAttribute="trailing" constant="20" id="EgC-rX-8kc"/>
                             <constraint firstItem="6Vt-Km-3At" firstAttribute="top" secondItem="Gah-p1-3r6" secondAttribute="bottom" constant="20" id="IUC-uu-K0M"/>
                             <constraint firstItem="m6V-Mm-Y8h" firstAttribute="leading" secondItem="bap-Mt-QgK" secondAttribute="leading" id="OaK-pV-RGN"/>
                             <constraint firstItem="VCM-Nz-wrH" firstAttribute="centerX" secondItem="bap-Mt-QgK" secondAttribute="centerX" id="UHv-dT-6Wj"/>
@@ -323,7 +325,7 @@
                         <outlet property="healthProviderContentLabel" destination="Gah-p1-3r6" id="yQc-FV-w3h"/>
                         <outlet property="healthProviderLabel" destination="xxu-tF-TdW" id="DRP-DY-k0P"/>
                         <outlet property="nameLabel" destination="VCM-Nz-wrH" id="7Xu-Li-HMw"/>
-                        <outlet property="pointsLabel" destination="d6C-yK-uzV" id="mw1-Ta-deP"/>
+                        <outlet property="pointsLabel" destination="d6C-yK-uzV" id="VHX-Sg-FEi"/>
                         <outlet property="redeemButton" destination="rqT-CC-ewZ" id="2ZQ-sQ-a2f"/>
                         <outlet property="yourProgressButtonLabel" destination="6Vt-Km-3At" id="ple-s3-IoN"/>
                     </connections>

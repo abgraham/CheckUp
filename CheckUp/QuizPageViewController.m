@@ -89,6 +89,19 @@
         [_answerB setTitle:@"They contain lots of calories" forState:UIControlStateNormal];
         [_answerC setTitle:@"They draw blood from your brain" forState:UIControlStateNormal];
         [_answerD setTitle:@"They create digestive issues" forState:UIControlStateNormal];
+    } else if ([self.pageCode isEqualToString:@"8"]) {
+        AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+        if (appDelegate.quizScore >= 5){
+            // The user passed the quiz
+            _questionLabel.text = @"Congratulations, you passed the quiz! Redeem the 538 points you earned by going to your Profile.";
+            appDelegate.passedQuiz = YES;
+        } else {
+            _questionLabel.text = @"Uh oh, you didn't pass this time. You'll have to take the quiz again!";
+        }
+        [_answerA setTitle:@"" forState:UIControlStateNormal];
+        [_answerB setTitle:@"" forState:UIControlStateNormal];
+        [_answerC setTitle:@"" forState:UIControlStateNormal];
+        [_answerD setTitle:@"" forState:UIControlStateNormal];
         [_nextButton setTitle:@"Done" forState:UIControlStateNormal];
     }
 
@@ -101,8 +114,8 @@
 
 - (IBAction)nextButtonPressed:(id)sender {
     AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
-    appDelegate.quizScore = 0;
     if ([self.pageCode isEqualToString:@"1"]){
+        appDelegate.quizScore = 0;
         if ([_answerB.titleLabel.textColor isEqual:[UIColor greenColor]]){
             appDelegate.quizScore += 1;
         }
@@ -110,26 +123,48 @@
         quizPageVC.pageCode = @"2";
         [self.navigationController showViewController:quizPageVC sender:self];
     } if ([self.pageCode isEqualToString:@"2"]){
+        if ([_answerC.titleLabel.textColor isEqual:[UIColor greenColor]]){
+            appDelegate.quizScore += 1;
+        }
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         quizPageVC.pageCode = @"3";
         [self.navigationController showViewController:quizPageVC sender:self];
     } if ([self.pageCode isEqualToString:@"3"]){
+        if ([_answerA.titleLabel.textColor isEqual:[UIColor greenColor]]){
+            appDelegate.quizScore += 1;
+        }
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         quizPageVC.pageCode = @"4";
         [self.navigationController showViewController:quizPageVC sender:self];
     } if ([self.pageCode isEqualToString:@"4"]){
+        if ([_answerD.titleLabel.textColor isEqual:[UIColor greenColor]]){
+            appDelegate.quizScore += 1;
+        }
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         quizPageVC.pageCode = @"5";
         [self.navigationController showViewController:quizPageVC sender:self];
     } if ([self.pageCode isEqualToString:@"5"]){
+        if ([_answerB.titleLabel.textColor isEqual:[UIColor greenColor]]){
+            appDelegate.quizScore += 1;
+        }
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         quizPageVC.pageCode = @"6";
         [self.navigationController showViewController:quizPageVC sender:self];
     } if ([self.pageCode isEqualToString:@"6"]) {
+        if ([_answerC.titleLabel.textColor isEqual:[UIColor greenColor]]){
+            appDelegate.quizScore += 1;
+        }
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         quizPageVC.pageCode = @"7";
         [self.navigationController showViewController:quizPageVC sender:self];
-    } else if ([self.pageCode isEqualToString:@"7"]) {
+    } if ([self.pageCode isEqualToString:@"7"]) {
+        if ([_answerB.titleLabel.textColor isEqual:[UIColor greenColor]]){
+            appDelegate.quizScore += 1;
+        }
+        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+        quizPageVC.pageCode = @"8";
+        [self.navigationController showViewController:quizPageVC sender:self];
+    } else if ([self.pageCode isEqualToString:@"8"]) {
         // Direct back to quiz home
         SelectLessonViewController *selectLessonVC = [[SelectLessonViewController alloc] initWithNibName: @"SelectLessonViewController" bundle: nil];
         selectLessonVC.lessonsOrQuizzes = @"Quizzes";

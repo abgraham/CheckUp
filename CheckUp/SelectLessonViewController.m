@@ -44,7 +44,7 @@
         // Set up the view for lessons
         _objectA.label.text = @"Veggie Fun";
         [_objectA.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
-        _objectB.label.text = @"Whole Grains.png";
+        _objectB.label.text = @"Whole Grains";
         AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
         [_objectB.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
         _objectC.label.text = @"Healthy Diet";

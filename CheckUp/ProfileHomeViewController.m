@@ -8,6 +8,7 @@
 
 #import "ProfileHomeViewController.h"
 #import "HeaderView.h"
+#import "AppDelegate.h"
 
 @interface ProfileHomeViewController ()
 
@@ -35,6 +36,17 @@
     self.healthProviderContentLabel.font = [UIFont fontWithName:@"Avenir-Light" size:22.0];
     self.yourProgressButtonLabel.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+    if (!appDelegate.passedQuiz){
+        self.pointsLabel.text = @"0 points";
+    } else {
+        self.pointsLabel.text = @"You earned 538 Points from Diabetes Quiz";
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
