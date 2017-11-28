@@ -8,7 +8,6 @@
         <!--Lesson Pg View Controller-->
         <scene sceneID="Rlb-Dk-enf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lpK-DM-Zdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="FirstVC" id="RA7-if-xgq" customClass="LessonPgViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0IV-ph-qgu"/>
@@ -44,6 +43,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" id="pHE-Ez-fUM"/>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpK-DM-Zdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="992" y="320"/>
         </scene>

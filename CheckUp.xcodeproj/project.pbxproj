@@ -470,6 +470,7 @@
 				TargetAttributes = {
 					DEF85E011FB51FD600EA2FB2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 628KW8P86J;
 					};
 					DEF85E1D1FB51FD700EA2FB2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -741,9 +742,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CheckUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Annie.CheckUp;
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.CheckUp.anniegraham;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -752,9 +754,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CheckUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Annie.CheckUp;
+				PRODUCT_BUNDLE_IDENTIFIER = Annie.CheckUp.anniegraham;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
