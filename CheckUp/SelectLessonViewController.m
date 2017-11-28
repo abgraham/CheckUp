@@ -11,6 +11,7 @@
 #import "QuizPageViewController.h"
 #import "LessonsHomeViewController.h"
 #import "LabeledJarView.h"
+#import "AppDelegate.h"
 
 @interface SelectLessonViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
@@ -42,13 +43,22 @@
     } else {
         // Set up the view for lessons
         _objectA.label.text = @"Veggie Fun";
-        [_objectA.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
-        _objectB.label.text = @"Grocery Tour";
-        [_objectB.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
+        [_objectA.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
+        _objectB.label.text = @"Whole Grains.png";
+        AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+        [_objectB.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
         _objectC.label.text = @"Healthy Diet";
-        [_objectC.image setImage:[UIImage imageNamed:@"LongCompleteBerry.png"]];
+        if (!appDelegate.hasTakenHealthyDietLesson){
+            [_objectC.image setImage:[UIImage imageNamed:@"Berry (Grey).png"]];
+        } else {
+            [_objectC.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
+        }
         _objectD.label.text = @"Sneaky Sugars";
-        [_objectD.image setImage:[UIImage imageNamed:@"LongIncompleteBerry.png"]];
+        if (!appDelegate.hasTakenSugarLesson){
+            [_objectD.image setImage:[UIImage imageNamed:@"Berry (Grey).png"]];
+        } else {
+            [_objectD.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
+        }
     }
     // Do any additional setup after loading the view from its nib.
 }

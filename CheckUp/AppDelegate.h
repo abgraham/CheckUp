@@ -10,6 +10,12 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property BOOL hasTakenHealthyDietQuiz;
+@property BOOL hasTakenSugarQuiz;
+@property BOOL hasTakenHealthyDietLesson;
+@property BOOL hasTakenSugarLesson;
+
+
 @property (strong, nonatomic) UIWindow *window;
 
 
