@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LessonPageViewController">
             <connections>
+                <outlet property="backButton" destination="sMW-sR-Pj0" id="qrB-lN-muv"/>
                 <outlet property="header" destination="sIg-ia-G7G" id="2pG-4z-W0x"/>
                 <outlet property="image" destination="zjz-9q-Eiv" id="qcC-1y-8ND"/>
                 <outlet property="nextPageButton" destination="XLV-Vg-awU" id="W0u-XF-LAL"/>
@@ -19,8 +20,8 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-Vg-awU">
-                    <rect key="frame" x="239" y="494" width="122" height="36"/>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-Vg-awU">
+                    <rect key="frame" x="239" y="509" width="122" height="36"/>
                     <state key="normal" title="Got it" backgroundImage="SmallButton.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -41,6 +42,16 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMW-sR-Pj0">
+                    <rect key="frame" x="20" y="0.0" width="30" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="&lt;">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="previousPageButton:" destination="-1" eventType="touchUpInside" id="oAV-BE-l1l"/>
+                    </connections>
+                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SampleLesson.png" translatesAutoresizingMaskIntoConstraints="NO" id="zjz-9q-Eiv">
                     <rect key="frame" x="0.0" y="100" width="600" height="255"/>
                     <constraints>
@@ -57,12 +68,14 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="XLV-Vg-awU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IRH-8G-UrB" secondAttribute="bottom" constant="40" id="4Zb-7u-KMu"/>
+                <constraint firstItem="sMW-sR-Pj0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="2HL-Oz-R0d"/>
+                <constraint firstItem="XLV-Vg-awU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IRH-8G-UrB" secondAttribute="bottom" constant="8" id="4Zb-7u-KMu"/>
                 <constraint firstItem="o8z-gJ-tiS" firstAttribute="top" secondItem="zjz-9q-Eiv" secondAttribute="bottom" id="8qM-3Q-ByN"/>
                 <constraint firstItem="IRH-8G-UrB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="A6s-Zx-cTU"/>
                 <constraint firstAttribute="trailing" secondItem="zjz-9q-Eiv" secondAttribute="trailing" id="AHY-8g-HV4"/>
+                <constraint firstItem="sMW-sR-Pj0" firstAttribute="bottom" secondItem="zjz-9q-Eiv" secondAttribute="top" id="CId-tM-6BX"/>
                 <constraint firstItem="sIg-ia-G7G" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HP3-t2-t6A"/>
-                <constraint firstAttribute="bottom" secondItem="XLV-Vg-awU" secondAttribute="bottom" constant="70" id="IZr-xN-H39"/>
+                <constraint firstAttribute="bottom" secondItem="XLV-Vg-awU" secondAttribute="bottom" constant="55" id="IZr-xN-H39"/>
                 <constraint firstItem="XLV-Vg-awU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NZ1-jW-a5m"/>
                 <constraint firstItem="zjz-9q-Eiv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ReY-rg-USp"/>
                 <constraint firstItem="IRH-8G-UrB" firstAttribute="top" secondItem="o8z-gJ-tiS" secondAttribute="bottom" constant="25" id="d4V-Ig-oaz"/>
@@ -73,6 +86,7 @@
                 <constraint firstItem="IRH-8G-UrB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pmF-mU-9Gh"/>
                 <constraint firstAttribute="trailing" secondItem="sIg-ia-G7G" secondAttribute="trailing" id="sJP-tE-7It"/>
                 <constraint firstItem="zjz-9q-Eiv" firstAttribute="top" secondItem="sIg-ia-G7G" secondAttribute="bottom" id="xYD-qX-866"/>
+                <constraint firstItem="sMW-sR-Pj0" firstAttribute="top" secondItem="sIg-ia-G7G" secondAttribute="top" id="zGE-LT-SIB"/>
             </constraints>
             <variation key="default">
                 <mask key="constraints">
