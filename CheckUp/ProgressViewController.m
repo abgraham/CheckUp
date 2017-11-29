@@ -8,10 +8,12 @@
 
 #import "ProgressViewController.h"
 #import "HeaderView.h"
+#import "AppDelegate.h"
 
 @interface ProgressViewController ()
 @property (weak, nonatomic) IBOutlet HeaderView *header;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
 
@@ -22,6 +24,16 @@
     // Do any additional setup after loading the view.
     self.header.label.text = @"Progress";
     self.backButton.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+    if (appDelegate.passedQuiz){
+        [self.image setImage:[UIImage imageNamed:@"DiabetesQuizTakenProgress.png"]];
+    } else {
+        [self.image setImage:[UIImage imageNamed:@"NoQuizzesTakenProgress.png"]];
+     }
 }
 
 - (void)didReceiveMemoryWarning {

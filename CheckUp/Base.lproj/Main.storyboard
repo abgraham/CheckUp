@@ -384,6 +384,7 @@
                     <connections>
                         <outlet property="backButton" destination="b6Y-xA-pkL" id="JGa-Ru-TFM"/>
                         <outlet property="header" destination="YKn-iS-dxP" id="unK-HF-pJZ"/>
+                        <outlet property="image" destination="8l7-rt-nd3" id="Uwz-vm-0Bj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QKR-XD-5Wo" userLabel="First Responder" sceneMemberID="firstResponder"/>

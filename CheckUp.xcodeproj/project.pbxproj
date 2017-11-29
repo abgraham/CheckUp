@@ -67,6 +67,8 @@
 		DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF81FC4A2DC00932C5E /* QuizIcon.png */; };
 		DE356EFE1FC4AFD100932C5E /* ProgressPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */; };
 		DE356F011FC4B05800932C5E /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356F001FC4B05800932C5E /* ProgressViewController.m */; };
+		DEBDFFC91FCF596500D692AF /* DiabetesQuizTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */; };
+		DEBDFFCA1FCF596500D692AF /* NoQuizzesTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -170,6 +172,8 @@
 		DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProgressPlaceholder.png; path = ../../ProgressPlaceholder.png; sourceTree = "<group>"; };
 		DE356EFF1FC4B05800932C5E /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
 		DE356F001FC4B05800932C5E /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DiabetesQuizTakenProgress.png; path = ../../DiabetesQuizTakenProgress.png; sourceTree = "<group>"; };
+		DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoQuizzesTakenProgress.png; path = ../../NoQuizzesTakenProgress.png; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 		DE356E9C1FBFA42D00932C5E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */,
+				DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */,
 				DE3282B91FCCA53C00D23058 /* Berries */,
 				DE90C1471FCB17F9007AD3D9 /* LessonPhotos */,
 				DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */,
@@ -512,6 +518,7 @@
 				DE3282C21FCCA54B00D23058 /* Berry (4_4).png in Resources */,
 				DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */,
 				DE3282C01FCCA54B00D23058 /* Berry (2_4).png in Resources */,
+				DEBDFFCA1FCF596500D692AF /* NoQuizzesTakenProgress.png in Resources */,
 				DE356EE31FC49EE100932C5E /* QuizJarD.png in Resources */,
 				DE356EF91FC4A2DC00932C5E /* ProfileIcon.png in Resources */,
 				DE356EE91FC4A07D00932C5E /* IncompleteBerry.png in Resources */,
@@ -525,6 +532,7 @@
 				DEF85E181FB51FD700EA2FB2 /* LaunchScreen.storyboard in Resources */,
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
 				DE3282B41FCCA34C00D23058 /* healthydiet1.jpeg in Resources */,
+				DEBDFFC91FCF596500D692AF /* DiabetesQuizTakenProgress.png in Resources */,
 				DE356EE61FC49EE100932C5E /* QuizJarA.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
 				DE356EE41FC49EE100932C5E /* QuizJarC.png in Resources */,

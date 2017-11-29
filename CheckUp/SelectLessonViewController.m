@@ -82,10 +82,32 @@
         // Do nothing--this module is
         // complete.
     } else {
-        // Go to quiz pages
-        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
-        quizPageVC.pageCode = @"1";
-        [self.navigationController showViewController:quizPageVC sender:self];
+        // Go to quiz pages IF you've completed both modules
+        AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+        if (appDelegate.hasTakenSugarLesson && appDelegate.hasTakenHealthyDietLesson){
+            QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+            quizPageVC.pageCode = @"1";
+            [self.navigationController showViewController:quizPageVC sender:self];
+        } else {
+            // Alert explains they need to complete lessons to access the quiz.
+            UIAlertController * alert=   [UIAlertController
+                                          alertControllerWithTitle:@"Lessons Incomplete"
+                                          message:@"You must complete all the diabetes lessons to access the quiz."
+                                          preferredStyle:UIAlertControllerStyleAlert];
+
+            UIAlertAction* ok = [UIAlertAction
+                                 actionWithTitle:@"OK"
+                                 style:UIAlertActionStyleDefault
+                                 handler:^(UIAlertAction * action)
+                                 {
+                                     //Do some thing here
+                                     [self dismissViewControllerAnimated:YES completion:nil];
+
+                                 }];
+            [alert addAction:ok];
+
+            [self presentViewController:alert animated:YES completion:nil];
+        }
     }
 }
 
