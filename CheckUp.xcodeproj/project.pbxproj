@@ -67,6 +67,9 @@
 		DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EF81FC4A2DC00932C5E /* QuizIcon.png */; };
 		DE356EFE1FC4AFD100932C5E /* ProgressPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */; };
 		DE356F011FC4B05800932C5E /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356F001FC4B05800932C5E /* ProgressViewController.m */; };
+		DE9728211FD0943700CEE3D6 /* Jar Icon 3_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DE97281F1FD0943700CEE3D6 /* Jar Icon 3_5.png */; };
+		DE9728221FD0943700CEE3D6 /* Jar Icon 5_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9728201FD0943700CEE3D6 /* Jar Icon 5_5.png */; };
+		DE9728241FD095E900CEE3D6 /* Jar Icon 4-5.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9728231FD095E900CEE3D6 /* Jar Icon 4-5.png */; };
 		DEBDFFC91FCF596500D692AF /* DiabetesQuizTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */; };
 		DEBDFFCA1FCF596500D692AF /* NoQuizzesTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
@@ -172,6 +175,9 @@
 		DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProgressPlaceholder.png; path = ../../ProgressPlaceholder.png; sourceTree = "<group>"; };
 		DE356EFF1FC4B05800932C5E /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
 		DE356F001FC4B05800932C5E /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		DE97281F1FD0943700CEE3D6 /* Jar Icon 3_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jar Icon 3_5.png"; path = "../../../Downloads/drive-download-20171130T193140Z-001/Jar Icon 3_5.png"; sourceTree = "<group>"; };
+		DE9728201FD0943700CEE3D6 /* Jar Icon 5_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jar Icon 5_5.png"; path = "../../../Downloads/drive-download-20171130T193140Z-001/Jar Icon 5_5.png"; sourceTree = "<group>"; };
+		DE9728231FD095E900CEE3D6 /* Jar Icon 4-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jar Icon 4-5.png"; path = "../../../Downloads/Jar Icon 4-5.png"; sourceTree = "<group>"; };
 		DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DiabetesQuizTakenProgress.png; path = ../../DiabetesQuizTakenProgress.png; sourceTree = "<group>"; };
 		DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoQuizzesTakenProgress.png; path = ../../NoQuizzesTakenProgress.png; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,6 +284,9 @@
 		DE90C1471FCB17F9007AD3D9 /* LessonPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				DE97281F1FD0943700CEE3D6 /* Jar Icon 3_5.png */,
+				DE9728231FD095E900CEE3D6 /* Jar Icon 4-5.png */,
+				DE9728201FD0943700CEE3D6 /* Jar Icon 5_5.png */,
 				DE3282A11FCCA34C00D23058 /* sugar6.jpg */,
 				DE3282A21FCCA34C00D23058 /* sugar4..jpg */,
 				DE3282A31FCCA34C00D23058 /* sugar5.jpg */,
@@ -539,6 +548,7 @@
 				DE3282B51FCCA34C00D23058 /* healthydiet2.jpeg in Resources */,
 				DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */,
 				DE356EEA1FC4A07D00932C5E /* CompleteBerry.png in Resources */,
+				DE9728221FD0943700CEE3D6 /* Jar Icon 5_5.png in Resources */,
 				DE356ECA1FC3D42E00932C5E /* LessonStoryboard.storyboard in Resources */,
 				DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */,
 				DE3282AD1FCCA34C00D23058 /* sugar6.jpg in Resources */,
@@ -562,7 +572,9 @@
 				DE3282B11FCCA34C00D23058 /* sugar3.jpg in Resources */,
 				DE356E9E1FBFA43C00932C5E /* CheckUpHeader.jpeg in Resources */,
 				DE3282AE1FCCA34C00D23058 /* sugar4..jpg in Resources */,
+				DE9728211FD0943700CEE3D6 /* Jar Icon 3_5.png in Resources */,
 				DE3282B21FCCA34C00D23058 /* sugar2.jpg in Resources */,
+				DE9728241FD095E900CEE3D6 /* Jar Icon 4-5.png in Resources */,
 				DE356EB61FC282B500932C5E /* Jar1.png in Resources */,
 				DE356EDE1FC4924100932C5E /* QuizPageViewController.xib in Resources */,
 				DE356EE51FC49EE100932C5E /* QuizJarB.png in Resources */,

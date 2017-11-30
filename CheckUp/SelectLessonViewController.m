@@ -63,6 +63,31 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if ([self.lessonsOrQuizzes isEqualToString:@"Quizzes"]){
+        AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+        [self.objectA.image setImage:[UIImage imageNamed:@"Jar Icon 3_5.png"]];
+        int lessonsCompleted = 0;
+        if (appDelegate.hasTakenSugarLesson) lessonsCompleted += 1;
+        if (appDelegate.hasTakenHealthyDietLesson) lessonsCompleted += 1;
+        // Set the number of berries filled in jar based on the number of lessons completed
+        switch (lessonsCompleted){
+            case 0:
+                [self.objectA.image setImage:[UIImage imageNamed:@"Jar Icon 3_5.png"]];
+                break;
+            case 1:
+                [self.objectA.image setImage:[UIImage imageNamed:@"Jar Icon 4-5.png"]];
+                break;
+            case 2:
+                [self.objectA.image setImage:[UIImage imageNamed:@"Jar Icon 5_5.png"]];
+                break;
+            default:
+                break;
+        }
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
