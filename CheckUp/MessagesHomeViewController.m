@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.headerView.label.text = @"Messages";
+    self.headerView.label.text = @"Home";
     NSLog(@"Messages home");
     self.lessonsTitle.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];
     self.lessonsSubtitle.font = [UIFont fontWithName:@"Avenir-Light" size:14.0];

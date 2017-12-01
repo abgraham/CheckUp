@@ -70,6 +70,8 @@
 		DE9728211FD0943700CEE3D6 /* Jar Icon 3_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DE97281F1FD0943700CEE3D6 /* Jar Icon 3_5.png */; };
 		DE9728221FD0943700CEE3D6 /* Jar Icon 5_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9728201FD0943700CEE3D6 /* Jar Icon 5_5.png */; };
 		DE9728241FD095E900CEE3D6 /* Jar Icon 4-5.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9728231FD095E900CEE3D6 /* Jar Icon 4-5.png */; };
+		DE9C6C3C1FD1E38C00AC5165 /* New Quiz Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9C6C3A1FD1E38C00AC5165 /* New Quiz Icon.png */; };
+		DE9C6C3D1FD1E38C00AC5165 /* Home Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9C6C3B1FD1E38C00AC5165 /* Home Icon.png */; };
 		DEBDFFC91FCF596500D692AF /* DiabetesQuizTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */; };
 		DEBDFFCA1FCF596500D692AF /* NoQuizzesTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
@@ -178,6 +180,8 @@
 		DE97281F1FD0943700CEE3D6 /* Jar Icon 3_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jar Icon 3_5.png"; path = "../../../Downloads/drive-download-20171130T193140Z-001/Jar Icon 3_5.png"; sourceTree = "<group>"; };
 		DE9728201FD0943700CEE3D6 /* Jar Icon 5_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jar Icon 5_5.png"; path = "../../../Downloads/drive-download-20171130T193140Z-001/Jar Icon 5_5.png"; sourceTree = "<group>"; };
 		DE9728231FD095E900CEE3D6 /* Jar Icon 4-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jar Icon 4-5.png"; path = "../../../Downloads/Jar Icon 4-5.png"; sourceTree = "<group>"; };
+		DE9C6C3A1FD1E38C00AC5165 /* New Quiz Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Quiz Icon.png"; path = "../../../Downloads/New Quiz Icon.png"; sourceTree = "<group>"; };
+		DE9C6C3B1FD1E38C00AC5165 /* Home Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home Icon.png"; path = "../../../Downloads/Home Icon.png"; sourceTree = "<group>"; };
 		DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DiabetesQuizTakenProgress.png; path = ../../DiabetesQuizTakenProgress.png; sourceTree = "<group>"; };
 		DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoQuizzesTakenProgress.png; path = ../../NoQuizzesTakenProgress.png; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +253,8 @@
 			children = (
 				DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */,
 				DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */,
+				DE9C6C3A1FD1E38C00AC5165 /* New Quiz Icon.png */,
+				DE9C6C3B1FD1E38C00AC5165 /* Home Icon.png */,
 				DE3282B91FCCA53C00D23058 /* Berries */,
 				DE90C1471FCB17F9007AD3D9 /* LessonPhotos */,
 				DE356E9D1FBFA43C00932C5E /* CheckUpHeader.jpeg */,
@@ -574,6 +580,7 @@
 				DE3282AE1FCCA34C00D23058 /* sugar4..jpg in Resources */,
 				DE9728211FD0943700CEE3D6 /* Jar Icon 3_5.png in Resources */,
 				DE3282B21FCCA34C00D23058 /* sugar2.jpg in Resources */,
+				DE9C6C3C1FD1E38C00AC5165 /* New Quiz Icon.png in Resources */,
 				DE9728241FD095E900CEE3D6 /* Jar Icon 4-5.png in Resources */,
 				DE356EB61FC282B500932C5E /* Jar1.png in Resources */,
 				DE356EDE1FC4924100932C5E /* QuizPageViewController.xib in Resources */,
@@ -581,6 +588,7 @@
 				DE3282C11FCCA54B00D23058 /* Berry (3_4).png in Resources */,
 				DE3282B71FCCA34C00D23058 /* healthydiet5.jpeg in Resources */,
 				DE3282BF1FCCA54B00D23058 /* Berry (1_4).png in Resources */,
+				DE9C6C3D1FD1E38C00AC5165 /* Home Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

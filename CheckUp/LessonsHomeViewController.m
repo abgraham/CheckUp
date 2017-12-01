@@ -11,6 +11,7 @@
 #import "HeaderView.h"
 #import "SelectLessonViewController.h"
 #import "MessagesHomeViewController.h"
+#import "AppDelegate.h"
 
 @interface LessonsHomeViewController ()
 @property (weak, nonatomic) IBOutlet HeaderView *headerView;
@@ -44,6 +45,29 @@
     self.category2.categoryNameLabel.text = @"Hypertension";
     self.category3.categoryNameLabel.text = @"Cancer";
     self.category4.categoryNameLabel.text = @"Lupus";
+    int lessonsCompleted = 0;
+    AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+    if (appDelegate.hasTakenSugarLesson) lessonsCompleted += 1;
+    if (appDelegate.hasTakenHealthyDietLesson) lessonsCompleted += 1;
+    [self.category2.berryIcon setImage:[UIImage imageNamed:@"Berry (1_4).png"]];
+    [self.category3.berryIcon setImage:[UIImage imageNamed:@"Berry (Grey).png"]];
+    [self.category4.berryIcon setImage:[UIImage imageNamed:@"Berry (3_4).png"]];
+    switch (lessonsCompleted){
+        case 0:
+            [self.category1.berryIcon setImage:[UIImage imageNamed:@"Berry (2_4)"]];
+            break;
+        case 1:
+            [self.category1.berryIcon setImage:[UIImage imageNamed:@"Berry (3_4)"]];
+            break;
+        case 2:
+            [self.category1.berryIcon setImage:[UIImage imageNamed:@"Berry (4_4)"]];
+            break;
+        default:
+            break;
+    }
+    if (lessonsCompleted == 2){
+        [self.category1.berryIcon setImage:[UIImage imageNamed:@"CompleteBerry"]];
+    }
     self.instructionsLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
     self.headerView.label.font = [UIFont fontWithName:@"Avenir-Light" size:22.0];
     self.category1.categoryNameLabel.font = [UIFont fontWithName:@"Avenir-Black" size:22.0];

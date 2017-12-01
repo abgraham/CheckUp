@@ -62,6 +62,13 @@
     }
     // Do any additional setup after loading the view from its nib.
 }
+- (IBAction)backButtonPressed:(id)sender {
+    if ([self.lessonsOrQuizzes isEqualToString:@"Lessons"]){
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+        LessonsHomeViewController *lessonHomeVC = [storyboard instantiateViewControllerWithIdentifier:@"lessonsHome"];
+        [self.navigationController showViewController:lessonHomeVC sender:self];
+    }
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -168,17 +175,6 @@
         [self.navigationController showViewController:lessonPageVC sender:self];
     }
 }
-
-
-
-- (IBAction)backButtonPressed:(id)sender {
-    if ([self.lessonsOrQuizzes isEqualToString:@"Lessons"]){
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
-        LessonsHomeViewController *lessonHomeVC = [storyboard instantiateViewControllerWithIdentifier:@"lessonsHome"];
-        [self.navigationController showViewController:lessonHomeVC sender:self];
-    }
-}
-
 
 
 /*

@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Messages-->
+        <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="MessagesHomeViewController" sceneMemberID="viewController">
@@ -202,7 +202,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Messages" image="NotificationsIcon.png" selectedImage="NotificationsIcon.png" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home Icon.png" selectedImage="Home Icon.png" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="headerView" destination="Jbc-VD-Pph" id="ebt-iM-37c"/>
                         <outlet property="lessonsButton" destination="PKK-gl-P9c" id="ZaI-Pc-jHQ"/>
@@ -259,13 +259,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ryanne Carter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCM-Nz-wrH" userLabel="NameLabel">
                                 <rect key="frame" x="245" y="192" width="109.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You earned 538 Points from Diabetes Quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6C-yK-uzV" userLabel="PointsLabel">
                                 <rect key="frame" x="137" y="227" width="325" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqT-CC-ewZ" userLabel="RedeemButton">
@@ -278,13 +278,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardinal Care" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gah-p1-3r6">
                                 <rect key="frame" x="45" y="344" width="103.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Provider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxu-tF-TdW">
                                 <rect key="frame" x="25" y="308" width="118" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Vt-Km-3At">
@@ -552,7 +552,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the category you'd like to learn about and watch the berries grow." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58O-Nn-1Ut">
                                 <rect key="frame" x="20" y="130" width="560" height="134"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A23-60-SPo" userLabel="Category1" customClass="LessonCategoryView">
@@ -694,7 +694,7 @@
         <scene sceneID="EA4-I3-mBR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="YmV-ba-0XH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Quizzes" image="QuizIcon.png" selectedImage="QuizIcon.png" id="HDV-Ol-mtU" userLabel="Quizzes"/>
+                    <tabBarItem key="tabBarItem" title="Quizzes" image="New Quiz Icon.png" selectedImage="New Quiz Icon.png" id="HDV-Ol-mtU" userLabel="Quizzes"/>
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rmq-qr-SQO">
@@ -715,13 +715,13 @@
         <image name="CheckUpHeader.jpeg" width="1496" height="478"/>
         <image name="CheckUpProfileIcon.png" width="78" height="74"/>
         <image name="CheckUpProfilePhoto.png" width="240" height="248"/>
+        <image name="Home Icon.png" width="28" height="24"/>
         <image name="LearnIcon.png" width="36" height="39"/>
         <image name="LessonMessageBG.png" width="336" height="142"/>
-        <image name="NotificationsIcon.png" width="36" height="39"/>
+        <image name="New Quiz Icon.png" width="20" height="26"/>
         <image name="ProfileIcon.png" width="36" height="39"/>
         <image name="ProfileMessageBG.png" width="336" height="142"/>
         <image name="ProgressPlaceholder.png" width="696" height="920"/>
-        <image name="QuizIcon.png" width="36" height="39"/>
         <image name="QuizMessageBG.png" width="336" height="142"/>
     </resources>
     <inferredMetricsTieBreakers>
