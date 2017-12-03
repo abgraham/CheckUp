@@ -43,7 +43,6 @@
 		DE356EC31FC290B800932C5E /* SelectLessonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EC11FC290B800932C5E /* SelectLessonViewController.xib */; };
 		DE356EC71FC361A300932C5E /* LessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356EC51FC361A300932C5E /* LessonViewController.m */; };
 		DE356EC81FC361A300932C5E /* LessonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE356EC61FC361A300932C5E /* LessonViewController.xib */; };
-		DE356ECA1FC3D42E00932C5E /* LessonStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE356EC91FC3D42E00932C5E /* LessonStoryboard.storyboard */; };
 		DE356ECD1FC3DA6300932C5E /* LessonController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356ECC1FC3DA6300932C5E /* LessonController.m */; };
 		DE356ED01FC3E3F700932C5E /* LessonPgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE356ECF1FC3E3F700932C5E /* LessonPgViewController.m */; };
 		DE356ED21FC3F49900932C5E /* SmallButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DE356ED11FC3F49900932C5E /* SmallButton.png */; };
@@ -149,7 +148,6 @@
 		DE356EC41FC361A300932C5E /* LessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonViewController.h; sourceTree = "<group>"; };
 		DE356EC51FC361A300932C5E /* LessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonViewController.m; sourceTree = "<group>"; };
 		DE356EC61FC361A300932C5E /* LessonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonViewController.xib; sourceTree = "<group>"; };
-		DE356EC91FC3D42E00932C5E /* LessonStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LessonStoryboard.storyboard; sourceTree = "<group>"; };
 		DE356ECB1FC3DA6300932C5E /* LessonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonController.h; sourceTree = "<group>"; };
 		DE356ECC1FC3DA6300932C5E /* LessonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonController.m; sourceTree = "<group>"; };
 		DE356ECE1FC3E3F700932C5E /* LessonPgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonPgViewController.h; sourceTree = "<group>"; };
@@ -338,7 +336,6 @@
 				DEF85E4B1FB5328B00EA2FB2 /* Views */,
 				DEF85E4A1FB5327F00EA2FB2 /* ViewControllers */,
 				DEF85E111FB51FD700EA2FB2 /* Main.storyboard */,
-				DE356EC91FC3D42E00932C5E /* LessonStoryboard.storyboard */,
 				DE356ECB1FC3DA6300932C5E /* LessonController.h */,
 				DE356ECC1FC3DA6300932C5E /* LessonController.m */,
 				DEF85E141FB51FD700EA2FB2 /* Assets.xcassets */,
@@ -555,7 +552,6 @@
 				DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */,
 				DE356EEA1FC4A07D00932C5E /* CompleteBerry.png in Resources */,
 				DE9728221FD0943700CEE3D6 /* Jar Icon 5_5.png in Resources */,
-				DE356ECA1FC3D42E00932C5E /* LessonStoryboard.storyboard in Resources */,
 				DE356EFC1FC4A2DC00932C5E /* QuizIcon.png in Resources */,
 				DE3282AD1FCCA34C00D23058 /* sugar6.jpg in Resources */,
 				DE356EB71FC282B500932C5E /* Jar2.png in Resources */,
