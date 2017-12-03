@@ -100,6 +100,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)showNoContentAlert {
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Content Unavailable"
+                                  message:@"This content has not been added to CheckUp yet."
+                                  preferredStyle:UIAlertControllerStyleAlert];
+
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {
+                             //Do some thing here
+                             [self dismissViewControllerAnimated:YES completion:nil];
+
+                         }];
+    [alert addAction:ok];
+
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 - (IBAction)berry1Pressed:(id)sender {
     //SelectLessonViewController *lessonVC = [[SelectLessonViewController alloc] initWithNibName: @"LessonViewController" bundle: nil];
     //[self.navigationController showViewController:lessonVC sender:self];
@@ -111,8 +131,7 @@
 
     if ([self.lessonsOrQuizzes
         isEqualToString:@"Lessons"]){
-        // Do nothing--this module is
-        // complete.
+        [self showNoContentAlert];
     } else {
         // Go to quiz pages IF you've completed both modules
         AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
@@ -144,16 +163,16 @@
 }
 
 - (IBAction)berry2Pressed:(id)sender {
-    if ([self.lessonsOrQuizzes
-         isEqualToString:@"Lessons"]){
-        // Do nothing--this module is
-        // complete.
-    } else {
-        // Go to quiz pages
-        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
-        quizPageVC.pageCode = @"4";
-        [self.navigationController showViewController:quizPageVC sender:self];
-    }
+    [self showNoContentAlert];
+//    if ([self.lessonsOrQuizzes
+//         isEqualToString:@"Lessons"]){
+//        [self showNoContentAlert];
+//    } else {
+//        // Go to quiz pages
+//        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+//        quizPageVC.pageCode = @"4";
+//        [self.navigationController showViewController:quizPageVC sender:self];
+//    }
 }
 
 - (IBAction)berry4Pressed:(id)sender {
@@ -163,6 +182,8 @@
         LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
         lessonPageVC.pageCode = @"1";
         [self.navigationController showViewController:lessonPageVC sender:self];
+    } else {
+        [self showNoContentAlert];
     }
 }
 
@@ -173,6 +194,8 @@
         LessonPageViewController *lessonPageVC = [[LessonPageViewController alloc] initWithNibName: @"LessonPageViewController" bundle: nil];
         lessonPageVC.pageCode = @"7";
         [self.navigationController showViewController:lessonPageVC sender:self];
+    } else {
+        [self showNoContentAlert];
     }
 }
 

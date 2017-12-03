@@ -42,9 +42,9 @@
     [super viewWillAppear:animated];
     AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
     if (!appDelegate.passedQuiz){
-        self.pointsLabel.text = @"0 points";
+        self.pointsLabel.text = @"$0.00";
     } else {
-        self.pointsLabel.text = @"You earned 538 Points from Diabetes Quiz";
+        self.pointsLabel.text = @"You earned $25.00 from Diabetes Quiz";
     }
 
 }

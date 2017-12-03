@@ -93,7 +93,7 @@
         AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
         if (appDelegate.quizScore >= 5){
             // The user passed the quiz
-            _questionLabel.text = @"Congratulations, you passed the quiz! Redeem the 538 points you earned by going to your Profile.";
+            _questionLabel.text = @"Congratulations, you passed the quiz! Redeem the $25.00 you earned by going to your Profile.";
             appDelegate.passedQuiz = YES;
         } else {
             _questionLabel.text = @"Uh oh, you didn't pass this time. You'll have to take the quiz again!";

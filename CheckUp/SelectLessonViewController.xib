@@ -60,7 +60,7 @@
                         <action selector="berry2Pressed:" destination="-1" eventType="touchUpInside" id="t46-b7-jOm"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8N-Ub-gFR">
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8N-Ub-gFR">
                     <rect key="frame" x="25" y="30" width="122" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="LEm-bj-C6H"/>

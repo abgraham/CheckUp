@@ -36,6 +36,25 @@
     selectLessonVC.lessonsOrQuizzes = @"Lessons";
     [self.navigationController showViewController:selectLessonVC sender:self];
 }
+- (IBAction)noContentButtonPressed:(id)sender {
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Content Unavailable"
+                                  message:@"This content has not been added to CheckUp yet."
+                                  preferredStyle:UIAlertControllerStyleAlert];
+
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {
+                             //Do some thing here
+                             [self dismissViewControllerAnimated:YES completion:nil];
+
+                         }];
+    [alert addAction:ok];
+
+    [self presentViewController:alert animated:YES completion:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

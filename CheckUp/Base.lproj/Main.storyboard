@@ -31,7 +31,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LessonMessageBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="XRM-Dm-Oqo">
                                         <rect key="frame" x="0.0" y="0.0" width="586" height="135.5"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finish your Lesson!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APk-XQ-oeh" userLabel="Title">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finish your Lessons!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APk-XQ-oeh" userLabel="Title">
                                         <rect key="frame" x="25" y="25" width="543" height="20.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="EN0-ox-sA9"/>
@@ -55,7 +55,7 @@
                                             <action selector="lessonsPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Wlr-sj-rpq"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="You're so close! Finish up your Diabetes Lesson to redeem benefits!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hI-Hi-NLk" userLabel="Subtitle">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="You're so close! Finish up your Diabetes Lessons to unlock the quiz!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hI-Hi-NLk" userLabel="Subtitle">
                                         <rect key="frame" x="25" y="52" width="441" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="ltZ-Bp-Iyg"/>
@@ -97,13 +97,13 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuizMessageBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="9vL-Vs-8HC">
                                         <rect key="frame" x="0.0" y="0.0" width="586" height="136"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've Got A Quiz Waiting" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrI-Ft-Tm2" userLabel="Title">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Quizzes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrI-Ft-Tm2" userLabel="Title">
                                         <rect key="frame" x="25" y="18" width="199" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats! You've unlocked the diabetes quiz." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTi-PV-p58" userLabel="Subtitle">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check out which quizzes you've unlocked." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTi-PV-p58" userLabel="Subtitle">
                                         <rect key="frame" x="25" y="46" width="491" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -262,8 +262,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You earned 538 Points from Diabetes Quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6C-yK-uzV" userLabel="PointsLabel">
-                                <rect key="frame" x="137" y="227" width="325" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You earned $25.00 from Diabetes Quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6C-yK-uzV" userLabel="PointsLabel">
+                                <rect key="frame" x="151.5" y="227" width="297" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -577,6 +577,12 @@
                                 <rect key="frame" x="0.0" y="479" width="600" height="71.5"/>
                                 <color key="backgroundColor" red="0.78693121671676636" green="0.62380188703536987" blue="0.92162960767745972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Unn-Ys-ivd" userLabel="NoContentButton">
+                                <rect key="frame" x="0.0" y="336" width="600" height="214.5"/>
+                                <connections>
+                                    <action selector="noContentButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="326-up-62V"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -586,11 +592,13 @@
                             <constraint firstItem="58O-Nn-1Ut" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="BES-BR-JqK"/>
                             <constraint firstItem="eUU-z8-qQi" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="BSN-dQ-PRc"/>
                             <constraint firstAttribute="trailing" secondItem="pYm-RX-xra" secondAttribute="trailing" id="BT6-VR-bUk"/>
+                            <constraint firstItem="Unn-Ys-ivd" firstAttribute="bottom" secondItem="pYm-RX-xra" secondAttribute="bottom" id="BcR-9Q-gLp"/>
                             <constraint firstItem="pYm-RX-xra" firstAttribute="height" secondItem="4fm-KT-buQ" secondAttribute="height" id="BiD-8b-J3G"/>
                             <constraint firstAttribute="trailing" secondItem="AVR-sb-t4t" secondAttribute="trailing" id="Gdy-sz-vcB"/>
                             <constraint firstItem="xf3-m6-IU2" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="IML-6w-fQg"/>
                             <constraint firstItem="AVR-sb-t4t" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="M1K-t2-LBp"/>
                             <constraint firstItem="pYm-RX-xra" firstAttribute="top" secondItem="4fm-KT-buQ" secondAttribute="bottom" id="M3u-QR-O5q"/>
+                            <constraint firstItem="Unn-Ys-ivd" firstAttribute="top" secondItem="AVR-sb-t4t" secondAttribute="top" id="OpF-hP-n23"/>
                             <constraint firstItem="AVR-sb-t4t" firstAttribute="height" secondItem="A23-60-SPo" secondAttribute="height" id="Pgb-lF-GEZ"/>
                             <constraint firstItem="A23-60-SPo" firstAttribute="top" secondItem="eUU-z8-qQi" secondAttribute="top" id="PtP-W7-Hst"/>
                             <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="pYm-RX-xra" secondAttribute="bottom" id="Xun-z2-9d9"/>
@@ -598,9 +606,11 @@
                             <constraint firstItem="A23-60-SPo" firstAttribute="top" secondItem="58O-Nn-1Ut" secondAttribute="bottom" id="aTG-bd-DSS"/>
                             <constraint firstAttribute="trailing" secondItem="xf3-m6-IU2" secondAttribute="trailing" id="coe-ux-d2N"/>
                             <constraint firstItem="4fm-KT-buQ" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="fti-sS-nnD"/>
+                            <constraint firstAttribute="trailing" secondItem="Unn-Ys-ivd" secondAttribute="trailing" id="gs1-ts-u0s"/>
                             <constraint firstItem="4fm-KT-buQ" firstAttribute="height" secondItem="AVR-sb-t4t" secondAttribute="height" id="hET-EL-1Lk"/>
                             <constraint firstItem="A23-60-SPo" firstAttribute="leading" secondItem="eUU-z8-qQi" secondAttribute="leading" id="ieH-BG-ekj"/>
                             <constraint firstAttribute="trailing" secondItem="4fm-KT-buQ" secondAttribute="trailing" id="jNj-do-V23"/>
+                            <constraint firstItem="Unn-Ys-ivd" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="jPb-TF-An5"/>
                             <constraint firstItem="A23-60-SPo" firstAttribute="bottom" secondItem="eUU-z8-qQi" secondAttribute="bottom" id="lw1-Up-qIv"/>
                             <constraint firstItem="58O-Nn-1Ut" firstAttribute="top" secondItem="xf3-m6-IU2" secondAttribute="bottom" constant="10" id="mNp-6p-I8Y"/>
                             <constraint firstItem="pYm-RX-xra" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="nxK-xi-ODG"/>
