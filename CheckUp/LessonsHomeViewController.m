@@ -65,7 +65,7 @@
     self.category3.categoryNameLabel.text = @"Cancer";
     self.category4.categoryNameLabel.text = @"Lupus";
     int lessonsCompleted = 0;
-    AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+    AppDelegate *appDelegate =(AppDelegate *)[[UIApplication sharedApplication] delegate];
     if (appDelegate.hasTakenSugarLesson) lessonsCompleted += 1;
     if (appDelegate.hasTakenHealthyDietLesson) lessonsCompleted += 1;
     [self.category2.berryIcon setImage:[UIImage imageNamed:@"Berry (1_4).png"]];
