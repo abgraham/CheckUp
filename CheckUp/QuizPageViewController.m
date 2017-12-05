@@ -94,12 +94,14 @@
         if (appDelegate.quizScore >= 5){
             // The user passed the quiz
             _questionLabel.text = @"Congratulations, you passed the quiz! Redeem the $25.00 you earned by going to your Profile.";
+            [_answerA setTitle:@"" forState:UIControlStateNormal];
+            [_answerB setTitle:@"" forState:UIControlStateNormal];
             appDelegate.passedQuiz = YES;
         } else {
             _questionLabel.text = @"Uh oh, you didn't pass this time. You'll have to take the quiz again!";
+            [_answerA setTitle:@"Review the Sneaky Sugar module " forState:UIControlStateNormal];
+            [_answerB setTitle:@"and try again." forState:UIControlStateNormal];
         }
-        [_answerA setTitle:@"" forState:UIControlStateNormal];
-        [_answerB setTitle:@"" forState:UIControlStateNormal];
         [_answerC setTitle:@"" forState:UIControlStateNormal];
         [_answerD setTitle:@"" forState:UIControlStateNormal];
         [_nextButton setTitle:@"Done" forState:UIControlStateNormal];
