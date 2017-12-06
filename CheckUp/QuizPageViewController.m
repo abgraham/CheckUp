@@ -28,7 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _questionLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
+    _questionLabel.font = [UIFont fontWithName:@"Avenir-Bold" size:16.0];
     _answerA.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
     _answerB.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
     _answerC.titleLabel.font = [UIFont fontWithName:@"Avenir-Light" size:16.0];
@@ -41,6 +41,15 @@
 }
 
 - (void)setUpContent {
+    if ([self.pageCode isEqualToString:@"0"]){
+        // SNEAKY SUGARS QUIZ
+        // initialize quizScore to zero.
+        _questionLabel.text = @"Welcome to the Sneaky Sugars Quiz!";
+        [_answerA setTitle:@"Click on the correct answer." forState:UIControlStateNormal];
+        [_answerB setTitle:@"You must correctly answer 5/7" forState:UIControlStateNormal];
+        [_answerC setTitle:@"questions to pass the quiz." forState:UIControlStateNormal];
+        [_answerD setTitle:@"" forState:UIControlStateNormal];
+    }
     if ([self.pageCode isEqualToString:@"1"]){
         // SNEAKY SUGARS QUIZ
         // initialize quizScore to zero.
@@ -117,11 +126,15 @@
 }
 
 - (IBAction)backButtonPressed:(id)sender {
-    if ([self.pageCode isEqualToString:@"1"]){
+    if ([self.pageCode isEqualToString:@"0"]){
         // Direct back to quiz home
         SelectLessonViewController *selectLessonVC = [[SelectLessonViewController alloc] initWithNibName: @"SelectLessonViewController" bundle: nil];
         selectLessonVC.lessonsOrQuizzes = @"Quizzes";
         [self.navigationController showViewController:selectLessonVC sender:self];
+    } if ([self.pageCode isEqualToString:@"1"]){
+        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+        quizPageVC.pageCode = @"0";
+        [self.navigationController showViewController:quizPageVC sender:self];
     } if ([self.pageCode isEqualToString:@"2"]){
         QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
         quizPageVC.pageCode = @"1";
@@ -155,6 +168,11 @@
 
 - (IBAction)nextButtonPressed:(id)sender {
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    if ([self.pageCode isEqualToString:@"0"]){
+        QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
+        quizPageVC.pageCode = @"1";
+        [self.navigationController showViewController:quizPageVC sender:self];
+    }
     if ([self.pageCode isEqualToString:@"1"]){
         appDelegate.quizScore = 0;
         if ([_answerB.titleLabel.textColor isEqual:[UIColor greenColor]]){

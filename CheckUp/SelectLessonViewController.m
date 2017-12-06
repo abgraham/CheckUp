@@ -137,7 +137,7 @@
         AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
         //if (appDelegate.hasTakenSugarLesson && appDelegate.hasTakenHealthyDietLesson){
             QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
-            quizPageVC.pageCode = @"1";
+            quizPageVC.pageCode = @"0";
             [self.navigationController showViewController:quizPageVC sender:self];
         /*} else {
             // Alert explains they need to complete lessons to access the quiz.

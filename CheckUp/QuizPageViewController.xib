@@ -40,8 +40,8 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. What is healthier for you?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAZ-mA-sbi">
-                    <rect key="frame" x="82.5" y="332" width="210.5" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="75" y="332" width="226" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -55,36 +55,36 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eLW-aI-BN5">
-                    <rect key="frame" x="127.5" y="398" width="59" height="30"/>
+                    <rect key="frame" x="120" y="398" width="59" height="30"/>
                     <state key="normal" title="answerB">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </state>
                     <connections>
                         <action selector="answerBPressed:" destination="-1" eventType="touchUpInside" id="EbG-E0-suO"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="m45-EB-hFW">
-                    <rect key="frame" x="127.5" y="436" width="60" height="30"/>
+                    <rect key="frame" x="120" y="436" width="60" height="30"/>
                     <state key="normal" title="answerC">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </state>
                     <connections>
                         <action selector="answerCPressed:" destination="-1" eventType="touchUpInside" id="qvb-hz-go3"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="IPt-5H-58s">
-                    <rect key="frame" x="127.5" y="474" width="60" height="30"/>
+                    <rect key="frame" x="120" y="474" width="60" height="30"/>
                     <state key="normal" title="answerD">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </state>
                     <connections>
                         <action selector="answerDPressed:" destination="-1" eventType="touchUpInside" id="z9s-pX-Wid"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="smi-Z7-hhn">
-                    <rect key="frame" x="127.5" y="360" width="59" height="30"/>
+                    <rect key="frame" x="120" y="360" width="59" height="30"/>
                     <state key="normal" title="answerA">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </state>
                     <connections>
                         <action selector="answerAPressed:" destination="-1" eventType="touchUpInside" id="qQQ-ua-PKa"/>

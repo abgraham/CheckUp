@@ -475,19 +475,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$176" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQ5-xB-GdO">
-                                <rect key="frame" x="168.5" y="332" width="38" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="95" y="292" width="186" height="101.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="85"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in benefits with your provider." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyz-rq-Dfa">
-                                <rect key="frame" x="75" y="380" width="225.5" height="21"/>
+                                <rect key="frame" x="75" y="413.5" width="225.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scj-M4-Zgh">
-                                <rect key="frame" x="111.5" y="428" width="152" height="30"/>
+                                <rect key="frame" x="111.5" y="461.5" width="152" height="30"/>
                                 <state key="normal" title="Get back to my profile">
                                     <color key="titleColor" red="0.98517471551895142" green="0.98656666278839111" blue="0.9594566822052002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -502,8 +502,8 @@
                             <constraint firstItem="jQ5-xB-GdO" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="0Bq-ZL-LJY"/>
                             <constraint firstItem="ude-JL-4RV" firstAttribute="centerX" secondItem="68R-UJ-P05" secondAttribute="centerX" id="6mZ-Rj-sxk"/>
                             <constraint firstItem="XAb-ys-Qua" firstAttribute="top" secondItem="YLD-tZ-diS" secondAttribute="bottom" constant="12" id="CdK-sP-FxQ"/>
-                            <constraint firstItem="hyz-rq-Dfa" firstAttribute="top" secondItem="jQ5-xB-GdO" secondAttribute="bottom" constant="27" id="Hol-AS-yDk"/>
-                            <constraint firstItem="jQ5-xB-GdO" firstAttribute="top" secondItem="ho4-9f-N5E" secondAttribute="bottom" constant="60" id="Npt-jM-em9"/>
+                            <constraint firstItem="hyz-rq-Dfa" firstAttribute="top" secondItem="jQ5-xB-GdO" secondAttribute="bottom" constant="20" id="Hol-AS-yDk"/>
+                            <constraint firstItem="jQ5-xB-GdO" firstAttribute="top" secondItem="ho4-9f-N5E" secondAttribute="bottom" constant="20" id="Npt-jM-em9"/>
                             <constraint firstItem="ude-JL-4RV" firstAttribute="top" secondItem="XAb-ys-Qua" secondAttribute="top" constant="12" id="RF5-nr-Lqe"/>
                             <constraint firstItem="7LO-1j-UUN" firstAttribute="top" secondItem="68R-UJ-P05" secondAttribute="top" id="SCF-t9-iC6"/>
                             <constraint firstItem="ho4-9f-N5E" firstAttribute="top" secondItem="ude-JL-4RV" secondAttribute="bottom" constant="24" id="SEo-aF-Q1d"/>
@@ -554,35 +554,35 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the category you'd like to learn about and watch the berries grow." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58O-Nn-1Ut">
-                                <rect key="frame" x="20" y="130" width="335" height="162.5"/>
+                                <rect key="frame" x="20" y="130" width="335" height="163"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A23-60-SPo" userLabel="Category1" customClass="LessonCategoryView">
-                                <rect key="frame" x="0.0" y="292.5" width="375" height="82"/>
+                                <rect key="frame" x="0.0" y="293" width="375" height="81"/>
                                 <color key="backgroundColor" red="0.94395744800567627" green="1" blue="0.044237270951271057" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUU-z8-qQi">
-                                <rect key="frame" x="0.0" y="292.5" width="375" height="82"/>
+                                <rect key="frame" x="0.0" y="293" width="375" height="81"/>
                                 <connections>
                                     <action selector="diabetesPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="cTM-Gv-vQd"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVR-sb-t4t" userLabel="Category2" customClass="LessonCategoryView">
-                                <rect key="frame" x="0.0" y="374.5" width="375" height="81"/>
+                                <rect key="frame" x="0.0" y="374" width="375" height="81.5"/>
                                 <color key="backgroundColor" red="0.1149012539" green="0.73239203470000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-KT-buQ" userLabel="Category3" customClass="LessonCategoryView">
-                                <rect key="frame" x="0.0" y="455" width="375" height="82"/>
+                                <rect key="frame" x="0.0" y="455" width="375" height="81.5"/>
                                 <color key="backgroundColor" red="0.11730019748210907" green="0.71986937522888184" blue="0.34482765197753906" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pYm-RX-xra" userLabel="Category4" customClass="LessonCategoryView">
-                                <rect key="frame" x="0.0" y="537" width="375" height="81"/>
+                                <rect key="frame" x="0.0" y="536.5" width="375" height="81.5"/>
                                 <color key="backgroundColor" red="0.73530662059783936" green="0.53627699613571167" blue="0.90148520469665527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Unn-Ys-ivd" userLabel="NoContentButton">
-                                <rect key="frame" x="0.0" y="374.5" width="375" height="243.5"/>
+                                <rect key="frame" x="0.0" y="374" width="375" height="244"/>
                                 <connections>
                                     <action selector="noContentButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="326-up-62V"/>
                                 </connections>
