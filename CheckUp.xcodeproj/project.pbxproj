@@ -11,6 +11,9 @@
 		DE02740C1FD793B800332BF2 /* WhiteOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = DE02740B1FD793B800332BF2 /* WhiteOutline.png */; };
 		DE02740E1FD7949500332BF2 /* BigGreyBerry.png in Resources */ = {isa = PBXBuildFile; fileRef = DE02740D1FD7949500332BF2 /* BigGreyBerry.png */; };
 		DE0274101FD7956600332BF2 /* $172.png in Resources */ = {isa = PBXBuildFile; fileRef = DE02740F1FD7956600332BF2 /* $172.png */; };
+		DE0274121FD797D400332BF2 /* ProgressEarned.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0274111FD797D400332BF2 /* ProgressEarned.png */; };
+		DE0274141FD797E100332BF2 /* ProgressNotEarned.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0274131FD797E100332BF2 /* ProgressNotEarned.png */; };
+		DE0274161FD7982E00332BF2 /* $25.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0274151FD7982E00332BF2 /* $25.png */; };
 		DE3282AD1FCCA34C00D23058 /* sugar6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3282A11FCCA34C00D23058 /* sugar6.jpg */; };
 		DE3282AE1FCCA34C00D23058 /* sugar4..jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3282A21FCCA34C00D23058 /* sugar4..jpg */; };
 		DE3282AF1FCCA34C00D23058 /* sugar5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3282A31FCCA34C00D23058 /* sugar5.jpg */; };
@@ -115,6 +118,9 @@
 		DE02740B1FD793B800332BF2 /* WhiteOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteOutline.png; path = ../../../Downloads/WhiteOutline.png; sourceTree = "<group>"; };
 		DE02740D1FD7949500332BF2 /* BigGreyBerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BigGreyBerry.png; path = ../../../Downloads/BigGreyBerry.png; sourceTree = "<group>"; };
 		DE02740F1FD7956600332BF2 /* $172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = $172.png; path = ../../../Downloads/$172.png; sourceTree = "<group>"; };
+		DE0274111FD797D400332BF2 /* ProgressEarned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProgressEarned.png; path = ../../../Downloads/ProgressEarned.png; sourceTree = "<group>"; };
+		DE0274131FD797E100332BF2 /* ProgressNotEarned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProgressNotEarned.png; path = ../../../Downloads/ProgressNotEarned.png; sourceTree = "<group>"; };
+		DE0274151FD7982E00332BF2 /* $25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = $25.png; path = ../../../Downloads/$25.png; sourceTree = "<group>"; };
 		DE3282A11FCCA34C00D23058 /* sugar6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sugar6.jpg; path = "../../../Downloads/drive-download-20171127T194516Z-001/sugar6.jpg"; sourceTree = "<group>"; };
 		DE3282A21FCCA34C00D23058 /* sugar4..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sugar4..jpg; path = "../../../Downloads/drive-download-20171127T194516Z-001/sugar4..jpg"; sourceTree = "<group>"; };
 		DE3282A31FCCA34C00D23058 /* sugar5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sugar5.jpg; path = "../../../Downloads/drive-download-20171127T194516Z-001/sugar5.jpg"; sourceTree = "<group>"; };
@@ -296,6 +302,9 @@
 				DE02740D1FD7949500332BF2 /* BigGreyBerry.png */,
 				DE356EFD1FC4AFD100932C5E /* ProgressPlaceholder.png */,
 				DE02740F1FD7956600332BF2 /* $172.png */,
+				DE0274111FD797D400332BF2 /* ProgressEarned.png */,
+				DE0274131FD797E100332BF2 /* ProgressNotEarned.png */,
+				DE0274151FD7982E00332BF2 /* $25.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -560,6 +569,7 @@
 				DE356EA21FC1F92D00932C5E /* CheckUpProfilePhoto.png in Resources */,
 				DE3282B41FCCA34C00D23058 /* healthydiet1.jpeg in Resources */,
 				DEBDFFC91FCF596500D692AF /* DiabetesQuizTakenProgress.png in Resources */,
+				DE0274121FD797D400332BF2 /* ProgressEarned.png in Resources */,
 				DE356EE61FC49EE100932C5E /* QuizJarA.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
 				DE356EE41FC49EE100932C5E /* QuizJarC.png in Resources */,
@@ -580,12 +590,14 @@
 				DEF85E131FB51FD700EA2FB2 /* Main.storyboard in Resources */,
 				DE356EC81FC361A300932C5E /* LessonViewController.xib in Resources */,
 				DEF85E501FB5331500EA2FB2 /* HeaderView.xib in Resources */,
+				DE0274161FD7982E00332BF2 /* $25.png in Resources */,
 				DE356EEE1FC4A11200932C5E /* LongCompleteBerry.png in Resources */,
 				DE356EED1FC4A11200932C5E /* LongIncompleteBerry.png in Resources */,
 				DE0274101FD7956600332BF2 /* $172.png in Resources */,
 				DE356EF31FC4A2D300932C5E /* ProfileMessageBG.png in Resources */,
 				DE356EFA1FC4A2DC00932C5E /* NotificationsIcon.png in Resources */,
 				DE02740A1FD793AB00332BF2 /* NewProfilePhoto.png in Resources */,
+				DE0274141FD797E100332BF2 /* ProgressNotEarned.png in Resources */,
 				DE3282AF1FCCA34C00D23058 /* sugar5.jpg in Resources */,
 				DE356ED41FC47AA900932C5E /* SampleLesson.png in Resources */,
 				DE356EF41FC4A2D300932C5E /* QuizMessageBG.png in Resources */,

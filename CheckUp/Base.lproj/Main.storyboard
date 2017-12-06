@@ -494,7 +494,7 @@
                                     <action selector="getBackButtonPressed:" destination="i4h-eK-gCC" eventType="touchUpInside" id="b5Y-2J-5Nv"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="$172.png" translatesAutoresizingMaskIntoConstraints="NO" id="ofT-Jj-fWX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="$25.png" translatesAutoresizingMaskIntoConstraints="NO" id="ofT-Jj-fWX">
                                 <rect key="frame" x="95" y="282" width="185" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="nce-BV-hbR"/>
@@ -731,7 +731,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="$172.png" width="735" height="285"/>
+        <image name="$25.png" width="545" height="285"/>
         <image name="CheckUpHeader.jpeg" width="1496" height="478"/>
         <image name="CheckUpProfileIcon.png" width="78" height="74"/>
         <image name="CheckUpProfilePhoto.png" width="240" height="248"/>

@@ -30,9 +30,9 @@
     [super viewWillAppear:animated];
     AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
     if (appDelegate.passedQuiz){
-        [self.image setImage:[UIImage imageNamed:@"DiabetesQuizTakenProgress.png"]];
+        [self.image setImage:[UIImage imageNamed:@"ProgressEarned.png"]];
     } else {
-        [self.image setImage:[UIImage imageNamed:@"NoQuizzesTakenProgress.png"]];
+        [self.image setImage:[UIImage imageNamed:@"ProgressNotEarned.png"]];
      }
 }
 

@@ -24,52 +24,59 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-wh-LV5" userLabel="Berry1" customClass="LabeledJarView">
-                    <rect key="frame" x="25" y="85" width="275" height="245.5"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-wh-LV5" userLabel="Berry1" customClass="LabeledJarView">
+                    <rect key="frame" x="25" y="73" width="162.5" height="285"/>
                     <color key="backgroundColor" red="0.76167821884155273" green="0.92417788505554199" blue="0.60453063249588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQO-px-CLz" userLabel="LessonOneButton">
-                    <rect key="frame" x="25" y="90" width="275" height="236.5"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQO-px-CLz" userLabel="LessonOneButton">
+                    <rect key="frame" x="25" y="78" width="162.5" height="276"/>
                     <connections>
                         <action selector="berry1Pressed:" destination="-1" eventType="touchUpInside" id="yKq-id-ivG"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G0k-Ge-D1S" userLabel="Berry3" customClass="LabeledJarView">
-                    <rect key="frame" x="25" y="330" width="275" height="245"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G0k-Ge-D1S" userLabel="Berry3" customClass="LabeledJarView">
+                    <rect key="frame" x="25" y="357.5" width="162.5" height="284.5"/>
                     <color key="backgroundColor" red="0.56089061498641968" green="0.92096304893493652" blue="0.6532825231552124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWN-R5-qRK" userLabel="Lesson3Button">
-                    <rect key="frame" x="25" y="331" width="275" height="244"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWN-R5-qRK" userLabel="Lesson3Button">
+                    <rect key="frame" x="25" y="358.5" width="162.5" height="283.5"/>
                     <connections>
                         <action selector="lessonBerry3Pressed:" destination="-1" eventType="touchUpInside" id="xjw-ee-S7w"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQj-cY-871" userLabel="Berry4" customClass="LabeledJarView">
-                    <rect key="frame" x="300" y="330" width="274.5" height="245"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQj-cY-871" userLabel="Berry4" customClass="LabeledJarView">
+                    <rect key="frame" x="187.5" y="357.5" width="162.5" height="284.5"/>
                     <color key="backgroundColor" red="0.77839195728302002" green="0.90833616256713867" blue="0.93821156024932861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfP-Tm-w8x" userLabel="Lesson4Button">
-                    <rect key="frame" x="300" y="332" width="274.5" height="243"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfP-Tm-w8x" userLabel="Lesson4Button">
+                    <rect key="frame" x="187.5" y="359.5" width="162.5" height="282.5"/>
                     <connections>
                         <action selector="berry4Pressed:" destination="-1" eventType="touchUpInside" id="diJ-dy-YXF"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zqh-cd-aua" userLabel="Berry2" customClass="LabeledJarView">
-                    <rect key="frame" x="300" y="85" width="274.5" height="245.5"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zqh-cd-aua" userLabel="Berry2" customClass="LabeledJarView">
+                    <rect key="frame" x="187.5" y="73" width="162.5" height="285"/>
                     <color key="backgroundColor" red="0.91944527626037598" green="0.96885478496551514" blue="0.066465988755226135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvh-7J-j18" userLabel="Lesson2Button">
-                    <rect key="frame" x="300" y="85" width="274.5" height="247.5"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvh-7J-j18" userLabel="Lesson2Button">
+                    <rect key="frame" x="187.5" y="73" width="162.5" height="287"/>
                     <connections>
                         <action selector="berry2Pressed:" destination="-1" eventType="touchUpInside" id="t46-b7-jOm"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckUpHeader.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="brn-uS-mGH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="71" id="Le0-Of-Rkm"/>
+                    </constraints>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8N-Ub-gFR">
-                    <rect key="frame" x="25" y="30" width="122" height="30"/>
+                    <rect key="frame" x="25" y="18" width="38" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="LEm-bj-C6H"/>
                     </constraints>
-                    <state key="normal" title="Back" backgroundImage="SmallButton.png">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Back">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
@@ -86,6 +93,8 @@
                 <constraint firstItem="G0k-Ge-D1S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="6X1-Mh-vxO"/>
                 <constraint firstAttribute="trailing" secondItem="Zqh-cd-aua" secondAttribute="trailing" constant="25" id="78z-pS-UOv"/>
                 <constraint firstItem="1sO-wh-LV5" firstAttribute="height" secondItem="Zqh-cd-aua" secondAttribute="height" id="7v1-vF-c1c"/>
+                <constraint firstItem="brn-uS-mGH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9dj-tR-pRk"/>
+                <constraint firstItem="1sO-wh-LV5" firstAttribute="top" secondItem="brn-uS-mGH" secondAttribute="bottom" constant="2" id="Bfk-ak-vWZ"/>
                 <constraint firstItem="1sO-wh-LV5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="Bn8-TP-7oZ"/>
                 <constraint firstItem="1sO-wh-LV5" firstAttribute="width" secondItem="OQO-px-CLz" secondAttribute="width" id="DJL-dx-2oz"/>
                 <constraint firstItem="yfP-Tm-w8x" firstAttribute="bottom" secondItem="BQj-cY-871" secondAttribute="bottom" id="DTC-gK-pYZ"/>
@@ -95,17 +104,19 @@
                 <constraint firstItem="G0k-Ge-D1S" firstAttribute="top" secondItem="1sO-wh-LV5" secondAttribute="bottom" id="HQf-Ts-7Oc"/>
                 <constraint firstAttribute="bottom" secondItem="BQj-cY-871" secondAttribute="bottom" constant="10" id="HVG-bo-o3r"/>
                 <constraint firstItem="yfP-Tm-w8x" firstAttribute="top" secondItem="wvh-7J-j18" secondAttribute="bottom" id="L4P-da-nKM"/>
+                <constraint firstAttribute="trailing" secondItem="brn-uS-mGH" secondAttribute="trailing" id="L8x-H9-5fj"/>
                 <constraint firstItem="G0k-Ge-D1S" firstAttribute="width" secondItem="1sO-wh-LV5" secondAttribute="width" id="Lq4-dC-zLh"/>
                 <constraint firstAttribute="bottom" secondItem="G0k-Ge-D1S" secondAttribute="bottom" constant="25" id="N26-uq-pdV"/>
                 <constraint firstItem="wvh-7J-j18" firstAttribute="top" secondItem="Zqh-cd-aua" secondAttribute="top" id="O5N-Tf-bwc"/>
                 <constraint firstItem="H8N-Ub-gFR" firstAttribute="leading" secondItem="OQO-px-CLz" secondAttribute="leading" id="RQq-Po-XSS"/>
                 <constraint firstItem="Zqh-cd-aua" firstAttribute="height" secondItem="G0k-Ge-D1S" secondAttribute="height" id="TJB-SF-CG9"/>
+                <constraint firstItem="brn-uS-mGH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="X5b-bW-u8c"/>
                 <constraint firstItem="1sO-wh-LV5" firstAttribute="bottom" secondItem="OQO-px-CLz" secondAttribute="bottom" constant="4" id="Zah-du-aKW"/>
                 <constraint firstItem="G0k-Ge-D1S" firstAttribute="width" secondItem="BQj-cY-871" secondAttribute="width" id="btV-Nb-zGj"/>
                 <constraint firstItem="OQO-px-CLz" firstAttribute="top" secondItem="wvh-7J-j18" secondAttribute="top" id="c1d-4L-B3L"/>
                 <constraint firstItem="G0k-Ge-D1S" firstAttribute="height" secondItem="BQj-cY-871" secondAttribute="height" id="fB0-Os-y4W"/>
                 <constraint firstItem="wvh-7J-j18" firstAttribute="bottom" secondItem="Zqh-cd-aua" secondAttribute="bottom" constant="2" id="hPH-Xa-Ptz"/>
-                <constraint firstItem="H8N-Ub-gFR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="hfw-xV-51R"/>
+                <constraint firstItem="H8N-Ub-gFR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="18" id="hfw-xV-51R"/>
                 <constraint firstItem="wvh-7J-j18" firstAttribute="centerX" secondItem="Zqh-cd-aua" secondAttribute="centerX" id="jIm-Fc-c81"/>
                 <constraint firstItem="yfP-Tm-w8x" firstAttribute="top" secondItem="BQj-cY-871" secondAttribute="top" constant="2" id="k8N-6P-iGK"/>
                 <constraint firstItem="eWN-R5-qRK" firstAttribute="width" secondItem="G0k-Ge-D1S" secondAttribute="width" id="mXs-rO-s7v"/>
@@ -124,9 +135,10 @@
                     <exclude reference="HVG-bo-o3r"/>
                 </mask>
             </variation>
+            <point key="canvasLocation" x="55.5" y="59.5"/>
         </view>
     </objects>
     <resources>
-        <image name="SmallButton.png" width="122" height="36"/>
+        <image name="CheckUpHeader.jpeg" width="1496" height="478"/>
     </resources>
 </document>
