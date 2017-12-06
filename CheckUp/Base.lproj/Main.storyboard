@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="You're so close! Finish up your Diabetes Lessons to unlock the quiz!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hI-Hi-NLk" userLabel="Subtitle">
-                                        <rect key="frame" x="25" y="52" width="216" height="61"/>
+                                        <rect key="frame" x="25" y="52" width="316" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="ltZ-Bp-Iyg"/>
                                         </constraints>
@@ -84,7 +84,7 @@
                                     <constraint firstItem="PKK-gl-P9c" firstAttribute="top" secondItem="AdS-bj-Vmi" secondAttribute="top" id="OsO-1Z-9UO"/>
                                     <constraint firstAttribute="bottom" secondItem="PKK-gl-P9c" secondAttribute="bottom" id="QWX-4U-QyV"/>
                                     <constraint firstItem="APk-XQ-oeh" firstAttribute="leading" secondItem="AdS-bj-Vmi" secondAttribute="leading" constant="25" id="T4J-kt-sar"/>
-                                    <constraint firstAttribute="trailing" secondItem="5hI-Hi-NLk" secondAttribute="trailing" constant="120" id="Zxm-aN-Zhk"/>
+                                    <constraint firstAttribute="trailing" secondItem="5hI-Hi-NLk" secondAttribute="trailing" constant="20" id="Zxm-aN-Zhk"/>
                                     <constraint firstAttribute="bottom" secondItem="XRM-Dm-Oqo" secondAttribute="bottom" id="cZL-mq-XyF"/>
                                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5hI-Hi-NLk" secondAttribute="bottom" constant="10" id="iXw-Lh-6xA"/>
                                     <constraint firstAttribute="trailing" secondItem="PKK-gl-P9c" secondAttribute="trailing" id="n5N-zT-bX9"/>
@@ -156,8 +156,8 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easily take advantage of all CheckUp has to offer." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELD-b0-pMH" userLabel="Subtitle">
-                                        <rect key="frame" x="25" y="46" width="377.5" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take advantage of the benefits you’ve earned! Go to your profile to redeem." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELD-b0-pMH" userLabel="Subtitle">
+                                        <rect key="frame" x="25" y="46" width="316" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -177,6 +177,7 @@
                                     <constraint firstItem="ELD-b0-pMH" firstAttribute="top" secondItem="Txq-SL-QRs" secondAttribute="bottom" constant="7" id="djL-El-u77"/>
                                     <constraint firstAttribute="bottom" secondItem="jHk-zd-14u" secondAttribute="bottom" id="fS8-CQ-aDz"/>
                                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ELD-b0-pMH" secondAttribute="bottom" constant="18" id="iG2-Ji-Ej9"/>
+                                    <constraint firstAttribute="trailing" secondItem="ELD-b0-pMH" secondAttribute="trailing" constant="20" id="mDY-t3-jd7"/>
                                     <constraint firstItem="cXh-d9-JnD" firstAttribute="leading" secondItem="klc-UD-Jyl" secondAttribute="leading" id="u16-rj-Kec"/>
                                 </constraints>
                             </view>
@@ -220,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
         <!--Profile Home View Controller-->
         <scene sceneID="Oui-P7-jKR">
