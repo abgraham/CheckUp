@@ -49,13 +49,13 @@
         [_objectB.image setImage:[UIImage imageNamed:@"Bigger Berry.png"]];
         _objectC.label.text = @"Healthy Diet";
         if (!appDelegate.hasTakenHealthyDietLesson){
-            [_objectC.image setImage:[UIImage imageNamed:@"Berry (Grey).png"]];
+            [_objectC.image setImage:[UIImage imageNamed:@"BigGreyBerry.png"]];
         } else {
             [_objectC.image setImage:[UIImage imageNamed:@"Bigger Berry.png"]];
         }
         _objectD.label.text = @"Sneaky Sugars";
         if (!appDelegate.hasTakenSugarLesson){
-            [_objectD.image setImage:[UIImage imageNamed:@"Berry (Grey).png"]];
+            [_objectD.image setImage:[UIImage imageNamed:@"BigGreyBerry.png"]];
         } else {
             [_objectD.image setImage:[UIImage imageNamed:@"Bigger Berry.png"]];
         }
