@@ -43,21 +43,21 @@
     } else {
         // Set up the view for lessons
         _objectA.label.text = @"Veggie Fun";
-        [_objectA.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
+        [_objectA.image setImage:[UIImage imageNamed:@"Bigger Berry.png"]];
         _objectB.label.text = @"Whole Grains";
         AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
-        [_objectB.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
+        [_objectB.image setImage:[UIImage imageNamed:@"Bigger Berry.png"]];
         _objectC.label.text = @"Healthy Diet";
         if (!appDelegate.hasTakenHealthyDietLesson){
             [_objectC.image setImage:[UIImage imageNamed:@"Berry (Grey).png"]];
         } else {
-            [_objectC.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
+            [_objectC.image setImage:[UIImage imageNamed:@"Bigger Berry.png"]];
         }
         _objectD.label.text = @"Sneaky Sugars";
         if (!appDelegate.hasTakenSugarLesson){
             [_objectD.image setImage:[UIImage imageNamed:@"Berry (Grey).png"]];
         } else {
-            [_objectD.image setImage:[UIImage imageNamed:@"Berry (4_4).png"]];
+            [_objectD.image setImage:[UIImage imageNamed:@"Bigger Berry.png"]];
         }
     }
     // Do any additional setup after loading the view from its nib.
@@ -135,11 +135,11 @@
     } else {
         // Go to quiz pages IF you've completed both modules
         AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
-        if (appDelegate.hasTakenSugarLesson && appDelegate.hasTakenHealthyDietLesson){
+        //if (appDelegate.hasTakenSugarLesson && appDelegate.hasTakenHealthyDietLesson){
             QuizPageViewController *quizPageVC = [[QuizPageViewController alloc] initWithNibName: @"QuizPageViewController" bundle: nil];
             quizPageVC.pageCode = @"1";
             [self.navigationController showViewController:quizPageVC sender:self];
-        } else {
+        /*} else {
             // Alert explains they need to complete lessons to access the quiz.
             UIAlertController * alert=   [UIAlertController
                                           alertControllerWithTitle:@"Lessons Incomplete"
@@ -158,7 +158,7 @@
             [alert addAction:ok];
 
             [self presentViewController:alert animated:YES completion:nil];
-        }
+        }*/
     }
 }
 

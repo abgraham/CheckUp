@@ -73,6 +73,7 @@
 		DE9C6C3D1FD1E38C00AC5165 /* Home Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9C6C3B1FD1E38C00AC5165 /* Home Icon.png */; };
 		DEBDFFC91FCF596500D692AF /* DiabetesQuizTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */; };
 		DEBDFFCA1FCF596500D692AF /* NoQuizzesTakenProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */; };
+		DEE58E581FD773DF00B90CA3 /* Bigger Berry.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE58E571FD773DF00B90CA3 /* Bigger Berry.png */; };
 		DEF85E071FB51FD700EA2FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E061FB51FD700EA2FB2 /* main.m */; };
 		DEF85E0A1FB51FD700EA2FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E091FB51FD700EA2FB2 /* AppDelegate.m */; };
 		DEF85E0D1FB51FD700EA2FB2 /* MessagesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF85E0C1FB51FD700EA2FB2 /* MessagesHomeViewController.m */; };
@@ -182,6 +183,7 @@
 		DE9C6C3B1FD1E38C00AC5165 /* Home Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home Icon.png"; path = "../../../Downloads/Home Icon.png"; sourceTree = "<group>"; };
 		DEBDFFC71FCF596500D692AF /* DiabetesQuizTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DiabetesQuizTakenProgress.png; path = ../../DiabetesQuizTakenProgress.png; sourceTree = "<group>"; };
 		DEBDFFC81FCF596500D692AF /* NoQuizzesTakenProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoQuizzesTakenProgress.png; path = ../../NoQuizzesTakenProgress.png; sourceTree = "<group>"; };
+		DEE58E571FD773DF00B90CA3 /* Bigger Berry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bigger Berry.png"; path = "../../../Downloads/Bigger Berry.png"; sourceTree = "<group>"; };
 		DEF85E021FB51FD700EA2FB2 /* CheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF85E061FB51FD700EA2FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEF85E081FB51FD700EA2FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				DE3282BC1FCCA54B00D23058 /* Berry (3_4).png */,
 				DE3282BD1FCCA54B00D23058 /* Berry (4_4).png */,
 				DE3282BE1FCCA54B00D23058 /* Berry (Grey).png */,
+				DEE58E571FD773DF00B90CA3 /* Bigger Berry.png */,
 			);
 			name = Berries;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 				DE356EE61FC49EE100932C5E /* QuizJarA.png in Resources */,
 				DEF85E151FB51FD700EA2FB2 /* Assets.xcassets in Resources */,
 				DE356EE41FC49EE100932C5E /* QuizJarC.png in Resources */,
+				DEE58E581FD773DF00B90CA3 /* Bigger Berry.png in Resources */,
 				DE3282B51FCCA34C00D23058 /* healthydiet2.jpeg in Resources */,
 				DE356EB11FC2824A00932C5E /* LessonPageViewController.xib in Resources */,
 				DE356EEA1FC4A07D00932C5E /* CompleteBerry.png in Resources */,
